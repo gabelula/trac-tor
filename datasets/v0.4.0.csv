@@ -1,0 +1,159 @@
+﻿id,Summary,Milestone,Status,Owner,Type,Priority,Component,Severity,Sponsor,Keywords
+28558,Crash in memoize_protover_summary() when cache is full,Tor: 0.4.0.x-final,assigned,nickm,defect,Very High,Core Tor/Tor,Normal,Sponsor8,
+16824,Emit a warning message about side channel leaks when using relays as clients,Tor: 0.4.0.x-final,needs_revision,,defect,High,Core Tor/Tor,Normal,,"mike-can, tor-client, tor-relay, tor-log, sidechannel, easy, 035-triaged-in-20180711"
+20647,Run chutney tests in Jenkins or Travis,Tor: 0.4.0.x-final,assigned,teor,enhancement,High,Core Tor/Tor,Normal,,"test, chutney, consistency, jenkins, integration-testing, continuous-integration"
+21377,DirAuths should expose bwauth bandwidth files,Tor: 0.4.0.x-final,needs_revision,juga,enhancement,High,Core Tor/Tor,Normal,,"tor-dirauth, metrics, tor-bwauth, 035-removed-20180711, 040-roadmap-proposed"
+23882,Investigate implementing a Rust allocator wrapping tor_malloc,Tor: 0.4.0.x-final,new,,enhancement,High,Core Tor/Tor,Normal,Sponsor8-can,"rust, rust-pilot, 034-triage-20180328, 034-removed-20180328"
+24264,Enable IPv6 reachability testing for the Bridge Authority,Tor: 0.4.0.x-final,assigned,,task,High,Core Tor/DirAuth,Normal,SponsorM,"dirauth, bridgeauth, ipv6"
+25140,Parse only .torrc files in torrc.d directory,Tor: 0.4.0.x-final,needs_review,Jigsaw52,task,High,Core Tor/Tor,Major,,"034-triage-20180328, 035-removed-20180711"
+25372,relay: Allocation for compression goes very high,Tor: 0.4.0.x-final,new,,defect,High,Core Tor/Tor,Normal,,"tor-relay, compression, tor-dos, review-group-34, 033-backport?, 034-triage-20180328, performance, oom, 034-removed-must-2018-09-05"
+26368,Consider circuit isolation when closing redundant intro points,Tor: 0.4.0.x-final,needs_revision,neel,defect,High,Core Tor/Tor,Normal,,"tor-hs, tor-client, tbb-needs"
+27915,Make rust doctests get linked in same way as other rust tests,Tor: 0.4.0.x-final,new,,defect,High,Core Tor/Tor,Normal,,rust 035-backport
+28013,run test-network-all in Travis CI,Tor: 0.4.0.x-final,assigned,catalyst,enhancement,High,Core Tor/Tor,Normal,,"test, chutney, consistency, integration-testing, continuous-integration, tor-ci"
+28018,Improve accuracy and usefulness of information reported to controllers about bootstrap status,Tor: 0.4.0.x-final,assigned,catalyst,enhancement,High,Core Tor/Tor,Normal,Sponsor19-must,ex-sponsor8
+28140,Our circuit died due to an invalid selected path if switching to plugabble transports,Tor: 0.4.0.x-final,needs_information,,defect,High,Core Tor/Tor,Normal,,"tor-path, regression"
+28223,Unparseable microdescriptor on public relay,Tor: 0.4.0.x-final,new,,defect,High,Core Tor/Tor,Normal,,"040-roadmap-proposed, regression?, 035-can"
+28356,DataDirectoryGroupReadable and CacheDirectoryGroupReadable conflicts forcing sandboxed Tor to crash,Tor: 0.4.0.x-final,assigned,arma,defect,High,Core Tor/Tor,Normal,,"tor-crash, regression, 040-roadmap-proposed, 035-backport, 034-backport, 033-backport-maybe, 029-backport-maybe, 035-can"
+28630,Resolve TROVE-2018-006,Tor: 0.4.0.x-final,new,,defect,High,Core Tor/Tor,Normal,,
+28679,Bridge connections on startup,Tor: 0.4.0.x-final,new,,enhancement,High,Core Tor/Tor,Normal,,"tor-bridge, censorship, needs-proposal"
+28849,Handle dormant mode in process library and for PT's,Tor: 0.4.0.x-final,new,,enhancement,High,Core Tor/Tor,Normal,Sponsor8,
+29034,circuit: Cleanup an HS circuit when it is being re-purposed,Tor: 0.4.0.x-final,new,,defect,High,Core Tor/Tor,Normal,,"tor-hs, 035-backport"
+7028,Implement Adaptive Padding or some variant and measure overhead vs accuracy,Tor: 0.4.0.x-final,new,,project,Medium,Core Tor/Tor,Normal,Sponsor2,"SponsorZ, research-needed, tor-relay, mike-can term-project research-program traffic-analysis"
+11966,"""Bootstrapped 20%: Asking for networkstatus consensus"" is a lie for bridge users",Tor: 0.4.0.x-final,needs_revision,,defect,Medium,Core Tor/Tor,Normal,Sponsor8-can,"tor-bridge, sponsor8-maybe, bootstrap, 033-triage-20180320, 033-removed-20180320"
+17520,Relax the rend cache failure cleanup timer,Tor: 0.4.0.x-final,needs_information,neel,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8-can,"tor-hs, tor-client, prop224"
+17835,Make ClientPreferIPv6ORPort smarter,Tor: 0.4.0.x-final,assigned,neel,enhancement,Medium,Core Tor/Tor,Normal,,tor-client ipv6
+17949,Make loopback address search more accurate,Tor: 0.4.0.x-final,needs_revision,rl1987,enhancement,Medium,Core Tor/Tor,Normal,,"easy, tor-client, tor-relay, loopback, weird-configuration, 035-triaged-in-20180711"
+18098,prop224: Implement tor-genkey tool for offline HS key creation,Tor: 0.4.0.x-final,needs_revision,haxxpop,enhancement,Medium,Core Tor/Tor,Normal,SponsorR-can,tor-hs
+20006,HSFETCH fails for hidden services which use client authentication,Tor: 0.4.0.x-final,needs_review,rl1987,enhancement,Medium,Core Tor/Tor,Normal,,"tor-hs, tor-spec, tor-control missing-feature authentication hs-auth"
+21039,Refactor and simplify guard code of circuit_send_next_onion_skin(),Tor: 0.4.0.x-final,needs_revision,asn,defect,Medium,Core Tor/Tor,Normal,SponsorV-can,"tor-guard, refactor, 034-triage-20180328, 034-included-20180401, 034-removed-20180502, 035-roadmap-subtask, 035-triaged-in-20180711"
+21600,Hidden service introduction point retries occur at 1 second intervals,Tor: 0.4.0.x-final,assigned,asn,defect,Medium,Core Tor/Tor,Normal,,"tor-hs, single-onion, prop224, 034-triage-20180328, 034-removed-20180328"
+21814,Reduce binary size for client-only tor,Tor: 0.4.0.x-final,new,,task,Medium,Core Tor/Tor,Normal,Sponsor8,"034-triage-20180328, 034-removed-20180328, 035-roadmap-subticket, 035-triaged-in-20180711"
+22898,Help get privcount standardized and merged,Tor: 0.4.0.x-final,new,,task,Medium,Core Tor/Tor,Normal,SponsorV-can,"035-roadmap-master, 035-triaged-in-20180711"
+24000,circuit_send_intermediate_onion_skin() and extend_cell_format() should check for IPv6,Tor: 0.4.0.x-final,needs_revision,nickm,defect,Medium,Core Tor/Tor,Normal,,"ipv6, 034-triage-20180328, merge-deferred, 035-triaged-in-20180711"
+24064,Memory profiling of Tor on Android device,Tor: 0.4.0.x-final,assigned,ahf,task,Medium,Core Tor/Tor,Normal,Sponsor8,"s8-perf, s8-201710, internal, 035-roadmap-subtask, 035-triaged-in-20180711"
+24249,Create automated mechanism for C/Rust types to stay in sync,Tor: 0.4.0.x-final,needs_information,chelseakomlo,enhancement,Medium,Core Tor/Tor,Normal,,rust
+24300,Failed to find node for hop #1 of our path. Discarding this circuit,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,Sponsor8-can,"tor-client, bootstrap, s8-errors, 034-triage-20180328, 034-removed-20180328"
+24546,"Use tor_addr_is_v4() rather than family, or reject all v6-mapped IPv4 addresses",Tor: 0.4.0.x-final,needs_revision,,defect,Medium,Core Tor/Tor,Normal,SponsorV-can,"tor-dirauth, ipv6, 033-triage-20180320, 033-removed-20180320, 035-triaged-in-20180711"
+24586,Audit all state for stuff we need to reset on exit to make tor restartable.,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8,"tor-mobile, s8-api, 034-triage-20180328, 034-included-20180405, 034-roadmap-subtask, 035-roadmap-subtask, 035-triaged-in-20180711"
+24732,Remove unused IPv6 DirPort code,Tor: 0.4.0.x-final,needs_revision,,enhancement,Medium,Core Tor/Tor,Normal,SponsorV-can,"ipv6, tor-relay, 034-triage-20180328, 035-triaged-in-20180711"
+24786,Rebuild the fallback list in 2018,Tor: 0.4.0.x-final,new,,task,Medium,Core Tor/Fallback Scripts,Normal,Sponsor8-can,"s8-bootstrap, fallback, 035-roadmap-master, 029-backport, 033-backport, 034-backport, 034-roadmap-master, 034-triage-20180328, 034-included-20180328, 031-unreached-backport-maybe, 035-triaged-in-20180711, 035-can, 032-unreached-backport-maybe"
+24953,"In check_existing mode, log ""fallback list"", not ""whitelist""",Tor: 0.4.0.x-final,needs_review,,defect,Medium,Core Tor/Fallback Scripts,Normal,,"fast-fix, fallback, 034-triage-20180328, 034-removed-20180328, 035-triaged-in-20180711"
+25152,Try to call less circuitmux_find_map_entry(),Tor: 0.4.0.x-final,needs_information,neel,defect,Medium,Core Tor/Tor,Normal,,"performance, tor-relay, 034-triage-20180328, 034-removed-20180328, 035-deferred-20180930"
+25269,Set codegen-units to 1 in src/rust/Cargo.toml to eke out every last drop of performance,Tor: 0.4.0.x-final,needs_information,Backxwash,enhancement,Medium,Core Tor/Tor,Normal,,"rust, easy, 034-triage-20180328, 034-removed-20180328, fast-fix, 035-triaged-in-20180711"
+25347,Tor keeps on trying the same overloaded guard over and over,Tor: 0.4.0.x-final,needs_revision,asn,defect,Medium,Core Tor/Tor,Normal,,"tor-guard, tor-client, tbb-usability, tbb-needs, 033-triage-20180320, 033-included-20180320, 031-unreached-backport, 035-removed-20180711, 032-unreached-backport, 040-roadmap-proposed"
+25493,Improve patterns for cleaning up static variables on exit/restart,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8,"034-triage-20180328, 034-roadmap-subtask, 034-included-20180405, 035-roadmap-subtask, 035-triaged-in-20180711"
+25499,Finalize controller interface for idleness,Tor: 0.4.0.x-final,assigned,ahf,task,Medium,Core Tor/Tor,Normal,Sponsor8,"035-roadmap-master, 034-triage-20180328, 034-included-20180328, 034-deferred-20180602, 035-triaged-in-20180711"
+25501,Ensure WTF-Pad padding comes from the expected hop,Tor: 0.4.0.x-final,assigned,mikeperry,task,Medium,Core Tor/Tor,Normal,Sponsor2,"control-flow, tor-circuit, 035-roadmap-master, 035-triaged-in-20180711"
+25502,Report intermediate PT bootstrapping status,Tor: 0.4.0.x-final,assigned,ahf,project,Medium,Core Tor/Tor,Normal,Sponsor8,"s8-bootstrap, 040-roadmap-master, tor-pt"
+25510,Collect feedback on mobile embedding API; resolve issues.,Tor: 0.4.0.x-final,assigned,nickm,project,Medium,Core Tor/Tor,Normal,Sponsor8-must,"roadmap, 035-roadmap-master, 034-triage-20180328, 034-included-20180328, 035-triaged-in-20180711"
+25528,"When ClientTransportPlugin is missing, tor connects directly to bridge addresses, even if they have a transport name",Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,pt bootstrap bridge-client bridge-bypass 034-roadmap-proposed
+25607,"On restart-in-process, do the right thing with thread-local storage",Tor: 0.4.0.x-final,assigned,nickm,defect,Medium,Core Tor/Tor,Normal,Sponsor8,"s8-api, 034-triage-20180328, 034-included-20180405, 034-roadmap-subticket, 035-roadmap-subtask, 035-triaged-in-20180711"
+25685,"Tor relays publish a new descriptor but authorities drop it because they think it's only cosmetically different, and then the relay waits 18 more hours to publish, thus falling out of the consensus",Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,034-roadmap-proposed
+25713,"""DisableNetwork is set"" log message in Tor Browser scares/confuses users",Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,Sponsor8-can,"ux-team, s8-errors"
+25899,Only run retry_dns() and check_dns_honesty() on exits,Tor: 0.4.0.x-final,needs_revision,dgoulet,enhancement,Medium,Core Tor/Tor,Normal,,"034-roadmap-subtask, 035-removed-20180711"
+26295,Fix problems with the Windows event loop,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,040-roadmap-proposed
+26296,Refactor cell crypto to pre/post crypto operations,Tor: 0.4.0.x-final,assigned,chelseakomlo,enhancement,Medium,Core Tor/Tor,Normal,,"refactor, parallelism, 035-roadmap-subtask, 035-triaged-in-20180711"
+26316,Windows newlines in extrainfo descriptor,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,tor-spec
+26369,Re-fetch onion service descriptor for isolated request,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"tor-hs, tor-client, tbb-needs, 040-roadmap-proposed"
+26376,add cross compiling docs,Tor: 0.4.0.x-final,needs_information,Hello71,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8-can,
+26478,Unify bandwidth related terms in dir-spec and Tor code.,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"tor-bwauth, refactor, 040-roadmap-proposed"
+26578,Do clients request new consensus documents more often than we expect?,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,Sponsor8-can,
+26630,"Profile-driven work to reduce memory usage, focusing on clients and mobile.",Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,Sponsor19,"035-roadmap-master, 035-triaged-in-20180711"
+26636,Published final draft of proposal 295 [ADL-GCM for relay cryptography],Tor: 0.4.0.x-final,new,,task,Medium,Core Tor/Tor,Normal,SponsorV,"035-roadmap-master, 035-triaged-in-20180711"
+26637,Privcount noise generation implemented and deployed,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,SponsorV-can,"035-roadmap-master, 035-triaged-in-20180711"
+26737,File-level documentation for src/core/*/*.[ch],Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"035-removed-20180711, 040-roadmap-proposed"
+26738,File-level documentation for src/feature/*/*.[ch],Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"035-removed-20180711, 040-roadmap-proposed"
+26743,Further refactoring follow-on tasks: split files that don't fit well within their directory,Tor: 0.4.0.x-final,assigned,nickm,defect,Medium,Core Tor/Tor,Normal,,"035-removed-20180711, 040-roadmap-proposed"
+26769,We should make HSv3 desc upload less frequent,Tor: 0.4.0.x-final,needs_information,neel,defect,Medium,Core Tor/Tor,Normal,,tor-hs network-health easy hsdir
+27104,report intermediate status when building application circuits,Tor: 0.4.0.x-final,assigned,catalyst,enhancement,Medium,Core Tor/Tor,Normal,Sponsor19-can,"usability, ux, ux-team, bootstrap, 035-roadmap-subtask, 035-triaged-in-20180711, s8-bootstrap"
+27161,Add make check-rustfmt to make check,Tor: 0.4.0.x-final,assigned,teor,defect,Medium,Core Tor/Tor,Normal,,"rust, rustfmt"
+27201,rust/protover doesn't forbid version zero,Tor: 0.4.0.x-final,needs_information,,defect,Medium,Core Tor/Tor,Normal,,"rust,033-backport,034-backport,035-backport"
+27241,Extract information from more kinds of wedged directory connections.,Tor: 0.4.0.x-final,needs_information,nickm,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8-can,"fast-fix, 035-deferred-20180930"
+27243,Keep much less directory info in RAM on clients,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,Sponsor8,"035-roadmap-master, 035-triaged-in-20180711"
+27248,Can we make our node-related structures more efficient?,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,Sponsor8-can,"035-roadmap-master, 035-triaged-in-20180711"
+27284,Check IPv6 exit policies on microdescs,Tor: 0.4.0.x-final,assigned,teor,defect,Medium,Core Tor/Tor,Normal,,ipv6
+27308,"report bootstrap phase when we actually start, not just unblock something",Tor: 0.4.0.x-final,assigned,catalyst,enhancement,Medium,Core Tor/Tor,Normal,Sponsor19-can,"usability, ux, ux-team, bootstrap, 035-roadmap-subtask, 035-triaged-in-20180711, s8-bootstrap, bootstrap-arch"
+27530,Configure: Use AC_TRY_RUN() to check that --enable-gcc-hardening works,Tor: 0.4.0.x-final,assigned,,defect,Medium,Core Tor/Tor,Normal,,fast-fix
+27563,cached_dir_t for consensus is redundant with conscache code,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8-can,
+27662,refactor networkstatus_parse_vote_from_string(),Tor: 0.4.0.x-final,needs_revision,,defect,Medium,Core Tor/Tor,Normal,,"technical-debt, refactor, long-functions, cthulhucode"
+27691,reset bootstrap progress when enough things change,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8-can,"usability, ux, ux-team, bootstrap, 035-roadmap-master, 035-triaged-in-20180711, s8-bootstrap, 035-deferred-20180930, bootstrap-arch"
+27739,rust protover_all_supported() accepts too-long protocol names,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"rust, protover"
+27801,tor_api: CreateConnection() interface,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8-can,
+27854,Integration test(s) for tor-resolve,Tor: 0.4.0.x-final,accepted,rl1987,enhancement,Medium,Core Tor/Tor,Normal,,socks tor-resolve testing
+27896,base32 padding inconsistency between client and server in HS v3 client auth preview,Tor: 0.4.0.x-final,needs_information,,defect,Medium,Core Tor/Tor,Normal,,"tor-hs, hs-auth"
+27914,Extract fallback-scripts to its own git repository,Tor: 0.4.0.x-final,new,,task,Medium,Core Tor/Fallback Scripts,Normal,,"fallback, 035-can"
+27921,"apparent DOS / impairment-of-service against FallbackDirs using DIR requests, please evaluate for possible mitigation",Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,"tor-dos, 040-roadmap-proposed"
+28027,Tor keeps opening circuits while waiting for bridge descriptors,Tor: 0.4.0.x-final,needs_information,neel,defect,Medium,Core Tor/Tor,Normal,,"tor-hs, regression, tor-guard, 033-backport, 034-backport, 035-backport"
+28036,Launch tests inside a single dirauth instance,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"regression, tor-dirauth, macOS, 035-can, 040-roadmap-proposed"
+28037,Document how to fix or disable failing CI,Tor: 0.4.0.x-final,assigned,teor,enhancement,Medium,Core Tor/Tor,Normal,,"tor-doc, tor-ci"
+28057,"When randomly choosing IPv4 or IPv6, log better IPv6 preference info",Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,tor-client ipv6
+28058,"Run shellcheck as part of ""make check""",Tor: 0.4.0.x-final,needs_review,rl1987,enhancement,Medium,Core Tor/Tor,Normal,,technical-debt
+28090,Keepalive padding cell bypasses the cell scheduler,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"tor-relay, tor-scheduler, tor-kist"
+28097,Get the actual Windows version from Kernel32.dll,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,windows
+28142,Merge original WTF-PAD branch,Tor: 0.4.0.x-final,needs_review,mikeperry,enhancement,Medium,Core Tor/Tor,Normal,Sponsor2,"wtf-pad, tor-relay, tor-cell, padding"
+28179,Handle output from PT processes with the event loop,Tor: 0.4.0.x-final,assigned,ahf,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8-must,"tor-pt, 040-roadmap-subtask"
+28180,Signal mechanism from PT processes to Tor,Tor: 0.4.0.x-final,accepted,dgoulet,enhancement,Medium,Core Tor/Tor,Normal,Sponsor19,"tor-pt, 040-roadmap-subtask"
+28181,spec: Add to pt-spec.txt control messages going back to main process (tor),Tor: 0.4.0.x-final,needs_review,dgoulet,enhancement,Medium,Core Tor/Tor,Normal,Sponsor19,"tor-spec, tor-pt, 040-roadmap-subtask"
+28182,spec: Add to control-spec.txt some pluggable transport events,Tor: 0.4.0.x-final,needs_review,dgoulet,enhancement,Medium,Core Tor/Tor,Normal,Sponsor19,"tor-spec, tor-pt, 040-roadmap-subtask"
+28190,Hidden service v2 exceeded launch limit with 11 intro points in the last 37 seconds,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"regression, tor-hs"
+28220,"Create a chutney network with a single authority, and make sure it bootstraps",Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,"test, chutney, consistency, jenkins, integration-testing, continuous-integration"
+28226,Backend for an async publish-subcribe messaging system for cross-module communications,Tor: 0.4.0.x-final,needs_review,nickm,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8,tor-pubsub
+28265,Should Tor 0.3.5 be the last 0.3.x since it's an LTS?,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,
+28281,outline of high-level bootstrap tracker abstractions,Tor: 0.4.0.x-final,assigned,catalyst,task,Medium,Core Tor/Tor,Normal,Sponsor19,"s8-bootstrap, bootstrap-arch"
+28344,Should we log \r\n on Windows?,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"fast-fix, 040-roadmap-proposed"
+28360,Replace TODOs in bandwidth file spec with Tor versions,Tor: 0.4.0.x-final,assigned,teor,defect,Medium,Core Tor/Tor,Normal,,fast-fix
+28377,Add libnss to the travis apt and macOS packages,Tor: 0.4.0.x-final,assigned,teor,defect,Medium,Core Tor/Tor,Normal,,"fast-fix, tor-ci, travis"
+28378,"Add libsystemd-devel to the travis config, if available",Tor: 0.4.0.x-final,reopened,teor,defect,Medium,Core Tor/Tor,Normal,,"fast-fix, tor-systemd, 029-backport, 033-backport, 034-backport, 035-backport"
+28415,extra-info-digest's sha256-digest isn't actually over the same data as the sha1-digest,Tor: 0.4.0.x-final,needs_review,,defect,Medium,Core Tor/Tor,Normal,,dir-spec
+28416,The ns consensus isn't explicitly ns in the network-status-version line of flavored consensuses,Tor: 0.4.0.x-final,needs_review,,defect,Medium,Core Tor/Tor,Normal,,tor-spec
+28423,improve precision of finegrained periodic event scheduling?,Tor: 0.4.0.x-final,assigned,nickm,defect,Medium,Core Tor/Tor,Normal,Sponsor8,
+28424,Refactor hs_service_callback() to no longer need to run once per second?,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,Sponsor8-can,
+28437,Try Ubuntu xenial builds on travis,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,fast-fix
+28438,Which macOS build image should we use on Travis?,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,
+28439,Test static builds using Travis CI,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,
+28453,Create a EndOfLifeTor.md document,Tor: 0.4.0.x-final,needs_revision,,task,Medium,Core Tor/Tor,Normal,,"tor-doc, release-management"
+28481,Tor's startup time is getting slower on Android,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,Sponsor8-can,android startup performance controller
+28509,"Limit relay bandwidth self-tests based on RelayBandwidthRate, not BandwidthRate",Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"tor-bwauth, 035-backport, 034-backport-maybe, 033-backport-maybe, 029-backport-maybe-not"
+28511,"Limit the number of open testing circuits, and the total number of testing circuits",Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"fast-fix, tor-bwauth, tor-dos, 035-backport, 034-backport, 033-backport, 029-backport"
+28522,[armhf] (Sandbox) Caught a bad syscall attempt,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"sandbox,armhf,syscall,debian,stretch, 035-backport 034-backport 033-backport 029-backport"
+28525,Make tor_addr_is_internal_() aware of RFC 6598 (Carrier Grade NAT/Large Scale NAT) IPv4 Ranges,Tor: 0.4.0.x-final,needs_revision,neel,enhancement,Medium,Core Tor/Tor,Normal,,ipv6
+28597,Document SOCKSPolicy better,Tor: 0.4.0.x-final,assigned,teor,defect,Medium,Core Tor/Tor,Normal,,easy doc fast-fix
+28610,will WTF-PAD impair bandwidth scanning?,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,
+28611,Add `-mstack-protector-guard=global` to CFLAGS instead of `--disable-gcc-hardening` configure option on Windows?,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,029-backport 033-backport 034-backport 035-backport win32
+28614,Can't parse networkstatus consensus time,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"040-rc-must, regression"
+28616,TLS internal error running Tor 0.3.4.9 on Debian Buster (OpenSSL 1.1.1a),Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,
+28632,Make the original WTF-PAD branch actually useful for us (submaster ticket),Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"wtf-pad, tor-relay, tor-cell, padding"
+28634,Design a useful padding machine that we can enable,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"wtf-pad, tor-relay, tor-cell, padding"
+28635,Clean up PADDING_TODO.txt,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"wtf-pad, tor-relay, tor-cell, padding"
+28636,Address WTF-PAD comments by Nick (2018-11-27 over IRC),Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"wtf-pad, tor-relay, tor-cell, padding"
+28656,Bug: src/feature/nodelist/nodelist.c:2501: compute_frac_paths_available : Non-fatal assertion !(f_exit > 0.0) failed.,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"regression, 035-rc-blocker?, 034-backport, 035-backport"
+28664,Describe consensus digest calculation,Tor: 0.4.0.x-final,assigned,teor,defect,Medium,Core Tor/Tor,Normal,,"tor-spec, doc"
+28668,"If a Tor unit test causes a BUG log, it should fail",Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,technical-debt
+28669,Bug: ../src/feature/hs/hs_client.c:280: retry_all_socks_conn_waiting_for_desc,Tor: 0.4.0.x-final,merge_ready,,defect,Medium,Core Tor/Tor,Normal,,tor-hs
+28675,Deprecate standard cookie authentication,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,,technical-debt
+28693,Add an option to disable circuit padding,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"wtf-pad, tor-relay, tor-cell, padding"
+28714,"""No circuits are opened"" on controllers that DisablePredictedCircuits and build 2-hop circuits",Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"tor-bwauth, tor-bootstrap"
+28780,circpadding: Add machine flag for not closing circuit if machine is active,Tor: 0.4.0.x-final,needs_revision,,defect,Medium,Core Tor/Tor,Normal,,"wtf-pad, tor-relay, tor-cell, padding"
+28837,Use openssl's SHA3 implementations when they are faster.,Tor: 0.4.0.x-final,needs_review,nickm,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8-can,android startup performance controller
+28845,evloop could be better at handling fork() in tests,Tor: 0.4.0.x-final,new,,enhancement,Medium,Core Tor/Tor,Normal,Sponsor8,
+28860,Increased DNS failure rate when using ServerDNSResolvConfFile with tor 0.3.4.9 (as opposed to 0.3.3.x),Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"tor-dns, regression"
+28863,updateFallbackDirs.py thinks it is python 3 compatible but it is not,Tor: 0.4.0.x-final,needs_information,,defect,Medium,Core Tor/Fallback Scripts,Normal,,
+28920,"rep_hist_log_link_protocol_counts() only knows about 4 link protocols, but Tor has 5",Tor: 0.4.0.x-final,needs_review,,defect,Medium,Core Tor/Tor,Normal,,"easy, fast-fix"
+28925,distinguish PT vs proxy for real in bootstrap tracker,Tor: 0.4.0.x-final,assigned,catalyst,defect,Medium,Core Tor/Tor,Normal,Sponsor19,"s8-bootstrap, usability, ux, tor-pt"
+28928,update control-spec.txt for new bootstrap phases,Tor: 0.4.0.x-final,needs_review,catalyst,task,Medium,Core Tor/Tor,Normal,Sponsor19,"sponsor19-also, s8-bootstrap, tor-spec"
+28930,consider reordering PT/proxy phases,Tor: 0.4.0.x-final,assigned,catalyst,enhancement,Medium,Core Tor/Tor,Normal,Sponsor19,"sponsor19-also, s8-bootstrap, pt, proxy"
+28962,circuits are not both ready. Stalling conn.,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,tor-hs
+28970,tor_bug_occurred_(): Bug: ../src/or/hs_client.c:624: setup_intro_circ_auth_key: Non-fatal assertion,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Critical,,"tor-client, tor-hs"
+28979,Current alpha manual typo authorized_clients,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,tor-hs doc
+28984,Update dir-spec observed bandwidth to 5 days,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,"easy, doc, tor-spec, fast-fix"
+28989,test_hs_service: CID 1442277:  Resource leaks  (RESOURCE_LEAK),Tor: 0.4.0.x-final,merge_ready,rl1987,defect,Medium,Core Tor/Tor,Normal,,tor-hs coverity
+28992,Bug: ../src/feature/hs/hs_client.c:571: send_introduce1: Non-fatal assertion !(ip == NULL) failed.,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Normal,,tor-hs
+28994,Close stdout pipe on error in process_unix_exec (was double closing stdin pipe),Tor: 0.4.0.x-final,merge_ready,,defect,Medium,Core Tor/Tor,Normal,,
+29015,Document tor_ersatz_socketpair() and the functions it calls,Tor: 0.4.0.x-final,needs_review,teor,defect,Medium,Core Tor/Tor,Normal,,"ipv6, easy, doc, fast-fix"
+29017,PaddingStatistics should be disabled when ExtraInfoStatistics is 0,Tor: 0.4.0.x-final,needs_review,teor,defect,Medium,Core Tor/Tor,Normal,SponsorV-can,"fast-fix, 035-backport, 034-backport, 033-backport"
+29018,Make all statistics depend on ExtraInfoStatistics,Tor: 0.4.0.x-final,needs_revision,teor,enhancement,Medium,Core Tor/Tor,Normal,SponsorV-can,"fast-fix, security-low"
+29029,"Make ""tried to establish rendezvous on non-OR circuit"" into a protocol warning",Tor: 0.4.0.x-final,needs_review,teor,defect,Medium,Core Tor/Tor,Normal,,"tor-hs, fast-fix, 041-proposed-fast-fix, 040-proposed-fast-fix, 040-backport, 035-backport, 034-backport, 033-backport, 029-backport"
+29040,Tor crashes if ClientOnionAuthDir contains more than one private key for a hidden service,Tor: 0.4.0.x-final,new,,defect,Medium,Core Tor/Tor,Major,,"040-proposed, tor-hs, crash, 035-backport"
+26698,Authorities should put a hash of the bandwidth file in their votes,Tor: 0.4.0.x-final,needs_review,,enhancement,Low,Core Tor/Tor,Normal,,tor-crypto tor-dirauth tor-bwauth
+28913,Base32_decode should return the length of its result.,Tor: 0.4.0.x-final,needs_revision,nickm,defect,Low,Core Tor/Tor,Normal,,util tor-client base32  cleanup technical-debt
+28966,HSv3 client auth insufficiently documented (was: HiddenServiceAuthorizeClient incompatible),Tor: 0.4.0.x-final,new,,defect,Low,Core Tor/Tor,Minor,,tor-hs client-auth hsv3

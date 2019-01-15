@@ -1,0 +1,14 @@
+﻿id,Summary,Sponsor,Component,Status,Owner,Type,Priority,Milestone,Severity,Keywords
+28018,Improve accuracy and usefulness of information reported to controllers about bootstrap status,Sponsor19-must,Core Tor/Tor,assigned,catalyst,enhancement,High,Tor: 0.4.0.x-final,Normal,ex-sponsor8
+25061,Relays consider it a bootstrapping failure if they can't extend for somebody else's circuit,Sponsor19-can,Core Tor/Tor,assigned,catalyst,defect,Medium,Tor: unspecified,Normal,"backport-032, 033-backport, stability, 033-triage-20180320, 033-included-20180320, s8-errors, bootstrap, 034-deferred-20180602, 035-removed-20180711"
+26630,"Profile-driven work to reduce memory usage, focusing on clients and mobile.",Sponsor19,Core Tor/Tor,new,,defect,Medium,Tor: 0.4.0.x-final,Normal,"035-roadmap-master, 035-triaged-in-20180711"
+27104,report intermediate status when building application circuits,Sponsor19-can,Core Tor/Tor,assigned,catalyst,enhancement,Medium,Tor: 0.4.0.x-final,Normal,"usability, ux, ux-team, bootstrap, 035-roadmap-subtask, 035-triaged-in-20180711, s8-bootstrap"
+27308,"report bootstrap phase when we actually start, not just unblock something",Sponsor19-can,Core Tor/Tor,assigned,catalyst,enhancement,Medium,Tor: 0.4.0.x-final,Normal,"usability, ux, ux-team, bootstrap, 035-roadmap-subtask, 035-triaged-in-20180711, s8-bootstrap, bootstrap-arch"
+28180,Signal mechanism from PT processes to Tor,Sponsor19,Core Tor/Tor,accepted,dgoulet,enhancement,Medium,Tor: 0.4.0.x-final,Normal,"tor-pt, 040-roadmap-subtask"
+28181,spec: Add to pt-spec.txt control messages going back to main process (tor),Sponsor19,Core Tor/Tor,needs_review,dgoulet,enhancement,Medium,Tor: 0.4.0.x-final,Normal,"tor-spec, tor-pt, 040-roadmap-subtask"
+28182,spec: Add to control-spec.txt some pluggable transport events,Sponsor19,Core Tor/Tor,needs_review,dgoulet,enhancement,Medium,Tor: 0.4.0.x-final,Normal,"tor-spec, tor-pt, 040-roadmap-subtask"
+28281,outline of high-level bootstrap tracker abstractions,Sponsor19,Core Tor/Tor,assigned,catalyst,task,Medium,Tor: 0.4.0.x-final,Normal,"s8-bootstrap, bootstrap-arch"
+28925,distinguish PT vs proxy for real in bootstrap tracker,Sponsor19,Core Tor/Tor,assigned,catalyst,defect,Medium,Tor: 0.4.0.x-final,Normal,"s8-bootstrap, usability, ux, tor-pt"
+28928,update control-spec.txt for new bootstrap phases,Sponsor19,Core Tor/Tor,needs_review,catalyst,task,Medium,Tor: 0.4.0.x-final,Normal,"sponsor19-also, s8-bootstrap, tor-spec"
+28930,consider reordering PT/proxy phases,Sponsor19,Core Tor/Tor,assigned,catalyst,enhancement,Medium,Tor: 0.4.0.x-final,Normal,"sponsor19-also, s8-bootstrap, pt, proxy"
+29024,Add pluggable-transport support to Chutney,Sponsor19,Core Tor/Chutney,new,,task,Medium,Tor: 0.4.1.x-final,Normal,"tor-pt, 041-proposed-on-roadmap"
