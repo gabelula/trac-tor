@@ -1,0 +1,151 @@
+﻿id,Summary,Component,Status,Owner,Type,Priority,Milestone,Severity,Resolution,Actual Points,Points,Sponsor,Keywords
+29729,Work out which networks to run in Chutney's CI,Core Tor/Chutney,merge_ready,teor,enhancement,Medium,,Normal,,3,1,Sponsor19,"chutney-ci, network-team-roadmap-2019-Q1Q2"
+30058,Chutney bootstrap-network script uses the wrong network flavour,Core Tor/Chutney,closed,teor,defect,Low,,Normal,fixed,0.1,0.1,Sponsor19,"fast-fix, chutney-ci, network-team-roadmap-2019-Q1Q2"
+30059,Update chutney's README,Core Tor/Chutney,closed,teor,defect,Medium,,Normal,fixed,0.2,0.2,Sponsor19,"doc, chutney-ci, network-team-roadmap-2019-Q1Q2"
+30063,"Add unit tests to chutney, and run them in Travis",Core Tor/Chutney,closed,teor,enhancement,Medium,,Normal,fixed,0.2,0.2,Sponsor19,"chutney-ci, network-team-roadmap-2019-Q1Q2"
+30064,Chutney often fails because Tor hasn't bootstrapped yet,Core Tor/Chutney,closed,teor,defect,Medium,,Normal,fixed,0.3,0.5,Sponsor19,"chutney-ci, network-team-roadmap-2019-Q1Q2"
+30065,Add shellcheck tests to chutney,Core Tor/Chutney,closed,teor,enhancement,Medium,,Normal,fixed,0.2,0.2,Sponsor19,"chutney-ci, network-team-roadmap-2019-Q1Q2"
+20473,Fix Chutney Nodes that don't bootstrap,Core Tor/Chutney,closed,teor,defect,Medium,,Normal,fixed,0.4,1,Sponsor19-can,network-team-roadmap-2019-Q1Q2-maybe
+30224,Add the tor versions for bridge-distribution-request,Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.4.1.x-final,Normal,implemented,0.2,0.1,Sponsor19-can,"tor-spec, fast-fix"
+28633,Pad on specific circuit purposes + ltups,Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.0.x-final,Normal,fixed,10,10,Sponsor2,"wtf-pad, tor-relay, tor-cell, padding"
+28635,Clean up PADDING_TODO.txt,Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.0.x-final,Normal,fixed,,,Sponsor2,"wtf-pad, tor-relay, tor-cell, padding"
+28778,Rename some circuitpadding structs,Core Tor/Tor,closed,,defect,Medium,Tor: unspecified,Normal,fixed,,,Sponsor2,"wtf-pad, tor-relay, tor-cell, padding, refactor, technical-debt"
+28779,Remove double function declarations in circuitpadding.c/test_circuitpadding.c,Core Tor/Tor,closed,,defect,Medium,Tor: unspecified,Normal,fixed,,,Sponsor2,"wtf-pad, tor-relay, tor-cell, padding, technical-debt, refactor, easy"
+29500,Broken circuitpadding unittests on appveyor,Core Tor/Tor,closed,mikeperry,defect,High,Tor: 0.4.1.x-final,Normal,fixed,3.5,3,Sponsor2,"asn-merge, nickm-merge, wtf-pad, tor-relay, tor-cell, padding, 040-must, 040-backport"
+29990,Handle zero monotonic time differences in the circuit padding code,Core Tor/Tor,closed,mikeperry,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,,2,Sponsor2,"wtf-pad, tor-relay, tor-cell, padding"
+29527,Division by zero: undefined behaviour in circuitpadding/circuitpadding_sample_distribution test,Core Tor/Tor,closed,teor,defect,High,Tor: 0.4.0.x-final,Normal,fixed,,,Sponsor2-can,"was-merged-to-041-after-29298, nickm-merge, teor-merge, regression, tor-ci, tor-test, 040-must, 040-backport, asn-merge"
+13739,Optimize the functions called in circuit_launch_by_extend_info(),Core Tor/Tor,closed,,defect,Medium,Tor: unspecified,Normal,duplicate,,3,Sponsor27-can,"tor-hs, performance, profile, optimization"
+15463,Tor deals poorly with a very large number of incoming connection requests.,Core Tor/Tor,closed,yawning,defect,Medium,Tor: unspecified,Normal,duplicate,,15,Sponsor27-can,"tor-hs, performance, tor-dos"
+23790,rend_service_prune_list_impl_() doesn't copy over desc_is_dirty when copying intro points,Core Tor/Tor,closed,dgoulet,defect,Medium,Tor: 0.2.9.x-final,Normal,fixed,0.1,0.1,Sponsor27-can,"029-backport, 031-unreached-backport, consider-backport-after-0404"
+26931,Wrong service-side HSv3 hash ring for HSv3 once a day (low impact),Core Tor/Tor,closed,,defect,Medium,Tor: 0.3.5.x-final,Normal,not a bug,,,Sponsor27-can,tor-hs hsv3 reachability
+27680,Explain how to use auth cookie for onion services,Core Tor/Tor,closed,traumschule,enhancement,Medium,Tor: 0.4.1.x-final,Normal,fixed,,,Sponsor27-must,hs-auth
+29237,Restore IPv6 intro points in the HS client tests,Core Tor/Tor,closed,teor,enhancement,Medium,Tor: 0.4.1.x-final,Normal,fixed,0,0,Sponsor27-must,"fast-fix, prop224, tor-hs, single-onion, ipv6, 034-triage-20180328, 034-removed-20180328, 040-unreached-20190109, 041-proposed, v3-onion-service-feature-parity-can"
+28806,checkIncludes.py does not like code in src/ext/timeouts,Core Tor/Tor,closed,nickm,defect,Low,Tor: 0.4.1.x-final,Normal,fixed,0.1,0.1,Sponsor31-can,asn-merge
+29108,Refactor crypto_digest.c to have fewer ifdefs,Core Tor/Tor,closed,rl1987,enhancement,Medium,Tor: 0.4.1.x-final,Normal,implemented,,1,Sponsor31-can,"nickm-merge, asn-merge, 041-proposed, refactor, technical-debt"
+29922,util/time test failure on Jenkins,Core Tor/Tor,closed,nickm,defect,Medium,Tor: 0.3.5.x-final,Normal,fixed,0.5,1,Sponsor31-can,"040-must, 035-backport, 040-backport, tor-ci-fail"
+29926,shellcheck: asciidoc-helper.sh issues,Core Tor/Tor,closed,rl1987,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,0.1,0.1,Sponsor31-can,
+29938,pubsub: coverity sees a null pointer deref in lint_message_consistency (CID 1444257),Core Tor/Tor,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,0.1,0.1,Sponsor31-can,
+29960,Actually check for errors in digest256_to_base64() and callers,Core Tor/Tor,closed,teor,enhancement,Medium,Tor: 0.4.1.x-final,Normal,fixed,0.4,0.2,Sponsor31-can,"asn-merge, technical-debt, fast-fix"
+30261,"Add ""How do I find bug or feature versions?"" to doc/HACKING",Core Tor/Tor,closed,teor,enhancement,Medium,Tor: 0.4.1.x-final,Normal,implemented,0.1,0.1,Sponsor31-can,"doc, fast-fix"
+30263,make shellcheck expects scripts in the build directory,Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.0.x-final,Normal,fixed,0.1,0.1,Sponsor31-can,"shellcheck, 040-backport, 040-must, tor-ci-might-fail-on-upgrade, regression"
+30051,Add practracker as a pre-commit and pre-push git hook for frequent coders,Core Tor/Tor,closed,rl1987,enhancement,High,Tor: 0.4.1.x-final,Normal,implemented,,1,Sponsor31-must,practracker tech-debt tor-ci git-scripts tor-ci-fail-sometimes
+20132,Let large client deployments use a local directory cache,Core Tor/Tor,closed,,enhancement,Medium,Tor: unspecified,Normal,duplicate,,1,Sponsor4-can,"tor-hs, tor2web, single-onion, tor-client, efficiency, needs-design"
+28405,Unable to parse networkstatus consensus (related to CR in time field),Core Tor/Tor,closed,,defect,Medium,Tor: unspecified,Normal,duplicate,,,Sponsor8,
+28614,Can't parse networkstatus consensus time,Core Tor/Tor,closed,nickm,defect,High,Tor: 0.4.0.x-final,Normal,fixed,,,Sponsor8,"040-must, 040-rc-must, regression, postfreeze-ok, tbb-needs, 040-backport"
+30004,"when reloading a consensus with a CRLF, log at notice.",Core Tor/Tor,closed,nickm,defect,Medium,Tor: 0.4.0.x-final,Normal,fixed,.1,.1,Sponsor8,"040-must, 040-rc-must, regression, postfreeze-ok, tbb-needs, 040-backport"
+25727,Add bool types to Rust coding standards guidelines,Core Tor/Tor,closed,catalyst,enhancement,Medium,Tor: unspecified,Normal,wontfix,,.1,SponsorM-can,"torspec, rust, fast-fix, 035-triaged-in-20180711"
+30184,release-0.2.9 doesn't compile on old rhel,Core Tor/Tor,merge_ready,,defect,Medium,Tor: 0.2.9.x-final,Normal,,0.2,0.1,SponsorQ,"no-mainline-merge, regression, fast-fix, consider-backport-after-0404"
+24298,Better handling of DoS attacks on onion services,Core Tor/Tor,closed,,defect,Medium,Tor: unspecified,Normal,fixed,,,SponsorV,"tor-hs, prop224, tor-dos, 034-triage-20180328, 034-removed-20180328"
+29668,Drop thread_fast_rng during postfork; improve thread_fast_rng fork-safety,Core Tor/Tor,closed,nickm,defect,High,Tor: 0.4.1.x-final,Normal,fixed,.2,.1,SponsorV,asn-merge
+24929,Maybe load balance pinned middles?,Core Tor/Tor,closed,,enhancement,Medium,Tor: 0.3.3.x-final,Normal,implemented,,,SponsorV-can,guard-discovery
+27199,"panic inside rust extern ""C"" function is undefined behavior",Core Tor/Tor,closed,,defect,Medium,Tor: 0.3.4.x-final,Normal,fixed,0.1,0.1,SponsorV-can,"nickm-merge, rust, 034-backport, 035-backport, 040-backport, 041-proposed, 033-backport-unreached, consider-backport-after-0404"
+29017,PaddingStatistics should be disabled when ExtraInfoStatistics is 0,Core Tor/Tor,closed,teor,defect,Low,Tor: 0.3.4.x-final,Normal,fixed,1.3,0.2,SponsorV-can,"fast-fix, 035-backport, 034-backport, postfreeze-ok, 040-can, dgoulet-merge, 033-backport-unreached, network-team-roadmap-2019-Q1Q2, consider-backport-after-0404"
+993,Add ExitPolicy by country,Core Tor/Tor,closed,,enhancement,Low,Tor: unspecified,Normal,duplicate,,,,tor-relay
+3847,Provide ability to round robin outgoing exit connections on multiple interfaces,Core Tor/Tor,closed,,enhancement,Medium,Tor: unspecified,Normal,duplicate,,3,,"performance, port-exhaustion, tor-relay, tor-dos"
+13221,Misleading error messages about bind_ipv4_only and bind_ipv6_only?,Core Tor/Tor,closed,,defect,Low,Tor: 0.3.5.x-final,Normal,fixed,.1,.1,,"041-proposed, tor-client, easy, logging, message, usability, 035-backport, 040-backport, consider-backport-after-0404"
+15251,Make tor support starting with 10.000 Tor Hidden Service,Core Tor/Tor,closed,,task,Low,Tor: unspecified,Normal,duplicate,,10,,"tor-hs, scalability, tor-dos"
+21115,Building Tor With Static SNI,Core Tor/Tor,closed,,enhancement,Medium,Tor: unspecified,Normal,duplicate,,1,,"easy, intro, torrc, configuration"
+21377,DirAuths should expose bwauth bandwidth files,Core Tor/Tor,closed,juga,enhancement,High,Tor: 0.4.0.x-final,Normal,fixed,0.3,0.2,,"authority-test-done, tor-dirauth, metrics-needs, tor-bwauth, 035-removed-20180711, 040-roadmap-proposed, 040-backport"
+21501,implement TFO aka TCP FAST OPEN to save RTT,Core Tor/Tor,closed,,enhancement,Low,Tor: unspecified,Minor,duplicate,,,,tor-client tor-relay tcp-fast-open
+22022,Move to cryptography for ed25519 validation,Core Tor/Stem,closed,atagar,enhancement,Medium,,Minor,implemented,,,,descriptor unactionable
+6815,"Warn: Your server (1.2.3.4:80) has not managed to confirm that its DirPort is reachable. Please check your firewalls, ports, address, /etc/hosts file, etc.",Core Tor/Tor,closed,,defect,Medium,Tor: 0.2.4.x-final,,fixed,,,,tor-relay
+24490,Stop setting bridges running in networkstatus_getinfo_by_purpose(),Core Tor/Tor,closed,neel,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,,1,,"easy, intro, refactor, code-correctness"
+24902,Denial of Service mitigation subsystem,Core Tor/Tor,closed,dgoulet,enhancement,Very High,Tor: 0.3.3.x-final,Normal,fixed,,,,"tor-dos, tor-relay, review-group-30, 029-backport, 031-backport, 032-backport, review-group-31, SponsorV"
+26644,Don't require sbws tests to set log level,Core Tor/sbws,closed,,defect,Medium,sbws: 1.0.x-final,Normal,fixed,,,,
+26671,"V3BWFile.write is not a class/static method, but is called like one",Core Tor/sbws,closed,juga,defect,Immediate,sbws: 1.0.x-final,Normal,fixed,,,,sbws-1.0must
+26937,sbws: Warn when there is not enough disk space,Core Tor/sbws,closed,juga,enhancement,Medium,sbws: 1.0.x-final,Normal,fixed,,,,
+27342,sbws poor error handling,Core Tor/sbws,closed,pastly,defect,Medium,sbws: 1.0.x-final,Normal,fixed,,,,
+27346,Improve sbws bandwidth accuracy,Core Tor/sbws,closed,,defect,Medium,sbws: unspecified,Normal,wontfix,,,,
+27512,Stop making disk space syscalls,Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.0.x-final,Normal,fixed,,,,
+27786,sbws: use at least 4 measurements that are at least 6 hours apart,Core Tor/sbws,closed,,enhancement,Medium,sbws: unspecified,Normal,wontfix,,,,
+27787,sbws: use at least 3 days of observed bandwidths,Core Tor/sbws,closed,,enhancement,Medium,sbws: unspecified,Normal,wontfix,,,,
+27788,sbws: weight bandwidths based on the time since the last bandwidth,Core Tor/sbws,closed,,enhancement,Medium,sbws: unspecified,Normal,wontfix,,,,
+27789,sbws: use a decaying average for measured and observed bandwidths,Core Tor/sbws,closed,,enhancement,Medium,sbws: unspecified,Normal,wontfix,,,,
+27916,Don't print default values for arguments twice,Core Tor/sbws,closed,,defect,Medium,sbws: 1.0.x-final,Normal,fixed,,,,
+27917,Standardize argument_names,Core Tor/sbws,closed,,defect,Medium,sbws: 1.0.x-final,Normal,fixed,,,,
+27918,Add types to some new arguments,Core Tor/sbws,closed,,defect,Medium,sbws: 1.0.x-final,Normal,fixed,,,,
+28099,Make a policy for adding new sbws relay keys,Core Tor/sbws,closed,,task,Medium,sbws: unspecified,Normal,fixed,,0.2,,"doc, sbws-1.0-nice-moved-20181128, no-changes-version, docs, bandwidth-file-spec, tor-spec"
+28105,Use secs-away when provided instead of data_period,Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.0.x-final,Normal,fixed,,,,
+28223,Unparseable microdescriptor on public relay,Core Tor/Tor,closed,nickm,defect,Medium,Tor: 0.4.0.x-final,Normal,fixed,.2,.2,,"040-roadmap-proposed, regression?, 035-can, postfreeze-ok, 040-deferred-20190220, asn-merge"
+28267,Update spec version in the bandwidth file header,Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.0.x-final,Normal,implemented,,,,
+28268,Change default directories when sbws is run from a system manager,Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.0.x-final,Normal,fixed,,,,
+28269,Repeated HSFETCH queries fail with QUERY_NO_HSDIR,Core Tor/Tor,closed,neel,defect,Medium,Tor: 0.4.1.x-final,Normal,implemented,,,,"tor-hs, tor-control tor-spec"
+28401,stem.client does not fragment across relay cells when making dir requests over orports,Core Tor/Stem,closed,atagar,defect,Medium,,Normal,worksforme,,,,
+28495,Please provide a parser for detached signatures,Core Tor/Stem,closed,atagar,enhancement,Medium,,Normal,fixed,,,,
+28497,SBWS publishing badly broken vote documents,Core Tor/sbws,closed,,defect,Medium,sbws: 1.0.x-final,Major,fixed,,,,
+28525,Make tor_addr_is_internal_() aware of RFC 6598 (Carrier Grade NAT/Large Scale NAT) IPv4 Ranges,Core Tor/Tor,merge_ready,neel,defect,Medium,Tor: 0.3.5.x-final,Normal,,,,,"consider-backport-after-040-stable, ipv6, 040-deferred-20190220, 040-backport, 035-backport, 034-backport, 029-backport, security-low"
+28547,Monitor relays that are not measured by each sbws instance,Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.1.x-final,Normal,fixed,,,,"tor-bwauth, sbws-1.0-must-moved-20181128, sbws-11x-final-removed-20190312, sbws-110-proposed, changes-version-minor"
+28563,Work out how sbws can report excluded relays in the bandwidth file,Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.1.x-final,Normal,implemented,,,,"tor-bwauth, sbws-1.0-must-moved-20181128, sbws-11x-final-removed-20190312, sbws-110-proposed, changes-version-minor"
+28565,Report excluded results in a relay's bandwidth line,Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.1.x-final,Normal,implemented,,1,,"tor-bwauth, sbws-1.0-must-moved-20181128, sbws-11x-final-removed-20190312, sbws-110-proposed, changes-version-minor"
+28567,"Report relays that sbws wants to test, but the test doesn't work",Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.1.x-final,Normal,implemented,,1,,"tor-bwauth, sbws-1.0-must-moved-20181128, sbws-11x-final-removed-20190312, sbws-110-proposed, changes-version-minor"
+28600,Refactor: store the minimum of the bandwidth values from the consenus in the results,Core Tor/sbws,closed,,defect,Medium,sbws: 1.0.x-final,Normal,wontfix,,,,
+28698,"When circuit times are fixed, they can't be ""relaxed""",Core Tor/Tor,closed,,defect,Medium,Tor: 0.3.5.x-final,Normal,fixed,0.2,0.2,,"easy, log, intro, fast-fix, 035-backport?, consider-backport-after-0404"
+28737,Redesign sbws torrc option configuration,Core Tor/sbws,closed,,defect,Medium,sbws: unspecified,Normal,wontfix,,1,,"changes-version-major, sbws-11x-final-removed-20190312, tech-debt, refactor, config"
+28861,torsocks: Unsupported syscall number 217,Core Tor/Torsocks,closed,dgoulet,defect,Medium,,Normal,fixed,,,,"torsocks, syscall, 217"
+29036,Coverage merge failures cause test_process_slow stderr check to fail,Core Tor/Tor,closed,teor,defect,High,Tor: 0.2.9.x-final,Major,fixed,0.6,0.5,,"041-accepted-20190115, regression, tor-ci, 029-backport, 034-backport, 035-backport, 040-backport, tor-ci-fail-sometimes"
+29060,shellcheck: test-network.sh issues,Core Tor/Tor,closed,rl1987,defect,Medium,Tor: 0.4.1.x-final,Normal,implemented,,,,"technical-debt, regression, 041-must"
+29121,tor man page doesn't mention isolating between socksports,Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.0.x-final,Normal,fixed,0.1,0.1,,"doc, 040-backport"
+29144,"Log the correct ""auto"" port number for listening sockets",Core Tor/Tor,closed,,defect,Medium,Tor: 0.3.5.x-final,Normal,fixed,0.1,0.1,,"041-proposed, 035-backport, 040-backport, consider-backport-after-0404"
+29241,NSS SSL_ExportKeyingMaterial failing,Core Tor/Tor,merge_ready,nickm,defect,High,Tor: 0.3.5.x-final,Normal,,1.7,2,,"regression, 035-backport, 040-must, spec, teor-merge, 040-backport, consider-backport-after-0405"
+29309,After download and clicking connect Tor loads half way and stops,Core Tor/Tor,closed,,defect,Medium,,Normal,user disappeared,,,,
+29357,add an ActiveOnStartup config option,Core Tor/Tor,closed,nickm,enhancement,Very High,Tor: 0.4.0.x-final,Normal,fixed,.1,.5,,"tbb-needs, 040-proposed, 040-must"
+29496,DOS,Core Tor/Tor,closed,,defect,Medium,,Major,user disappeared,,,,
+29612,Update the documentation for ExitRelay,Core Tor/Tor,merge_ready,teor,defect,Medium,Tor: 0.4.0.x-final,Normal,,0.1,0.1,,"fast-fix, doc, 035-backport, 040-backport, consider-backport-after-0404"
+29613,Make relays into exits when ExitRelay is auto and IPv6Exit is 1,Core Tor/Tor,closed,neel,defect,Medium,Tor: 0.4.1.x-final,Normal,implemented,0.1,0.5,,"ipv6, 041-proposed, tor-relay, tor-exit, reviewer-was-teor-20190422"
+29640,Improve the monotonic time documentation in compat_time.c,Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,0.1,0.1,,"tor-time, asn-merge"
+29665,hs: circuit_expire_old_circuits_serverside() should check for RP circuits,Core Tor/Tor,closed,,defect,High,Tor: 0.3.4.x-final,Normal,fixed,0.1,0.1,,"tor-hs, tor-relay, 029-backport, 034-backport, 035-backport, 040-backport, consider-backport-after-0404"
+29703,Backport test-network.sh fixes to 0.2.9,Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.2.9.x-final,Normal,fixed,0.4,0.5,,"merge-after-0403-alpha, teor-merge, CI, PTs 029-backport network-team-roadmap-2019-Q1Q2"
+29707,sbws does not scale consensus bandwidths to bytes before using them,Core Tor/sbws,closed,,defect,Medium,sbws: 1.0.x-final,Normal,fixed,,,,
+29724,Create a blog post about work done and future work,Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.1.x-final,Normal,implemented,,1,,"no-changes-version, docs"
+29750,Create 1.1.0 release,Core Tor/sbws,closed,,task,Medium,sbws: 1.1.x-final,Normal,implemented,,1,,"release, not-to-review"
+29751,Create debian package for last 1.1.0 version,Core Tor/sbws,closed,juga,task,Medium,sbws: 1.1.x-final,Normal,implemented,,1,,"package, not-to-review"
+29775,Document the new bandwidth file keys added in sbws 1.1.0,Core Tor/sbws,closed,juga,enhancement,Medium,sbws: 1.1.x-final,Normal,duplicate,,,,"tor-bwauth, no-changes-version, tor-spec, tor-bandwidth-file-spec, no-changes-version"
+29806,"Ignore bandwidth file lines with ""vote=0""",Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.3.4.x-final,Normal,fixed,0.5,1,,"tor-bwauth, 040-backport, 035-backport, 034-backport, merge-after-0403-alpha, authority-test-completed, sbws-bwauth-test-completed"
+29824,CID 1444119 resource leak in BUG case in consdiff.c,Core Tor/Tor,merge_ready,,defect,Medium,Tor: 0.3.5.x-final,Normal,,0.1,0.1,,"coverity, 034-backport, 035-backport, 040-backport, consider-backport-after-0405"
+29853,"sbws should show relays for diagnostics, even when MIN_REPORT has not been reached",Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.1.x-final,Normal,fixed,,,,"tor-bwauth, sbws-1.0-must-moved-20181128, sbws-11x-final-removed-20190312, sbws-110-proposed, changes-version-minor"
+29854,"Missing diagnostic keys in relay lines, but the data is in the header",Core Tor/sbws,closed,juga,defect,Medium,sbws: 1.1.x-final,Normal,not a bug,,,,"tor-bwauth, sbws-1.0-must-moved-20181128, sbws-11x-final-removed-20190312, sbws-110-proposed, changes-version-minor"
+29897,Refactor handle_get_next_bandwidth() to use connection_dir_buf_add(),Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.4.0.x-final,Normal,fixed,0.1,0.1,,"consider-backport-after-authority-test, consider-backport-after-040-stable, tor-dirauth, metrics-needs, tor-bwauth, 035-removed-20180711, 040-roadmap-proposed, 040-backport"
+29913,Stop assuming that /usr/bin/python3 exists,Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,0.2,0.1,,"fast-fix, python3, asn-merge, nickm-merge"
+29939,"test_routerkeys: Coverity says, always check mkdir return values.",Core Tor/Tor,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,0,0,,"asn-merge, coverity"
+29959,Actually include the bandwidth file digest in the vote,Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.4.0.x-final,Normal,fixed,0.2,0.2,,"040-must, 040-backport, fast-fix, nickm-merge"
+29961,Update the Tor version for bandwidth-file-digest in torspec,Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.4.0.x-final,Normal,fixed,0,0,,"040-must, 040-backport, fast-fix, tor-spec, nickm-merge"
+29962,"Turn off Travis Rust caching, and see if it speeds up the builds",Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.3.4.x-final,Normal,fixed,,,,"tor-ci-speed, 034-backport, 035-backport, 040-backport"
+29967,CID 1444262: Null-pointer dereference in non-fatal assertion failure path,Core Tor/Tor,closed,nickm,defect,Very High,Tor: 0.4.1.x-final,Normal,fixed,0,0,,"regression, crash, asn-merge, coverity"
+29979,"Don't recommend expect() in CodingStandardsRust, because it panics",Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,0.1,0.1,,"easy, doc, asn-merge, nickm-merge"
+29986,wishlist,Core Tor/Tor,closed,,defect,Medium,,Normal,invalid,,,,
+29992,Update to April GeoIP2 database,Core Tor/Tor,closed,,enhancement,Medium,Tor: 0.2.9.x-final,Normal,implemented,,,,"tor-client, tor-relay, 029-backport, 032-backport, 033-backport, 035-must, 035-rc-must, 034-backport, 035-backport"
+30001,test failure: dir_handle_get/status_vote_next_bandwidth,Core Tor/Tor,closed,nickm,defect,Medium,Tor: 0.4.0.x-final,Normal,fixed,0.1,0.1,,"tor-ci-fail-sometimes, fast-fix, 040-backport, reviewer-was-teor-20190422, asn-merge"
+30002,shellcheck: test_key_expiration.sh issues,Core Tor/Tor,closed,rl1987,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,,,,
+30011,Kill test-stem if takes more than 9.5 minutes,Core Tor/Tor,closed,teor,defect,High,Tor: 0.3.5.x-final,Normal,fixed,0.3,0.3,,"tor-ci-fail-sometimes, 035-backport, 040-backport"
+30012,"When stem receives a signal, log useful information",Core Tor/Stem,closed,teor,defect,Medium,,Normal,implemented,,,,tor-needs
+30021,Do not cache cipher list classification if cipher list is not yet available.,Core Tor/Tor,closed,nickm,defect,High,Tor: 0.2.9.x-final,Normal,fixed,.5,,,"tor-ci-fail-sometimes, ci, stem, ssl, 029-backport, 034-backport, 035-backport, asn-merge"
+30033,The pre-push hook should call the pre-commit hook on the final pushed commit,Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.1.x-final,Normal,implemented,,,,git-scripts
+30040,Double-free bug on huge bandwidth file in some platforms,Core Tor/Tor,merge_ready,,defect,Medium,Tor: 0.3.5.x-final,Normal,,0.4,0.3,,"teor-merge, security-low?, bw-auth, double-free, hackerone, bug-bounty, 040-backport, 035-backport, consider-backport-after-0405"
+30041,OOB access with huge buffers (src/lib/buf/buffers.c),Core Tor/Tor,merge_ready,,defect,Medium,Tor: 0.3.5.x-final,Normal,,,,,"security-low, hackerone, bug-bounty, 029-backport, 034-backport, 035-backport, 040-backport, 040-must, consider-backport-after-0405"
+30047,Group different websites to the same exit node,Core Tor/Tor,closed,,enhancement,Medium,,Normal,worksforme,,,,
+30062,shellcheck all Tor shell scripts,Core Tor/Tor,closed,,enhancement,Medium,Tor: unspecified,Normal,duplicate,,3,,"shellcheck, tor-scripts, git-scripts"
+30075,shellcheck: contrib/dist/tor.sh.in issues,Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.1.x-final,Normal,implemented,,,,
+30077,shellcheck: src/test/fuzz/fuzz_multi.sh issues,Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.1.x-final,Normal,implemented,,,,
+30079,shellcheck: src/test/fuzz/minimize.sh issue,Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,,,,
+30084,Relay: channel_tls_process_netinfo_cell private IP as public wrongly reported,Core Tor/Tor,closed,,defect,Very Low,Tor: unspecified,Minor,not a bug,,,,private IP public channel_tls_process_netinfo_cell relay
+30106,Unable to download server descriptors in stem 1.7,Core Tor/Stem,closed,atagar,defect,High,,Major,duplicate,,,,descriptor
+30110,Add a MapAddress torrc flag that sets chosen_exit_optional to false,Core Tor/Tor,closed,,enhancement,Medium,Tor: unspecified,Normal,not a bug,,0.5,,"security-low?, tor-client, tor-exit"
+30111,Add a MapAddress controller flag that sets chosen_exit_optional to false,Core Tor/Tor,closed,,enhancement,Medium,Tor: unspecified,Normal,not a bug,,0.5,,"security-low?, tor-client, tor-exit"
+30112,Fix outdated comments in dirserv_read_measured_bandwidths(),Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,0.1,0.1,,"doc, comment, technical-debt, tor-bwauth"
+30114,Also fetch tor-github when we git-pull-all.sh,Core Tor/Tor,closed,teor,enhancement,Medium,Tor: 0.4.1.x-final,Normal,fixed,0.1,0.1,,"git-scripts, fast-fix, asn-merge"
+30117,Support stem's backtrace signals in Travis,Core Tor/Tor,closed,teor,defect,Medium,Tor: 0.3.5.x-final,Normal,fixed,0.4,0.2,,"tor-ci-fail-sometimes, 035-backport, 040-backport, asn-merge"
+30119,cert-spec uses binary encodings but does not specify byte order,Core Tor/Tor,closed,,defect,Medium,Tor: unspecified,Normal,fixed,,0.1,,"dir-spec, easy, doc, fast-fix"
+30120,pre-commit.git-hook doesn't check for changes files correctly.,Core Tor/Tor,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,0,0,,git-scripts shell dgoulet-merge
+30122,Make stem's unit tests propagate the backtrace signals to child processes,Core Tor/Stem,closed,teor,enhancement,Medium,,Normal,fixed,0.6,0.5,,tor-ci-fail-sometimes
+30137,Update PyPI links,Core Tor/Stem,closed,atagar,enhancement,Low,,Minor,fixed,,,,
+30149,"Fix ""medium"" and ""low"" impact coverity false positives outside of tests.",Core Tor/Tor,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,.1,,,asn-merge coverity technical-debt defensive-programming
+30151,Fix memory leak in tor-resolve,Core Tor/Tor,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,,,,040-backport?? dgoulet-merge
+30160,Update bandwidth file headers parser to spec version 1.4.0,Core Tor/Stem,closed,atagar,defect,Medium,,Normal,implemented,,1,,tor-bwauth
+30176,Clear memory in smartlist_remove_keeporder.,Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.1.x-final,Minor,fixed,,,,035-backport? 040-backport? defense-in-depth? dgoulet-merge
+30180,CID 1444641: REVERSE_INULL in test_hs_cache.c,Core Tor/Tor,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,0,0,,dgoulet-merge
+30189,ALL_BUGS_ARE_FATAL build failures in 0.3.4 and later.,Core Tor/Tor,merge_ready,nickm,defect,Medium,Tor: 0.4.0.x-final,Normal,,.1,,,035-backport
+30190,Do not warn about compatible OpenSSL upgrades,Core Tor/Tor,closed,,defect,Medium,Tor: 0.4.1.x-final,Normal,fixed,,0.2,,openssl ux usability 035-backport? 040-backport? dgoulet-merge
+30220,Consider proof-of-rendezvous as a way to decrease INTRODUCE2 flood,Core Tor/Tor,closed,,defect,Medium,Tor: unspecified,Normal,duplicate,,15,,"tor-dos, tor-hs"
+30234,Get a stacktrace from tor processes launched by stem,Core Tor/Tor,merge_ready,teor,enhancement,Medium,Tor: 0.4.0.x-final,Normal,,0.1,0.5,,"tor-ci-fail-sometimes, 035-backport, 040-backport"
+30262,stem.descriptor.remote not handling 'HTTP/1.0 404 Not found' gracefully,Core Tor/Stem,closed,atagar,defect,Medium,,Normal,not a bug,,,,
+30314,Relay became Guard with less than 2 weeks of existence,Core Tor/Tor,closed,,defect,Medium,,Normal,not a bug,,,,
