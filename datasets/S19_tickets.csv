@@ -1,0 +1,227 @@
+﻿id,Summary,Sponsor,Status,Owner,Type,Priority,Milestone,Component,Severity,Resolution,Actual Points,Parent ID,Points,Reviewer,Keywords
+7349,"Obfsbridges should be able to ""disable"" their ORPort",Sponsor19-can,new,,project,Very High,Tor: unspecified,Core Tor/Tor,Normal,,,,10,,"tor-bridge, SponsorZ, tor-pt, proposal-needed, censorship, sponsor19, 040-roadmap-proposed"
+19001,Tor Browser with Snowflake,Sponsor19,new,,project,Very High,,Circumvention/Snowflake,Critical,,,,,,
+27827,Reproducibility issue of the snowflake osx64 build,Sponsor19,closed,tbb-team,defect,Very High,,Circumvention/Snowflake,Normal,fixed,,#19001,,,"tbb-rbm, TorBrowserTeam201810R"
+28152,Gettor code refactor with Python Twisted,Sponsor19,needs_review,hiro,enhancement,Very High,,Applications/GetTor,Major,,,#28232,,phw,gettor-roadmap
+29207,New design for broker -- proxy protocol for snowflakes,Sponsor19,new,,task,Very High,,Circumvention/Snowflake,Normal,,,,5,,"snowflake, design"
+29279,Test obfs4 reachability,Sponsor19,assigned,cohosh,task,Very High,,Circumvention/Obfs4,Normal,,,,,,"NGO, community, anti-censorship-roadmap"
+29618,"Chutney doesn't use python3 if a ""python2"" binary exists, and fails if it uses python3 anyway.",Sponsor19,closed,nickm,defect,Very High,,Core Tor/Chutney,Normal,fixed,.3,,,,
+5211,Discuss other ways for the bridge authority to run bridge reachability tests,Sponsor19,assigned,,task,High,Tor: unspecified,Core Tor/Tor,Normal,,,,,,tor-bridge reachability tor-bridgeauth needs-design
+7144,Implement Bridge Guards and other anti-enumeration defenses,Sponsor19,new,,project,High,Tor: unspecified,Core Tor/Tor,Normal,,,,10,,tor-bridge tor-guard censorship
+10692,GetTor needs official two-factor-enabled dropbox and google accounts,Sponsor19,reopened,,defect,High,,Applications/GetTor,Normal,,,#28231,,,gettor-roadmap
+10802,"Getting bridges only for port 80,443",Sponsor19,assigned,,enhancement,High,,Circumvention/BridgeDB,Normal,,,,2,,bridgedb-ui
+11330,Create a Hash Ring For Each Allowed Domain in the Email Distributor,Sponsor19,assigned,,enhancement,High,,Circumvention/BridgeDB,Normal,,,,3,,"bridgedb-email, bridgedb-dist, anti-censorship-roadmap-2019"
+12089,BridgedDB can be forced to email arbitrary email addresses,Sponsor19,assigned,,defect,High,,Circumvention/BridgeDB,Normal,,,,,,"bridgedb-email, security"
+12505,Refactor BridgeDB's hashrings,Sponsor19,assigned,,defect,High,,Circumvention/BridgeDB,Normal,,,,5,,"bridgedb-dist, bridgedb-1.0.x"
+12802,BridgeDB needs Nagios checks for the Email Distributor,Sponsor19,assigned,dgoulet,enhancement,High,,Circumvention/BridgeDB,Normal,,,#30152,5,,"bridgedb-email, nagios"
+12957,Translation instruction about accesskey should be improved.,Sponsor19,assigned,,enhancement,High,,Circumvention/BridgeDB,Normal,,,,1,,"bridgedb-ui, localization"
+14744,Automate upload of latest Tor Browser to cloud services,Sponsor19,assigned,,defect,High,,Applications/GetTor,Normal,,,#28231,,,gettor-roadmap
+15404,BridgeDB's email localisation isn't working,Sponsor19,assigned,,defect,High,,Circumvention/BridgeDB,Normal,,,,2,,"bridgedb-ui, localization, anti-censorship-roadmap-2019"
+16564,Add a line to bridge descriptors specifying they're bridges?,Sponsor19-can,assigned,,enhancement,High,Tor: unspecified,Core Tor/Tor,Normal,,,,1,,tor-bridge easy intro
+20813,Start producing snowflakes,Sponsor19,new,,defect,High,,Circumvention/Snowflake,Normal,,,,3,,anti-censorship-roadmap-2019
+25483,Windows reproducible build of snowflake,Sponsor19,accepted,cohosh,project,High,,Circumvention/Snowflake,Normal,,,#19001,,,TorBrowserTeam201805
+26542,Distribute IPv6 bridges though bridges.torproject.org,Sponsor19,assigned,,defect,High,,Circumvention/BridgeDB,Normal,,,#24264,3,,anti-censorship-roadmap-2019
+27330,@get_tor on twitter not responding,Sponsor19,assigned,,defect,High,,Applications/GetTor,Normal,,,#28231,,,gettor-roadmap
+27385,https://snowflake.torproject.org/embed is confusing,Sponsor19,new,,defect,High,,Circumvention/Snowflake,Major,,,,,,"snowflake, ux-team"
+27912,Add travis CI for the Chutney repository,Sponsor19,closed,teor,enhancement,High,,Core Tor/Chutney,Normal,fixed,1.5,#20647,0.5,,
+28018,Improve accuracy and usefulness of information reported to controllers about bootstrap status,Sponsor19-can,assigned,catalyst,enhancement,High,Tor: unspecified,Core Tor/Tor,Normal,,,,,,network-team-roadmap-2019-Q1Q2
+28533,bridgesdb: replace the message to mail support with a link to the documentation,Sponsor19,assigned,phw,defect,High,,Circumvention/BridgeDB,Normal,,,,1,,
+28655,"If a bridge supports obfs4, don't give out its other flavors",Sponsor19,needs_review,phw,defect,High,,Circumvention/BridgeDB,Normal,,,,2,,bridgedb
+28679,Bridge connections on startup,Sponsor19-can,new,,enhancement,High,Tor: unspecified,Core Tor/Tor,Normal,,,,,,"tor-bridge, censorship, needs-proposal 041-proposed"
+28803,Integrate building pluggable transports for Android into tor-browser-build,Sponsor19-can,needs_revision,tbb-team,task,High,,Applications/Tor Browser,Normal,,,,,,"tbb-rbm, tbb-mobile, TBA-a3, tor-pt, tbb-parity, TorBrowserTeam201905"
+28849,Handle dormant mode in process library and for PT's,Sponsor19,needs_review,,enhancement,High,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,,,,dcf,042-proposed
+28925,distinguish PT vs proxy for real in bootstrap tracker,Sponsor19,closed,catalyst,defect,High,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,fixed,2,#28018,2,nickm,"asn-merge, teor-merge, s8-bootstrap, usability, ux, tor-pt, tbb-needs, 040-must, network-team-roadmap-2019-Q1Q2"
+28928,update control-spec.txt for new bootstrap phases,Sponsor19,closed,catalyst,task,High,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,implemented,,#28018,,teor,"sponsor19-also, s8-bootstrap, tor-spec, postfreeze-ok, 040-must, spec, nickm-merge"
+29136,PT_LOG and PT_STATUS event fields unspecifed,Sponsor19-can,needs_revision,atagar,defect,High,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,,,,,ahf,"tor-spec, tor-pt, 040-must documentation"
+29229,Does anybody notice if the bridge auth goes away?,Sponsor19,closed,dgoulet,defect,High,,Circumvention/BridgeDB,Normal,fixed,1,#30152,2,,"bridgedb, network-team-roadmap-2019-Q1Q2"
+29249,Assessment of moat for bridges,Sponsor19,new,sysrqb,task,High,,Circumvention/BridgeDB,Normal,,,,5,,moat
+29280,Use Chutney in Tor's CI,Sponsor19,needs_revision,,task,High,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,,1,#29267,1,,"CI, PTs, 029-backport, 034-backport, 035-backport, 040-backport, network-team-roadmap-2019-Q1Q2, reviewer-was-teor-20190422, tor-ci"
+29293,New Design for client -- broker protocol for Snowflake,Sponsor19,new,,task,High,,Circumvention/Snowflake,Normal,,,,,,"snowflake, bridges, broker"
+29426,proxy-go instances not available,Sponsor19,closed,,defect,High,,Circumvention/Snowflake,Normal,duplicate,,,,,snowflake
+29562,APPCRASH of tor.exe on Windows when PT bootstrap is cancelled,Sponsor19,closed,ahf,defect,High,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,fixed,0.3,,0.3,dgoulet,regression 040-must crash nickm-merge
+29874,torrc no longer accepts space in executable paths,Sponsor19-must,closed,ahf,defect,High,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,fixed,0.1,,1,cohosh,"040-must, regression, Windows, 040-backport, teor-merge, asn-merge, nickm-merge"
+30247,Understand GetTor usage,Sponsor19,assigned,,enhancement,High,,Applications/GetTor,Normal,,,,5,,"gettor_roadmap, statistics"
+1593,Implement test (-t switch) functionality,Sponsor19,new,kaner,task,Medium,,Applications/GetTor,Normal,,,#28152,,,gettor-roadmap
+3781,Write a spec for GetTor,Sponsor19,assigned,,task,Medium,,Applications/GetTor,Normal,,,#28232,,,gettor-roadmap
+3980,gettor should deliver checksums of our packages,Sponsor19,assigned,,enhancement,Medium,,Applications/GetTor,Normal,,,#9036,,,gettor-roadmap
+5304,Obfsproxy should respect OutboundBindAddress in torrc,Sponsor19,new,,defect,Medium,,Circumvention/Obfs4,Normal,,,#30471,,,"needs-spec-change needs-tor-change,sponsor19-can"
+8542,More options on how to get the bundles,Sponsor19-can,closed,,enhancement,Medium,,Applications/GetTor,Normal,duplicate,,#28232,,,gettor-roadmap
+9036,Changing GetTor Message Body,Sponsor19,needs_information,sukhbir,defect,Medium,,Applications/GetTor,Normal,,,,,,
+9316,BridgeDB should export statistics,Sponsor19,assigned,phw,task,Medium,,Circumvention/BridgeDB,Normal,,,#19332,3,,"metrics, bridgedb, prometheus"
+10831,Captchas are not accessible for blind users,Sponsor19,assigned,,enhancement,Medium,,Circumvention/BridgeDB,Normal,,,,5,,"bridgedb-reportbug, bridgedb-ui, anti-censorship-roadmap-2019"
+11966,"""Bootstrapped 20%: Asking for networkstatus consensus"" is a lie for bridge users",Sponsor19,needs_revision,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,#28018,1,arma,"tor-bridge, sponsor8-maybe, bootstrap, 033-triage-20180320, 033-removed-20180320, 040-deferred-20190220"
+12030,Create a DatabaseManager for interacting with BridgeDB's database backends,Sponsor19,assigned,,enhancement,Medium,,Circumvention/BridgeDB,Normal,,,,13,,"bridgedb-db, bridgedb-dist, bridgedb-1.0.x, proposal-226"
+12506,Separate BridgeDB databases from distributors,Sponsor19,assigned,,enhancement,Medium,,Circumvention/BridgeDB,Normal,,,,5,,"bridgedb-dist, bridgedb-db, bridgedb-0.3.3, bridgedb-1.0.x"
+12627,canonicalFromSMTP is not what we think it should be,Sponsor19,assigned,,defect,Medium,,Circumvention/BridgeDB,Normal,,,,1,,bridgedb-email
+12807,Implement an anonymous credential system for BridgeDB's Social Distributor,Sponsor19,assigned,,project,Medium,,Circumvention/BridgeDB,Normal,,,,21,,"bridgedb-socdist, isisExB, isis2015Q3Q4"
+13727,BridgeDB should not distribute Tor Browser's default bridges,Sponsor19,assigned,,defect,Medium,,Circumvention/BridgeDB,Normal,,,,2,,"bridgedb-dist, tbb-bridges"
+14453,Implement statistics gathering for number of Bridges-per-Transport in BridgeDB,Sponsor19,assigned,,task,Medium,,Circumvention/BridgeDB,Normal,,,,5,,"tor-bridge,bridgedb"
+15522,Write Protobufs for any BridgeDB data which must be sent over a network or IPC channel,Sponsor19,closed,,enhancement,Medium,,Circumvention/BridgeDB,Normal,wontfix,,,13,,"bridgedb-db, metrics, protobuf"
+15967,Separate BridgeDB's CAPTCHA into another service,Sponsor19,assigned,,enhancement,Medium,,Circumvention/BridgeDB,Normal,,2,,2,,bridgedb-https captcha tor-launcher ooni-probe
+16670,BridgeDB should be capable of verifying Ed25519 signatures,Sponsor19,assigned,,enhancement,Medium,,Circumvention/BridgeDB,Normal,,,,5,,"bridgedb-parsers, crypto"
+16671,Design a new Bridge Distributor for Tor Browser,Sponsor19,closed,,enhancement,Medium,,Circumvention/BridgeDB,Normal,fixed,,,5,,"bridgedb-dist, tor-browser-wants"
+17214,Check integrity of uploaded files periodically,Sponsor19,assigned,,enhancement,Medium,,Applications/GetTor,Normal,,,#28231,,,gettor-roadmap
+17425,Improve GetTor Signature Section,Sponsor19,assigned,,defect,Medium,,Applications/GetTor,Normal,,,#9036,,,gettor-roadmap
+17548,https://bridges.torproject.org/keys shows outdated keys,Sponsor19,assigned,,defect,Medium,,Circumvention/BridgeDB,Normal,,,,1,,
+17626,"BridgeDB's email distributor doesn't work if the ""get help"" text is quoted",Sponsor19,assigned,,defect,Medium,,Circumvention/BridgeDB,Normal,,,,3,,bridgedb-email ux bridgedb-ux
+18076,Bridges email inconsistent + not receiving emails,Sponsor19,closed,,defect,Medium,,Circumvention/BridgeDB,Normal,not a bug,0.2,,1,,bridgedb-email
+19332,Add a BridgeDB module,Sponsor19,new,metrics-team,enhancement,Medium,,Metrics/CollecTor,Normal,,,,8,,metrics-roadmap-2019-q2
+19693,Portuguese (pt_PT) translation to GetTor,Sponsor19,assigned,emmapeel,task,Medium,,Applications/GetTor,Normal,,,#28233,,,gettor-roadmap
+19997,BridgeDB's get-tor-exits script doesn't account for IPv6,Sponsor19,assigned,,defect,Medium,,Circumvention/BridgeDB,Major,,,,2,,bridge-enumeration
+20116,Get @get_tor twitter account verified,Sponsor19,new,,defect,Medium,,Applications/GetTor,Normal,,,#28231,,,gettor-roadmap
+20473,Fix Chutney Nodes that don't bootstrap,Sponsor19-can,closed,teor,defect,Medium,,Core Tor/Chutney,Normal,fixed,0.4,#30066,1,,network-team-roadmap-2019-Q1Q2-maybe
+20770,Support Tor Browser Alpha,Sponsor19,assigned,,enhancement,Medium,,Applications/GetTor,Normal,,,#28231,,,gettor-roadmap
+21305,Client gets into an unrecoverable connect / close loop,Sponsor19,closed,cohosh,defect,Medium,,Circumvention/Snowflake,Normal,worksforme,,,,,
+21314,snowflake-client needs to stop using my network when I'm not giving it requests,Sponsor19,new,,defect,Medium,,Circumvention/Snowflake,Normal,,,,,,tor-pt  anti-censorship-roadmap-2019 from-network-team-roadmap
+21315,publish some realtime stats from the broker?,Sponsor19,needs_information,,enhancement,Medium,,Circumvention/Snowflake,Normal,,,#29461,,,
+21814,Reduce binary size for client-only tor,Sponsor19-can,new,,task,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,,,,"034-triage-20180328, 034-removed-20180328, 035-roadmap-subticket, 035-triaged-in-20180711"
+22132,Chutney should avoid waiting for set times: wait for conditions instead,Sponsor19,closed,nickm,defect,Medium,,Core Tor/Chutney,Normal,fixed,1.2,#20647,2,teor,network-team-roadmap-2019-Q1Q2
+22664,Check for existing bundles in dropbox and handle them accordingly,Sponsor19,assigned,,defect,Medium,,Applications/GetTor,Normal,,,#28231,,,gettor-roadmap
+22775,Implement Hyphae,Sponsor19,closed,,defect,Medium,,Circumvention/BridgeDB,Normal,wontfix,,,,,
+22776,Implement the remaining cryptographic protocols for Hyphae,Sponsor19-can,closed,,enhancement,Medium,,Circumvention/BridgeDB,Normal,wontfix,,#22775,21,,"bridgedb-distributors, rust"
+22777,Implement a backend HTTP server for Hyphae's credentials,Sponsor19,closed,,task,Medium,,Circumvention/BridgeDB,Normal,wontfix,,#22775,5,,
+23251,Parsing a networkstatus-bridges with flags only causes BridgeDB to hang,Sponsor19,assigned,,defect,Medium,,Circumvention/BridgeDB,Major,,,,3,,bridgedb-parsers
+23521,detect if clock skew is probably really time zone misconfiguration,Sponsor19-can,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,,,,"bootstrap, clock-skew, ux, 034-triage-20180328, 034-removed-20180328"
+23565,document signs of client clock skew to ease troubleshooting,Sponsor19-can,assigned,catalyst,task,Medium,Tor: unspecified,Community/Tor Support,Normal,,,#23508,,,"bootstrap, s8-errors, ux"
+23839,Testing Framework for Censorship Circumvention,Sponsor19,new,tbb-team,defect,Medium,,Applications/Tor Browser,Normal,,,,,,censorship
+23888,Creating a Snowflake WebExtension addon,Sponsor19,assigned,arlolra,enhancement,Medium,,Circumvention/Snowflake,Normal,,,,,,ux-team tor-pt
+24367,Changing pluggable transports (during start-up) in Tor Browser is broken,Sponsor19-must,assigned,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,,,#29875,0.5,,"regression, tor-bridge-client, 033-triage-20180320, 033-removed-20180320, 031-unreached-backport, tbb-needs, 034-backport, 035-backport, 040-backport, 041-should"
+24607,CAPTCHAs on BridgeDB seem to be getting more difficult,Sponsor19,assigned,,defect,Medium,,Circumvention/BridgeDB,Normal,,,,5,,anti-censorship-roadmap-2019
+25061,Relays consider it a bootstrapping failure if they can't extend for somebody else's circuit,Sponsor19-can,assigned,catalyst,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,,,,"backport-032, stability, 033-triage-20180320, 033-included-20180320, s8-errors, bootstrap, 034-deferred-20180602, 035-removed-20180711, 033-backport-unreached"
+25429,Need something better than client's `checkForStaleness`,Sponsor19,assigned,cohosh,defect,Medium,,Circumvention/Snowflake,Normal,,,,,,
+25430,Turkey bridges.torproject.org cant access,Sponsor19,closed,,defect,Medium,,Circumvention/BridgeDB,Normal,fixed,,,5,,censorship block tr
+25502,Report intermediate PT bootstrapping status,Sponsor19,closed,ahf,project,Medium,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,implemented,,,,,"040-roadmap-master, tor-pt, postfreeze-ok"
+25528,"When ClientTransportPlugin is missing, tor connects directly to bridge addresses, even if they have a transport name",Sponsor19-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,,,,"pt, bootstrap, bridge-client, bridge-bypass, 034-roadmap-proposed, 041-proposed"
+25593,Broker needs better resilience against DoS,Sponsor19,new,,defect,Medium,,Circumvention/Snowflake,Normal,,,,,,
+25595,Test suite for Snowflake on various NAT topologies,Sponsor19,new,,defect,Medium,,Circumvention/Snowflake,Normal,,,,,,anti-censorship-roadmap-2019
+25601,Multiplex - one snowflake proxy should be able to support multiple clients,Sponsor19,new,,defect,Medium,,Circumvention/Snowflake,Normal,,,,,,snowflake tor-pt
+25681,Defend against flooding of the broker by low bandwidth snowflakes,Sponsor19,new,,defect,Medium,,Circumvention/Snowflake,Normal,,,,2,,anti-censorship-roadmap-2019
+25713,"""DisableNetwork is set"" log message in Tor Browser scares/confuses users",Sponsor19,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,,,,"ux-team, 040-deferred-20190220"
+25899,Only run retry_dns() and check_dns_honesty() on exits,Sponsor19,needs_revision,dgoulet,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,#25500,,,"034-roadmap-subtask, 035-removed-20180711, 040-deferred-20190220"
+26154,Remove apt-get update from BridgeDB's .travis.yml to avoid SHA1 signature error,Sponsor19,closed,phw,defect,Medium,,Circumvention/BridgeDB,Normal,not a bug,,,.1,,bridgedb-ci ci
+26348,Guard against large reads,Sponsor19,merge_ready,cohosh,defect,Medium,,Circumvention/Snowflake,Normal,,,,1,,easy anti-censorship-roadmap-2019
+26425,Add functionality to set SNI for client connections,Sponsor19-can,needs_information,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,,,asn,
+26543,Provide a language switcher menu on BridgeDB,Sponsor19,assigned,,enhancement,Medium,,Circumvention/BridgeDB,Normal,,,,1,,anti-censorship-roadmap-2019
+26673,Record download times of smaller file sizes from partial completion times,Sponsor19,assigned,metrics-team,enhancement,Medium,,Metrics/Onionperf,Normal,,,,,,"user-experience, acute-2019-q1-planned"
+26920,Deploy Marionette as a Pluggable Transport,Sponsor19,new,tbb-team,enhancement,Medium,,Applications/Tor Browser,Normal,,,,,,Marionette tor-pt
+26923,Intent to create Pluggable Transport: HTTPS proxy,Sponsor19,new,,project,Medium,,Circumvention/Pluggable transport,Normal,,,,,,pt httpsproxy
+27104,report intermediate status when building application circuits,Sponsor19-can,assigned,catalyst,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,#28018,,,"usability, ux, ux-team, bootstrap, network-team-roadmap-2019-Q1Q2"
+27308,"report bootstrap phase when we actually start, not just unblock something",Sponsor19-can,assigned,catalyst,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,#28018,,,"usability, ux, ux-team, bootstrap, 035-roadmap-subtask, 035-triaged-in-20180711, s8-bootstrap, bootstrap-arch, 040-deferred-20190220"
+27691,reset bootstrap progress when enough things change,Sponsor19-can,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,#28018,,,"usability, ux, ux-team, bootstrap, bootstrap-arch, network-team-roadmap-2019-Q1Q2"
+27947,Chutney's owning controller process code compares strings with ints,Sponsor19,closed,teor,defect,Medium,,Core Tor/Chutney,Normal,fixed,0.1,,0.1,nickm,fast-fix
+27984,bridgedb verifyHostname doesn't check subjectAltName extension,Sponsor19,assigned,,defect,Medium,,Circumvention/BridgeDB,Normal,,,,3,,
+28015,Brainstorm improved ux for orgs that want to give bridges to their people,Sponsor19,new,tbb-team,defect,Medium,,Applications/Tor Browser,Normal,,,,,,"ux-team, education, documentation"
+28091,Port GetTor to python3,Sponsor19,needs_revision,traumschule,task,Medium,,Applications/GetTor,Normal,,,#28152,,nickm,gettor-roadmap
+28179,Handle output from PT processes with the event loop,Sponsor19-must,closed,ahf,enhancement,Medium,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,implemented,,#25502,31,nickm,"tor-pt, 040-roadmap-subtask"
+28180,Signal mechanism from PT processes to Tor,Sponsor19,closed,dgoulet,enhancement,Medium,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,implemented,4,#25502,,,"tor-pt, 040-roadmap-subtask, postfreeze-ok"
+28181,spec: Add to pt-spec.txt control messages going back to main process (tor),Sponsor19,closed,dgoulet,enhancement,Medium,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,fixed,,,1,ahf,"tor-spec, tor-pt, 040-roadmap-subtask, postfreeze-ok"
+28182,spec: Add to control-spec.txt some pluggable transport events,Sponsor19,closed,dgoulet,enhancement,Medium,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,fixed,,#28180,1,ahf,"tor-spec, tor-pt, 040-roadmap-subtask, postfreeze-ok"
+28231,Provide more Gettor distribution methods,Sponsor19-can,assigned,,project,Medium,,Applications/GetTor,Normal,,,#28232,,,gettor-roadmap
+28232,Revive GetTor,Sponsor19-can,assigned,,project,Medium,,Applications/GetTor,Normal,,,,,,gettor-roadmap
+28233,Translate GetTor messages,Sponsor19,assigned,,project,Medium,,Applications/GetTor,Normal,,,#28232,,,gettor-roadmap
+28234,Update GetTor documentation,Sponsor19,merge_ready,traumschule,enhancement,Medium,,Applications/GetTor,Normal,,,#28232,,nickm,gettor-roadmap
+28281,outline of high-level bootstrap tracker abstractions,Sponsor19,closed,catalyst,task,Medium,Tor: unspecified,Core Tor/Tor,Normal,implemented,2,#28018,0.5,,"s8-bootstrap, bootstrap-arch, 040-deferred-20190220"
+28284,Arabic version for Gettor,Sponsor19-can,assigned,,enhancement,Medium,,Applications/GetTor,Normal,,,#28233,,,gettor-roadmap
+28339,Log handling in gettor,Sponsor19,new,,defect,Medium,,Applications/GetTor,Normal,,,#28152,,,gettor-roadmap
+28391,Make BridgeDB website mirrorable,Sponsor19,assigned,,enhancement,Medium,,Circumvention/BridgeDB,Normal,,,,5,,"mirror, website, deploy"
+28496,Consider dropping yahoo from the bridgedb email domains,Sponsor19,assigned,dgoulet,enhancement,Medium,,Circumvention/BridgeDB,Normal,,,,1,,anti-censorship-roadmap-2019
+28526,"Document how NGOs can run private obfs4 bridges, and get some doing it",Sponsor19,assigned,ggus,project,Medium,,Community/Tor Support,Normal,,,,,,ux-team education documentation
+28529,Confirm that the strange onionoo flood is resolved,Sponsor19,new,metrics-team,task,Medium,,Metrics/Analysis,Normal,,,,,,network-health
+28531,Publish a snapshot of what PTs are needed for successful Tor use in each country,Sponsor19,new,alison,task,Medium,,Community/Outreach,Normal,,,,,,censorship
+28555,Assess methodology for modern privcount Tor user counts,Sponsor19,new,metrics-team,task,Medium,,Metrics/Analysis,Normal,,,,,,censorship
+28556,Detect other installed circumvention tools and offer them as transports,Sponsor19,new,tbb-team,project,Medium,,Applications/Tor Browser,Normal,,,,,,ux-team tor-pt
+28672,Android reproducible build of Snowflake,Sponsor19,new,,project,Medium,,Circumvention/Snowflake,Normal,,,#30318,,,"tbb-mobile, tbb-rbm, GeorgKoppen201904, TorBrowserTeam201905"
+28848,Document Snowflake broker implementation,Sponsor19,closed,ahf,project,Medium,,Circumvention/Snowflake,Normal,implemented,3,,8,"cohosh, arma","snowflake, tor-pt, network-team-roadmap-2019-Q1Q2"
+28930,consider reordering PT/proxy phases,Sponsor19,assigned,ahf,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,#28018,3,,"sponsor19-also, s8-bootstrap, pt, proxy, 040-deferred-20190220"
+28936,Use Travis CI for goptlib.git repositories on Github,Sponsor19,closed,dcf,enhancement,Medium,Tor: unspecified,Circumvention/Pluggable transport,Minor,wontfix,0.1,,0.1,dcf,tor-pt goptlib
+28940,Add support for LOG to goptlib,Sponsor19,closed,dcf,enhancement,Medium,,Circumvention/Pluggable transport,Normal,implemented,,,0.3,,goptlib
+28942,Evaluate pion WebRTC,Sponsor19,new,,enhancement,Medium,,Circumvention/Snowflake,Normal,,,,,,
+29024,Add pluggable-transport support to Chutney,Sponsor19,needs_review,nickm,task,Medium,Tor: 0.4.1.x-final,Core Tor/Chutney,Normal,,1,,2,,"tor-pt, 041-accepted-20190115, network-team-roadmap-2019-Q1Q2, tor-ci"
+29112,PTs should pass user count events back to Tor,Sponsor19-can,new,,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,,,,,,
+29184,Avoid giving out bridges that suffer from #28912,Sponsor19,new,sysrqb,enhancement,Medium,,Circumvention/BridgeDB,Normal,,,,,,
+29205,Look into using Firefox for the WebRTC implementation,Sponsor19,new,,task,Medium,,Circumvention/Snowflake,Normal,,,,,,
+29206,New design for client -- proxy protocol for Snowflake,Sponsor19,assigned,cohosh,task,Medium,,Circumvention/Snowflake,Normal,,,,6,,
+29245,"Tor 0.4 eventually hits ""Delaying directory fetches: No running bridges"" after some period of inactivity with bridges",Sponsor19,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,,,,"040-regression, snowflake, 040-deferred-20190220"
+29258,What is the IPv6 story with Snowflake,Sponsor19,new,,task,Medium,Tor: unspecified,Circumvention/Snowflake,Normal,,,,,,
+29259,Ensure high test coverage for Snowflake,Sponsor19,assigned,cohosh,task,Medium,Tor: unspecified,Circumvention/Snowflake,Normal,,,,,,
+29260,Should Snowflake proxies have a way to identify themselves to the broker,Sponsor19,new,cohosh,task,Medium,Tor: unspecified,Circumvention/Snowflake,Normal,,,#29207,1,,
+29262,Look into the network layer of WebRTC,Sponsor19,new,,task,Medium,Tor: unspecified,Circumvention/Snowflake,Normal,,,,,,
+29263,prop289: add bidirectional data transfers to chutney,Sponsor19,needs_revision,nickm,enhancement,Medium,,Core Tor/Chutney,Normal,,2,,5,,"prop289, network-team-roadmap-2019-Q1Q2"
+29267,CI for pluggable transports,Sponsor19,new,,project,Medium,,Circumvention,Normal,,,,13,,"CI, PTs, network-team-roadmap-2019-Q1Q2"
+29269,Evaluation of bridge statistics,Sponsor19,assigned,phw,task,Medium,,Circumvention/BridgeDB,Normal,,,,,,"bridges, statistics"
+29273,Document BridgeDB infrastructure,Sponsor19,closed,dgoulet,task,Medium,,Circumvention/BridgeDB,Normal,implemented,0.5,,3,sysrqb,network-team-roadmap-2019-Q1Q2
+29274,Get developers using new PT alphas,Sponsor19,new,,project,Medium,,Circumvention/Pluggable transport,Normal,,,,,,anti-censorship-roadmap-2019
+29275,Get default bridges checked for reachability by OONI,Sponsor19,new,,task,Medium,,Circumvention/Pluggable transport,Normal,,,,,,tbb-bridges
+29277,Look into getting default Tor bridges scanned by external reachability tests,Sponsor19,assigned,phw,task,Medium,,Circumvention/Pluggable transport,Normal,,,,,,"augur, measurement"
+29282,Assess leekspin,Sponsor19,new,,task,Medium,,Core Tor/Leekspin,Normal,,,,3,,
+29283,Make PTs go dormant,Sponsor19,new,,task,Medium,,Circumvention/Pluggable transport,Normal,,,,,,network-team-roadmap-2019-Q1Q2
+29284,Deploy Marionette as a PT,Sponsor19,closed,asn,task,Medium,,Circumvention/Pluggable transport,Normal,duplicate,,,,,
+29285,Improve the PT spec and how PTs interface with Tor,Sponsor19,new,,project,Medium,,Circumvention/Pluggable transport,Normal,,,,,,network-team-roadmap-2019-Q1Q2
+29286,Maintain obfs4 proxy,Sponsor19,new,,task,Medium,,Circumvention/Obfs4,Normal,,,,,,"obfs4, maintainance"
+29288,Look into Salmon,Sponsor19,new,,task,Medium,,Circumvention/Pluggable transport,Normal,,,,,,
+29296,Look into alternatives for distributing bridge info to clients,Sponsor19,new,,project,Medium,,Circumvention/Pluggable transport,Normal,,,#29285,,,"PT spec, design, anti-censorship-roadmap-2019"
+29297,Write reachability tests to verify if obfs4 is working or not,Sponsor19,closed,cohosh,task,Medium,,Archived/Obfsproxy,Normal,implemented,,#29279,2,"dcf, ahf","obfs4, network-team-roadmap-2019-Q1Q2"
+29481,Cleanup bridgedb.conf and bridgedb.crontab,Sponsor19,closed,sysrqb,task,Medium,,Circumvention/BridgeDB,Normal,implemented,0.2,,0.1,sysrqb,"bridgedb, configuration, network-team-roadmap-2019-Q1Q2"
+29483,Use systemd init script for BridgeDB,Sponsor19,closed,dgoulet,task,Medium,,Circumvention/BridgeDB,Normal,fixed,,,0.5,sysrqb,"bridgedb, network-team-roadmap-2019-Q1Q2"
+29484,Update the requirements.txt and freeze them on release,Sponsor19,assigned,dgoulet,task,Medium,,Circumvention/BridgeDB,Normal,,,,1,sysrqb,bridgedb
+29489,Set up automated local testing environment for Snowflake,Sponsor19,closed,cohosh,task,Medium,,Circumvention/Snowflake,Normal,implemented,3.3,#29259,,,network-team-roadmap-2019-Q1Q2
+29490,Chutney fails (sometimes?) when tor is built with --enable-coverage,Sponsor19-can,new,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,,,#29280,,,"CI, tor-ci"
+29491,Chutney fails when Tor is built with --enable-nss,Sponsor19-can,new,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,,,#29280,,,"CI, tor-ci"
+29686,filenames conflict on case-insensitive filesystems,Sponsor19-can,new,sysrqb,defect,Medium,,Circumvention/BridgeDB,Normal,,,,,,
+29689,Make Tor's test-network.sh consistent with chutney's test-network.sh,Sponsor19-can,assigned,teor,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,,,,"tor-chutney, tor-test, tor-ci, fast-fix, technical-debt"
+29690,"Add a comment to chutney's test-network.sh, reminding us to copy changes to tor's test-network.sh",Sponsor19-can,assigned,,defect,Medium,,Core Tor/Chutney,Normal,,,#29689,0.1,,"tor-chutney, tor-test, tor-ci, fast-fix"
+29729,Work out which networks to run in Chutney's CI,Sponsor19,merge_ready,teor,enhancement,Medium,,Core Tor/Chutney,Normal,,3,,1,nickm,"chutney-ci, network-team-roadmap-2019-Q1Q2"
+29734,Broker should receive country stats information from Proxy and Client,Sponsor19,merge_ready,cohosh,enhancement,Medium,,Circumvention/Snowflake,Normal,,2,#29207,1,ahf,"snowflake, geoip, stats"
+29736,Use WebSocket protocol to communicate between snowflake proxies and broker,Sponsor19,assigned,ahf,enhancement,Medium,,Circumvention/Snowflake,Normal,,,#29207,,,"snowflake, websocket"
+29748,Let test-network.sh tolerate some number of failures,Sponsor19,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Chutney,Normal,fixed,.3,#29280,.3,teor,"CI, PTs 029-backport 034-backport 035-backport 040-backport, network-team-roadmap-2019-Q1Q2"
+29761,"Track chutney CI failures, and tweak the allow failures settings",Sponsor19-must,closed,teor,defect,Medium,,Core Tor/Chutney,Normal,fixed,,#29729,1,,"chutney-ci, network-team-roadmap-2019-Q1Q2"
+29762,Update the README for new features,Sponsor19,closed,teor,defect,Medium,,Core Tor/Chutney,Normal,fixed,,,0.1,nickm,"fast-fix, network-team-roadmap-2019-Q1Q2"
+29863,Add disk space monitoring for snowflake infrastructure,Sponsor19,merge_ready,,task,Medium,,Circumvention/Snowflake,Normal,,,#30152,,,snowflake
+29875,Going from obfs4 to snowflake using the Tor Network Settings from the Torbutton doesn't work,Sponsor19-must,assigned,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,,,,,,"tbb-needs, 034-backport, 034-backport, 035-backport, 040-backport, 041-should"
+29876,get_proxy_type() may be wrong when unused PT configured,Sponsor19-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,,,,"technical-debt, tor-pt"
+29956,"Test pluggable transport transitions while Tor is running, using Chutney",Sponsor19,new,,enhancement,Medium,,Core Tor/Chutney,Normal,,,#29024,2,,"tor-pt, technical-debt"
+29976,rework bootstrap reporting to use pubsub,Sponsor19,assigned,catalyst,task,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,#27104,,,bootstrap
+30006,"Monitor ""aliveness"" of default bridges in Tor Browser",Sponsor19-can,closed,phw,defect,Medium,,Applications/Quality Assurance and Testing,Normal,fixed,,#30152,,,default bridge tbb-bridges
+30048,Write a bwfile creation and validation test for chutney,Sponsor19-can,new,,enhancement,Medium,,Core Tor/Chutney,Normal,,,#30208,1,,chutney-ci
+30049,Work out how to test mixed-version chutney networks in Tor's CI,Sponsor19-can,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,#29280,2,,"tor-ci, network-team-roadmap-2019-Q1Q2-maybe"
+30059,Update chutney's README,Sponsor19,closed,teor,defect,Medium,,Core Tor/Chutney,Normal,fixed,0.2,#29729,0.2,nickm,"doc, chutney-ci, network-team-roadmap-2019-Q1Q2"
+30060,Work out how (and where) to test chutney's coverage of tor,Sponsor19-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,#29729,2,,tor-ci
+30063,"Add unit tests to chutney, and run them in Travis",Sponsor19,closed,teor,enhancement,Medium,,Core Tor/Chutney,Normal,fixed,0.2,#29729,0.2,nickm,"chutney-ci, network-team-roadmap-2019-Q1Q2"
+30064,Chutney often fails because Tor hasn't bootstrapped yet,Sponsor19,closed,teor,defect,Medium,,Core Tor/Chutney,Normal,fixed,0.3,#29729,0.5,nickm,"chutney-ci, network-team-roadmap-2019-Q1Q2"
+30065,Add shellcheck tests to chutney,Sponsor19,closed,teor,enhancement,Medium,,Core Tor/Chutney,Normal,fixed,0.2,#29729,0.2,nickm,"chutney-ci, network-team-roadmap-2019-Q1Q2"
+30066,Write a script that tests chutney's major features on the specified network and tor version,Sponsor19-can,assigned,,enhancement,Medium,,Core Tor/Chutney,Normal,,,,1,,chutney-ci
+30070,Add a chutney feature that prints the tor version,Sponsor19-can,new,,enhancement,Medium,,Core Tor/Chutney,Normal,,,#30066,0.2,,chutney-ci
+30071,test-network.sh --data fails on python 3,Sponsor19-can,new,,defect,Medium,,Core Tor/Chutney,Normal,,,#30208,1,,chutney-ci
+30125,"Port server's log sanitization to client, broker, and proxy-go",Sponsor19,closed,cohosh,enhancement,Medium,,Circumvention/Snowflake,Normal,implemented,,,,,
+30152,Monitor anti-censorship infrastructure,Sponsor19,new,,project,Medium,,Circumvention,Normal,,,,,,gettor-roadmap
+30153,Add a command to chutney and test-network.sh that prints the default option values,Sponsor19-can,new,,enhancement,Medium,,Core Tor/Chutney,Normal,,,,1,,"refactor, easy"
+30154,Use the built-in unittest module for chutney's unit tests,Sponsor19-can,new,,enhancement,Medium,,Core Tor/Chutney,Normal,,,,1,,"chutney-ci, refactor, network-team-roadmap-2019-Q1Q2-maybe"
+30155,"If we are still using the shell to launch tests, have a separate script for each test",Sponsor19-can,new,,defect,Medium,,Core Tor/Chutney,Normal,,,#30154,,,"chutney-ci, refactor, network-team-roadmap-2019-Q1Q2-maybe"
+30183,"Consider using --offline by default, to improve stability",Sponsor19-can,new,,enhancement,Medium,,Core Tor/Chutney,Normal,,,#30208,,,chutney-ci
+30208,Add missing features to Chutney's CI and test script,Sponsor19-can,new,,defect,Medium,,Core Tor/Chutney,Normal,,,,,,chutney-ci
+30212,Add extra chutney networks to Tor's CI,Sponsor19-can,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,,2,,tor-ci network-team-roadmap-2019-Q1Q2-maybe
+30224,Add the tor versions for bridge-distribution-request,Sponsor19-can,closed,teor,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,implemented,0.2,,0.1,catalyst,"tor-spec, fast-fix"
+30258,Snowflake proxy stops working during browsing session,Sponsor19,closed,cohosh,defect,Medium,,Circumvention/Snowflake,Normal,duplicate,,,,,snowflake
+30310,Snowflake localization,Sponsor19,new,,task,Medium,,Circumvention/Snowflake,Normal,,,,,,"l10n, snowflake"
+30331,obfs4_bridgeline.txt file should contain complete bridge line,Sponsor19,closed,,defect,Medium,,Circumvention/Pluggable transport,Normal,duplicate,,,,,"obfs4, bridge, anticensorship-roadmap-can"
+30459,Let chutney tell Tor whether a network is supported,Sponsor19,needs_review,nickm,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Chutney,Normal,,1,#29024,,,"tor-pt, 041-accepted-20190115, network-team-roadmap-2019-Q1Q2, tor-ci"
+30477,Tor should self-test reachability of TCP listeners exposed by PT's,Sponsor19,new,,task,Medium,Tor: unspecified,Core Tor/Tor,Normal,,,#30472,,,tor-pt
+30498,Proxy-go is receiving a lot of client timeouts,Sponsor19,new,,defect,Medium,,Circumvention/Snowflake,Normal,,,,,,snowflake
+9332,"Implement whitelisting of (email_address, gpg_key_id) pairs for encrypted, automated email bridge distribution",Sponsor19,assigned,,task,Low,,Circumvention/BridgeDB,Normal,,,,2,,"bridgedb-email, bridgedb-dist"
+12507,Automate BridgeDB documentation builds,Sponsor19,assigned,,enhancement,Low,,Circumvention/BridgeDB,Normal,,,,1,,"documentation, bridgedb"
+12537,Perhaps BridgeDB should supply decoys,Sponsor19,assigned,,enhancement,Low,,Circumvention/BridgeDB,Normal,,,,1,,"bridgedb-email, sql-injection, XKEYSCORE, forthelulz"
+12806,Create Debian package for BridgeDB,Sponsor19,closed,,task,Low,,Circumvention/BridgeDB,Normal,wontfix,,,2,,"bridgedb, debian-packaging"
+15457,Separate bridgedb.txrecaptcha into another package,Sponsor19,assigned,,task,Low,,Circumvention/BridgeDB,Normal,,,,1,,
+19839,BridgeDB website: In firefox page shows titles in English and text in the language preferred by the user,Sponsor19,needs_information,traumschule,defect,Low,,Circumvention/BridgeDB,Normal,,,,,,bridgedb-reportbug
+22755,Use stem to create test descriptors,Sponsor19,assigned,,enhancement,Low,,Circumvention/BridgeDB,Minor,,,,1,,"python, stem, bridgedb-parsers, bridgedb-ci"
+29096,Run Moat using ptadapter,Sponsor19,assigned,,project,Low,,Circumvention/BridgeDB,Normal,,,,1,,moat
+29111,Optional heartbeat message from PT's,Sponsor19,new,,enhancement,Low,Tor: unspecified,Circumvention/Pluggable transport,Normal,,,,,,
+29114,"Extended ORPort and TransportControlPort spec (#196) is ""Finished"" but not ""Closed""",Sponsor19,new,,project,Low,Tor: unspecified,Core Tor/Tor,Normal,,,,,,"tor-pt,tor-spec"
+29272,Assess Marionette for interation with Tor,Sponsor19,new,,project,Low,,Circumvention/Pluggable transport,Normal,,,,5,,
+29278,Assess HTTP proxy,Sponsor19,new,,task,Low,,Circumvention/Pluggable transport,Normal,,,,,,
+29287,Have backup PT in pipeline,Sponsor19,new,,project,Low,,Circumvention/Pluggable transport,Normal,,,,,,
+29741,Work out how to fail chutney travis jobs when the tor repository is out of date or missing,Sponsor19-can,new,,defect,Low,,Core Tor/Chutney,Minor,,,,1,,
+30058,Chutney bootstrap-network script uses the wrong network flavour,Sponsor19,closed,teor,defect,Low,,Core Tor/Chutney,Normal,fixed,0.1,#29729,0.1,nickm,"fast-fix, chutney-ci, network-team-roadmap-2019-Q1Q2"
+30279,"Test IPv6-only v3 onion services in Chutney's CI, once tor master supports them",Sponsor19-can,needs_review,teor,enhancement,Low,Tor: 0.4.1.x-final,Core Tor/Chutney,Normal,,0.1,#29729,0.1,,"tor-hs, ipv6, single-onion, fast-fix, chutney-ci, network-team-roadmap-2019-Q1Q2"
+19774,bridges.torproject.org could use a favicon,Sponsor19,assigned,antonela,enhancement,Very Low,,Circumvention/BridgeDB,Minor,,,,1,,"ux-team, easy"
+30008,Remove unused FIFO copy paste code from snowflake client,Sponsor19,closed,,defect,Very Low,,Circumvention/Snowflake,Normal,fixed,,,,,snowflake

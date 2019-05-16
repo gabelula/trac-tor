@@ -1,0 +1,57 @@
+﻿id,Summary,Sponsor,Points,Status,Owner,Type,Priority,Milestone,Component,Version,Resolution,Modified,Actual Points,Keywords
+30051,Add practracker as a pre-commit and pre-push git hook for frequent coders,Sponsor31-must,1,closed,rl1987,enhancement,High,Tor: 0.4.1.x-final,Core Tor/Tor,,implemented,23 abr. 2019 16:53:11,,practracker tech-debt tor-ci git-scripts tor-ci-fail-sometimes
+25493,Improve patterns for cleaning up static variables on exit/restart,Sponsor31-can,,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,,,15 ene. 2019 18:36:07,,"034-triage-20180328, 034-roadmap-subtask, 034-included-20180405, 035-roadmap-subtask, 035-triaged-in-20180711, 040-deferred-201915"
+28226,Backend for an async publish-subcribe messaging system for cross-module communications,Sponsor31-must,8,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,27 mar. 2019 12:32:26,18,"teor-merge, asn-merge, tor-pubsub, sponsor31-maybe, network-team-roadmap-2019-Q1Q2"
+29108,Refactor crypto_digest.c to have fewer ifdefs,Sponsor31-can,1,closed,rl1987,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,implemented,5 abr. 2019 00:40:40,,"nickm-merge, asn-merge, 041-proposed, refactor, technical-debt"
+29209,Reduce visibility of more data type internals,Sponsor31-can,15,new,,task,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,2 may. 2019 02:15:09,3.5,technical-debt refactoring
+29210,Distribute control.c functionality across various modules,Sponsor31-can,10,new,,task,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,9 abr. 2019 18:17:01,,
+29211,Distribute config.c functionality across more modules,Sponsor31-can,15,new,,task,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:02,,
+29212,Create more modularity inside src/core,Sponsor31-can,15,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,15 may. 2019 23:38:48,,
+29213,"Minimize the boundary between src/core and src/{feature,app}",Sponsor31-can,15,new,,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:56,,
+29214,"Update 'tor-guts' archictecture documentation to describe current (actual, as-built) architecture.",Sponsor31-can,5,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:56,,
+29215,"Document target, modular tor architecture",Sponsor31-can,5,new,,task,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:02,,
+29216,Document how to make new files/modules in Tor,Sponsor31-can,1.5,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:56,,
+29217,Script to add new tor files and modules in rust and/or C,Sponsor31-can,2,new,,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,6 may. 2019 21:09:00,,
+29218,"Revise ""handles"" to be opaque, safe.  Document standard usage",Sponsor31-can,3,new,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:02,,
+29219,Write (more) guidelines for Tor coding best practices,Sponsor31-can,3,new,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:02,,
+29220,Update review guidelines to list best practices,Sponsor31-can,2,new,,task,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:02,,
+29221,Tooling to track code-style/best-practices violations,Sponsor31-can,3,closed,,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,implemented,14 mar. 2019 12:13:19,4,network-team-roadmap-2019-Q1Q2 teor-merge
+29222,Fix biggest violations of coding best-practices,Sponsor31-can,10,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:56,,
+29223,List canonical abbreviations to use in Tor functions and identifiers,Sponsor31-must,1,needs_review,nickm,task,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,22 abr. 2019 12:15:08,0.9,
+29224,Abstractions and best practices for disabled modules,Sponsor31-can,5,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:56,,
+29225,Improve efficiency and flexibility of threadpool/workqueue API,Sponsor31-can,15,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:56,,
+29226,Automate application of C formatting to code,Sponsor31-can,5,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:56,,
+29227,"Audit Tor roles (relay, bridge, etc) and remove needless dependencies where possible",Sponsor31-can,15,new,,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:56,,
+29228,Unify some or all of Tor's various message/event/work queues.,Sponsor31-can,10,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,,,9 abr. 2019 18:22:56,,
+29656,describe global initialization in our tinytest-based unit tests,Sponsor31-can,,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,4 mar. 2019 18:34:33,,developer-doc
+29746,Improve Tor best practices tracker,Sponsor31-can,,new,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,13 mar. 2019 17:21:56,,"practracker, tech-debt, refactoring, easy"
+29789,practracker.py codec exception in some locales,Sponsor31-can,0.1,closed,catalyst,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,26 mar. 2019 03:04:02,0.1,"easy, tools, teor-merge, nickm-merge"
+29793,show-distdir-core and friends should fail more quietly,Sponsor31-can,0.5,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,15 mar. 2019 15:38:43,,"tor-ci, travis"
+29879,Make git-push-all.sh push branches in a specific order,Sponsor31-can,0.1,new,,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,25 mar. 2019 04:41:01,,"tor-ci, tor-merge-scripts, fast-fix"
+29880,Write a script to update practracker on multiple branches,Sponsor31-can,0.5,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,19 abr. 2019 01:10:39,,"042-must, tor-merge-scripts, tor-ci"
+29881,Create a GitHub bot that makes sure there is a pull request on master for every branch,Sponsor31-can,2,new,,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,26 mar. 2019 08:27:28,,tor-ci
+29883,Enforce lower practracker limits for every new release,Sponsor31-can,1,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,25 mar. 2019 05:25:28,,042-proposed
+29894,Initial split-up on control.c,Sponsor31-can,,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,26 mar. 2019 14:46:45,1,asn-merge
+29895,avoid storing ints in void* in mainloop event data,Sponsor31-can,,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,25 mar. 2019 20:38:55,,"portability, technical-debt"
+29898,How can we automatically add #else and #endif comments?,Sponsor31-can,0.1,new,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,27 mar. 2019 01:08:33,,technical-debt
+29922,util/time test failure on Jenkins,Sponsor31-can,1,closed,nickm,defect,Medium,Tor: 0.3.5.x-final,Core Tor/Tor,Tor: 0.3.5.8,fixed,10 abr. 2019 08:31:44,0.5,"040-must, 035-backport, 040-backport, tor-ci-fail"
+29926,shellcheck: asciidoc-helper.sh issues,Sponsor31-can,0.1,closed,rl1987,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,9 abr. 2019 01:39:38,0.1,
+29938,pubsub: coverity sees a null pointer deref in lint_message_consistency (CID 1444257),Sponsor31-can,0.1,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Tor: unspecified,fixed,3 abr. 2019 03:13:21,0.1,
+29960,Actually check for errors in digest256_to_base64() and callers,Sponsor31-can,0.2,closed,teor,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Tor: 0.2.2.6-alpha,fixed,12 abr. 2019 10:48:17,0.4,"asn-merge, technical-debt, fast-fix"
+29984,Controller protocol parser can't find empty initial line,Sponsor31-can,,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,30 abr. 2019 15:58:30,.1,
+30007,refactor control.c output to be more abstract,Sponsor31-can,3,closed,catalyst,task,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,3 may. 2019 14:57:37,,technical-debt control-port dgoulet-merge
+30091,Unify parsing code for control.c,Sponsor31-can,3,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,30 abr. 2019 15:58:38,3,dgoulet-merge
+30225,Run clang's scan-build in Tor's CI,Sponsor31-can,2,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,18 abr. 2019 01:21:49,,"tor-ci, correctness, coverity, clang, scan-build"
+30236,Encapsulate details about crypt_path_t data structure,Sponsor31-can,,closed,asn,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,8 may. 2019 12:21:57,,technical-debt refactoring dgoulet-merge
+30261,"Add ""How do I find bug or feature versions?"" to doc/HACKING",Sponsor31-can,0.1,closed,teor,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,implemented,29 abr. 2019 17:45:47,0.1,"doc, fast-fix"
+30263,make shellcheck expects scripts in the build directory,Sponsor31-can,0.1,closed,,defect,Medium,Tor: 0.4.0.x-final,Core Tor/Tor,Tor: 0.4.0.1-alpha,fixed,29 abr. 2019 14:15:31,0.1,"shellcheck, 040-backport, 040-must, tor-ci-might-fail-on-upgrade, regression"
+30292,"Refactor periodic event system so each subsystem ""owns"" its own periodic events",Sponsor31-can,,assigned,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,,25 abr. 2019 19:02:45,,
+30293,Refactor periodic event system so mainloop doesn't necessarily own everything.,Sponsor31-can,.5,closed,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,30 abr. 2019 16:19:51,.5,asn-merge
+30294,Move dirauth periodic events into dirauth module.,Sponsor31-can,0.1,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,15 may. 2019 23:44:20,.1,
+30309,Rename tor_mem_is_zero to fast_mem_is_zero; use it consistently,Sponsor31-can,0.1,closed,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,15 may. 2019 23:44:20,.1,technical-debt easy dgoulet-merge
+30345,Move remaining dirauth files into dirauth module,Sponsor31-must,,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,2 may. 2019 14:49:44,.2,asn-merge
+30349,Document member-hiding conventions for structs,Sponsor31-can,0.5,new,,task,Medium,Tor: unspecified,Core Tor/Tor,,,6 may. 2019 17:39:46,,"technical-debt, refactoring"
+30414,Move relay periodic events out of mainloop.c,Sponsor31-can,1,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,15 may. 2019 20:23:52,,"refactoring, tor-subsys, tor-relay, asn-merge"
+28806,checkIncludes.py does not like code in src/ext/timeouts,Sponsor31-can,0.1,closed,nickm,defect,Low,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,9 abr. 2019 01:39:32,0.1,asn-merge
+29642,Free Windows library handles when we free_all in a module,Sponsor31-can,2,new,,enhancement,Low,Tor: unspecified,Core Tor/Tor,,,4 mar. 2019 00:53:50,,"tor-windows, memory-management, technical-debt"
+29756,Check for correct header macro guards.,Sponsor31-can,0.1,closed,nickm,defect,Low,Tor: 0.4.1.x-final,Core Tor/Tor,,fixed,15 may. 2019 23:44:20,.1,
