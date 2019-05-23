@@ -1,0 +1,311 @@
+﻿id,Summary,Component,Status,Owner,Type,Priority,Milestone,Version,Severity,Resolution,Created,Modified,Actual Points,Parent ID,Points,Reviewer,Sponsor,Reporter,Keywords
+29315,Write down guidelines for adding new stats,Metrics/Website,accepted,irl,enhancement,Very High,,,Normal,,3 feb. 2019 20:15:10,25 abr. 2019 10:40:30,,,3,,,karsten,metrics-roadmap-2019-q2
+29344,"Consider heartbeat frequency, logging and extra-info statistics",Metrics/Analysis,new,metrics-team,task,Very High,,,Normal,,5 feb. 2019 15:45:35,5 feb. 2019 15:45:35,,,,,,irl,
+28322,Deploy better notification system for operational issues,Metrics,accepted,irl,project,High,,,Normal,,5 nov. 2018 11:29:46,18 may. 2019 22:34:06,,,10,,,karsten,metrics-roadmap-2019-q2
+28327,Make sure that each service has at least two operators,Metrics,new,metrics-team,task,High,,,Normal,,5 nov. 2018 13:06:13,11 feb. 2019 12:09:17,,,,,,karsten,metrics-roadmap-2019-q2
+29458,Make sure that op-hk (and the other instances) do not run out of disk space,Metrics/Onionperf,new,metrics-team,defect,High,,,Normal,,11 feb. 2019 09:44:13,1 may. 2019 08:03:49,,,,,,karsten,
+29459,Get irl up to speed on operations for metrics-web,Metrics/Website,new,metrics-team,task,High,,,Normal,,11 feb. 2019 12:08:25,11 feb. 2019 12:08:25,,#28327,0.5,,,irl,metrics-roadmap-2019-q2
+29460,Get irl up to speed on operations for exonerator,Metrics,new,metrics-team,task,High,,,Normal,,11 feb. 2019 12:09:57,11 feb. 2019 12:09:57,,#28327,0.5,,,irl,metrics-roadmap-2019-q2
+30351,Unknown error in prepare_* functions using the spread() function,Metrics/Website,new,metrics-team,defect,High,,,Normal,,1 may. 2019 13:41:45,13 may. 2019 10:22:55,,,,,,karsten,
+30499,"In Tor Metrics / Relay Search, users are able to enter the digital fingerprint of a bridge to run a successful search and display the data about that bridge, but the Relay Search page states, ""If you are searching for a bridge, you will need to search by the hashed fingerprint. This prevents leaking the fingerprint of the bridge when searching.""",Metrics/Relay Search,new,metrics-team,defect,High,,,Normal,,13 may. 2019 23:14:27,13 may. 2019 23:14:27,,,,,,monmire,Relay-Search-accepts-bridge-digital-signature issue
+4943,Make network graphs with X / consensus weight?,Metrics/Website,assigned,metrics-team,enhancement,Medium,,,Normal,,22 ene. 2012 12:46:08,6 dic. 2017 04:50:54,,,,,,Sebastian,
+8105,Provide an overview of Analysis ticket results for researchers,Metrics/Analysis,assigned,metrics-team,enhancement,Medium,,,Normal,,30 ene. 2013 13:39:31,6 dic. 2017 04:50:54,,,,,,karsten,
+9778,Add votes document type,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,19 sep. 2013 10:09:37,20 sep. 2017 13:38:20,,,,,,karsten,
+10222,Implement network wide and router specific views of malicious BGP route events,Metrics/Analysis,assigned,metrics-team,enhancement,Medium,,,Normal,,23 nov. 2013 09:47:29,6 dic. 2017 04:50:54,,,,,,anon,nickm-cares
+10223,Add BGP route attack email notification service to metrics utilities / tools as descriptor endpoints are announced,Metrics/Ideas,assigned,metrics-team,enhancement,Medium,,,Normal,,23 nov. 2013 09:55:24,28 sep. 2017 13:57:28,,,,,,anon,nickm-cares
+10680,Provide more statistics on current public bridges,Metrics/Statistics,assigned,metrics-team,enhancement,Medium,,,Normal,,20 ene. 2014 21:37:22,28 sep. 2017 13:57:28,,,,,,sysrqb,bridgedb-parsers
+11430,"Add new field last_running for ""seen in a network status with the Running flag"" in addition to last_seen for ""seen in a network status""",Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,7 abr. 2014 16:19:59,6 dic. 2017 04:50:54,,,,,,karsten,
+12131,Measure connectivity patterns between relays,Metrics/Analysis,assigned,metrics-team,project,Medium,,,Normal,,27 may. 2014 01:55:18,28 sep. 2017 13:57:28,,,,,,arma,
+12522,Add sitemap.xml to make Relay Search pages indexed by Google et al.,Metrics/Website,assigned,metrics-team,enhancement,Medium,,,Normal,,3 jul. 2014 12:05:13,16 feb. 2018 14:44:23,,,,,,karsten,metrics-2018
+13424,Add new `descriptor` parameter that returns relays or bridges by digest of recently published descriptors,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,15 oct. 2014 14:50:17,6 dic. 2017 04:50:54,,,,,,karsten,
+13425,Add new document type `debug` that includes digests of recently published descriptors and statuses they're referenced from,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,15 oct. 2014 15:45:10,6 dic. 2017 04:50:54,,,,,,karsten,
+13562,Add more detailed logging to backend and frontend components,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,24 oct. 2014 18:22:59,22 dic. 2017 10:08:54,,#20540,,,,iwakeh,metrics-2018
+13600,Improve bulk imports of descriptor archives,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,29 oct. 2014 11:39:24,6 dic. 2017 04:50:54,,,,,,karsten,metrics-2018
+15594,Add graph with new relays per day (identified by fingerprint),Metrics/Website,assigned,metrics-team,enhancement,Medium,,,Normal,,5 abr. 2015 21:27:30,28 sep. 2017 13:57:28,,,,,,cypherpunks,
+15799,Find out why different instances may report different timestamps in last_changed_address_or_port,Metrics/Onionoo,assigned,metrics-team,defect,Medium,,,Normal,,24 abr. 2015 17:51:20,6 nov. 2017 20:22:12,,,,,,cypherpunks,
+15844,Develop database schema to support Onionoo's search parameter efficiently,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,28 abr. 2015 12:26:09,6 dic. 2017 04:50:54,,,,,,karsten,
+15848,"Update details documents in a single, atomic step",Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,28 abr. 2015 16:01:46,6 dic. 2017 04:50:54,,,,,,karsten,
+16225,Unify exception/error handling in metrics-lib,Metrics/Library,assigned,metrics-team,enhancement,Medium,metrics-lib 3.0.0,,Normal,,28 may. 2015 09:30:01,12 abr. 2018 13:56:38,,,,,,karsten,metrics-2018
+16555,Make user statistics more robust against outliers,Metrics/Statistics,assigned,metrics-team,enhancement,Medium,,,Normal,,11 jul. 2015 15:50:18,28 sep. 2017 13:57:28,,,,,,karsten,metrics-2018
+16843,Add all bwauth measurements (from votes),Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,17 ago. 2015 18:08:39,12 ene. 2018 01:30:15,,#24834,,,,cypherpunks,tor-bwauth-needs
+16884,"Extend ""Relays by relay flags"" graph to display flag combinations",Metrics/Website,assigned,metrics-team,enhancement,Medium,,,Normal,,24 ago. 2015 02:53:19,28 sep. 2017 13:57:28,,,,,,mrphs,usability
+17430,Add graph with top-10 countries by directly connecting users,Metrics/Website,assigned,metrics-team,enhancement,Medium,,,Normal,,27 oct. 2015 02:55:11,20 sep. 2017 12:46:09,,,,,,mrphs,UX
+17689,Use extra-info fields for download times,Metrics/Consensus Health,assigned,tom,defect,Medium,,,Normal,,25 nov. 2015 17:51:59,2 abr. 2018 08:48:49,,,,,,tom,
+18163,Consensus health doesn't track direct connection timings,Metrics/Consensus Health,new,tom,enhancement,Medium,,,Normal,,27 ene. 2016 17:04:31,2 abr. 2018 08:48:49,,,,,,micah,"consensus, faravahar"
+18167,"Don't trust ""bridge-ips"" blindly for user number estimates",Metrics/Statistics,assigned,metrics-team,defect,Medium,,,Major,,27 ene. 2016 19:38:36,28 sep. 2017 13:57:28,,,,,,karsten,"meek, metrics-2018"
+18203,"Base direct user estimates on responses to directory requests, rather than responses",Metrics/Statistics,assigned,metrics-team,enhancement,Medium,,,Minor,,1 feb. 2016 16:35:44,28 sep. 2017 13:57:28,,,,,,karsten,metrics-2018
+18732,Document release process for Java projects,Metrics,assigned,metrics-team,task,Medium,,,Normal,,6 abr. 2016 08:12:21,25 ene. 2018 15:51:54,,,,,,iwakeh,metrics-2018
+18798,Analyze descriptor completeness,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,12 abr. 2016 10:57:05,25 ene. 2018 15:51:54,,,,,,iwakeh,"ctip, metrics-2018"
+19169,"Verify, correct, and extend runtime statistics",Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,25 may. 2016 11:47:35,25 ene. 2018 15:51:54,,,,,,iwakeh,ctip
+19183,Add sybilhunter's visualisations to Metrics website,Metrics/Website,assigned,metrics-team,enhancement,Medium,,,Normal,,26 may. 2016 21:05:57,21 ago. 2017 09:50:30,,,,,,phw,"sybilhunter, visualization, churn, uptime"
+19249,Onionoo server runs out of memory when importing a full month of data,Metrics/Onionoo,assigned,metrics-team,defect,Medium,,,Normal,,2 jun. 2016 16:35:40,28 sep. 2017 13:57:28,,,,,,karsten,metrics-2018
+19282,Avoid truncating descriptors while storing them,Metrics/CollecTor,assigned,metrics-team,defect,Medium,,,Normal,,6 jun. 2016 13:36:49,25 ene. 2018 15:51:54,,,,,,karsten,metrics-2018
+19332,Add a BridgeDB module,Metrics/CollecTor,new,metrics-team,enhancement,Medium,,,Normal,,7 jun. 2016 17:49:52,11 feb. 2019 12:20:33,,,8,,Sponsor19,mrphs,metrics-roadmap-2019-q2
+19650,Keep non-printable characters out of details documents,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,8 jul. 2016 08:50:01,30 ago. 2018 02:05:33,,#24033,,,,cypherpunks,metrics-2018
+20053,Plan refactoring of metrics-web modules,Metrics/Statistics,assigned,metrics-team,enhancement,Medium,Metrics 1.0.0,,Normal,,1 sep. 2016 20:49:03,22 dic. 2017 10:08:54,,,,,,iwakeh,metrics-2018
+20098,Make reference checker more accurate,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,7 sep. 2016 12:28:17,28 sep. 2017 13:57:28,,,,,,karsten,metrics-2018
+20228,Append all votes with same valid-after time to a single file in `recent/`,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,23 sep. 2016 14:49:57,16 feb. 2018 07:57:15,,#20519,,,,karsten,
+20345,Add support for synchronizing microdescriptors from another instance,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,12 oct. 2016 18:18:54,28 sep. 2017 13:57:28,,#20519,,,,iwakeh,metrics-2018
+20350,Replace create-tarball.sh shell script with Java module,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,CollecTor 2.0.0,,Normal,,13 oct. 2016 07:24:32,24 may. 2018 19:46:10,,#20518,,,,iwakeh,metrics-2018
+20351,Turn the updateindex module into a function that runs after each module run,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,CollecTor 1.7.0,,Normal,,13 oct. 2016 07:27:11,26 may. 2018 09:35:59,,#20518,,,,iwakeh,metrics-2018
+20395,Add capability to handle large descriptor files,Metrics/Library,assigned,metrics-team,defect,Medium,,,Normal,,18 oct. 2016 20:07:15,18 may. 2018 10:36:05,,,,,,iwakeh,
+20403,Make it easier for relay operators to find their observed bandwidth,Metrics/Consensus Health,new,tom,enhancement,Medium,,,Normal,,19 oct. 2016 05:44:08,2 abr. 2018 08:48:49,,,,,,teor,
+20421,Investigate invalid descriptors in out/ and recent/ subdirectories,Metrics/CollecTor,assigned,metrics-team,defect,Medium,,,Normal,,21 oct. 2016 09:13:52,22 feb. 2018 14:47:25,,#20548,,,,karsten,metrics-2018
+20430,Define common log levels,Metrics/Library,assigned,metrics-team,enhancement,Medium,,,Normal,,21 oct. 2016 17:45:25,22 dic. 2017 10:08:54,,#20540,,,,iwakeh,metrics-2018
+20489,Add various tests for recently fixed issues,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,28 oct. 2016 07:27:11,25 ene. 2018 15:51:54,,,,,,iwakeh,metrics-help
+20518,Make various architecture improvements and modernizations,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,1 nov. 2016 11:52:05,28 sep. 2017 13:57:28,,,,,,iwakeh,metrics-2018
+20519,Untangle and modernize relaydescs module,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,1 nov. 2016 12:13:19,28 sep. 2017 13:57:28,,#20518,,,,iwakeh,metrics-2018
+20540,Define common log levels for all Java codebases,Metrics,assigned,metrics-team,enhancement,Medium,,,Normal,,2 nov. 2016 10:30:08,22 dic. 2017 10:08:54,,,,,,iwakeh,metrics-2018
+20542,Structure and modernize bridgedescs module,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,2 nov. 2016 12:53:26,25 ene. 2018 15:51:54,,#20518,,,,iwakeh,metrics-2018
+20543,Restructure exitlists module,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,2 nov. 2016 13:29:22,28 sep. 2017 13:57:28,,#20518,,,,iwakeh,metrics-2018
+20546,Implement CleanUtils class for common file system operations,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,3 nov. 2016 08:34:17,2 abr. 2018 08:53:19,,#20518,,,,iwakeh,"metrics-help, metrics-2018"
+20548,Handle bad input more consistently in metrics code bases,Metrics,assigned,metrics-team,enhancement,Medium,,,Normal,,3 nov. 2016 11:28:10,28 sep. 2017 13:57:28,,,,,,karsten,metrics-2018
+20550,Implement SanitizedBridgeExtraInfoDescriptor class that encapsulates the sanitizing logic for bridge extra-info descriptors,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,3 nov. 2016 11:32:12,28 sep. 2017 13:57:28,,#20542,,,,iwakeh,metrics-2018
+20983,Stop sanitizing contact information from bridge descriptors,Metrics/CollecTor,new,metrics-team,enhancement,Medium,,,Normal,,15 dic. 2016 09:58:58,22 dic. 2017 10:08:54,,,,,,cypherpunks,metrics-2018
+21087,Separate truncated descriptor(s) from next complete descriptor,Metrics/CollecTor,accepted,wulder,defect,Medium,,,Normal,,26 dic. 2016 19:25:53,10 abr. 2019 09:05:07,,,,,,atagar,"metrics-help, metrics-2018"
+21171,Write a test for NodeDetailsStatusUpdater,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,9 ene. 2017 10:33:28,20 sep. 2017 14:17:36,,,,,,iwakeh,metrics-help
+21219,Remove old descriptor files from out/ after archiving,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,13 ene. 2017 19:36:16,25 ene. 2018 15:51:54,,#20518,,,,tom,metrics-2018
+21354,Make Onionoo more memory-efficient,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,30 ene. 2017 21:32:12,22 dic. 2017 10:08:54,,,,,,karsten,metrics-2018
+21365,Investigate whether descriptor parsing is guaranteed to be thread-safe,Metrics/Library,assigned,metrics-team,task,Medium,,,Normal,,1 feb. 2017 12:52:24,18 may. 2018 10:36:05,,,,,,iwakeh,metrics-2018
+21378,Archive bwauth bandwidth files,Metrics/CollecTor,assigned,metrics-team,project,Medium,,,Normal,,2 feb. 2017 16:03:01,17 abr. 2019 15:13:09,,,,,,tom,"tor-bwauth,tor-dirauth,metrics-roadmap-2019-q2"
+21389,Support searches for effective family (strict and non strict maching),Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,3 feb. 2017 14:36:49,20 sep. 2017 20:10:35,,,,,,cypherpunks,
+21515,Add auxiliary data on Tor relays and bridges to CollecTor,Metrics/CollecTor,new,metrics-team,enhancement,Medium,,,Normal,,20 feb. 2017 15:00:25,1 jul. 2018 14:49:05,,,,,,karsten,metrics-geoip
+21701,Make it clearer that graphs showing bridge users by country and by country and transport are not the same,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,10 mar. 2017 09:44:38,22 dic. 2017 10:08:54,,,,,,teor,metrics-2018
+21883,Perform one-off analysis for number of relays a bwauth decided the median for,Metrics/Analysis,needs_information,tom,defect,Medium,,,Normal,,6 abr. 2017 18:55:14,2 abr. 2018 08:48:49,,,,,,Sebastian,metrics-2018
+21909,Add metadata about used geoip data,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,10 abr. 2017 15:13:20,1 jul. 2018 14:49:05,,,,,,cypherpunks,"metrics-2018, metrics-geoip"
+21933,Fix deserialization of UTF-8 characters in details statuses and documents,Metrics/Onionoo,new,metrics-team,defect,Medium,,,Normal,,13 abr. 2017 09:45:03,19 sep. 2018 23:31:52,,,,,,karsten,metrics-2018
+22026,Create new service to retrieve raw documents,Metrics/Ideas,new,metrics-team,enhancement,Medium,,,Normal,,20 abr. 2017 21:31:42,13 jun. 2018 14:11:02,,,,,,irl,
+22062,Bad requests do not add the Access-Control-Allow-Origin header,Metrics/Onionoo,new,metrics-team,defect,Medium,,,Normal,,25 abr. 2017 14:32:23,26 nov. 2017 16:49:39,,,,,,cypherpunks,metrics-2018
+22140,Store raw descriptor contents as UTF-8 encoded Strings rather than byte[],Metrics/Library,new,metrics-team,enhancement,Medium,,,Normal,,3 may. 2017 14:06:51,28 sep. 2017 13:04:35,,,,,,karsten,metrics-2018
+22196,Configure descriptor sources using method chaining,Metrics/Library,assigned,metrics-team,enhancement,Medium,,,Normal,,8 may. 2017 18:15:59,21 ago. 2017 09:50:30,,,,,,karsten,
+22208,"Provide lines containing extra, unrecognized arguments",Metrics/Library,new,metrics-team,enhancement,Medium,metrics-lib 3.0.0,,Normal,,9 may. 2017 15:13:49,27 jun. 2017 13:13:12,,,,,,karsten,
+22235,Add new graph showing the average onion service descriptor count per directory,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,12 may. 2017 09:06:21,28 may. 2017 14:26:12,,,,,,karsten,
+22236,Add new graph showing directory traffic as percentage of all traffic,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,12 may. 2017 09:11:43,12 may. 2017 09:27:24,,,,,,karsten,
+22346,"Investigate drop in Tor Browser update pings in early 2017, 2018, and 2019",Metrics/Statistics,new,metrics-team,defect,Medium,,,Normal,,23 may. 2017 20:32:23,16 may. 2019 20:49:46,,,,,,cypherpunks,
+22512,"Add enums for keywords used in exit lists, Torperf measurement results, bridge pool assignments, and soon sanitized web logs",Metrics/Library,new,metrics-team,enhancement,Medium,,,Normal,,6 jun. 2017 17:54:30,22 dic. 2017 10:08:54,,,,,,karsten,metrics-2018
+22583,Replace code where we iterate over a directory using a Stack with FileVisitor,Metrics/Library,new,metrics-team,enhancement,Medium,,,Normal,,12 jun. 2017 14:29:48,22 dic. 2017 10:08:54,,,,,,iwakeh,"metrics-help, metrics-2018"
+22678,Look into existing Java Collections classes as replacement for BlockingIteratorImpl,Metrics/Library,assigned,metrics-team,enhancement,Medium,,,Normal,,20 jun. 2017 20:14:00,18 may. 2018 10:36:05,,,,,,karsten,metrics-2018
+22696,Create a test collection for the entire API,Metrics/Library,new,metrics-team,enhancement,Medium,,,Normal,,22 jun. 2017 14:16:12,20 sep. 2017 18:24:21,,,,,,iwakeh,
+22733,Use parameterized tests instead of repeated methods,Metrics/Library,new,metrics-team,enhancement,Medium,,,Normal,,27 jun. 2017 09:38:15,4 dic. 2017 09:52:24,,,,,,iwakeh,metrics-2018
+22834,Decide what to do with UnparseableDescriptors while synchronizing from another instance,Metrics/CollecTor,needs_information,metrics-team,enhancement,Medium,,,Normal,,6 jul. 2017 14:01:56,22 dic. 2017 10:08:54,,,,,,iwakeh,metrics-2018
+23348,Update all documentation markdown files,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,Onionoo 2.0.0,,Normal,,28 ago. 2017 15:21:17,15 mar. 2018 14:37:26,,,,,,iwakeh,metrics-2018
+23367,Onion address counts ignore descriptor upload overlap,Metrics/Statistics,new,metrics-team,defect,Medium,,,Normal,,31 ago. 2017 01:45:06,28 sep. 2017 13:23:06,,#23126,,,,teor,metrics-2018
+23413,"Add a draft with ""Relay and bridge users by country"" and maybe even make it the default for the ""Users"" section",Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,5 sep. 2017 19:58:02,5 sep. 2017 20:15:20,,,,,,karsten,
+23421,Use persistence functionality throughout all modules,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,6 sep. 2017 17:37:07,23 may. 2018 07:21:03,,,,,,iwakeh,metrics-2018
+23509,Implement family-level pages showing aggregated graphs,Metrics/Relay Search,assigned,metrics-team,enhancement,Medium,,,Normal,,14 sep. 2017 00:13:08,9 abr. 2018 15:10:10,,,3,,,cypherpunks,metrics-2018
+23752,Use Java 8 features in all of Metrics' Java products  (Summary ticket),Metrics,new,metrics-team,enhancement,Medium,,,Normal,,3 oct. 2017 15:37:51,22 dic. 2017 10:08:54,,,,,,iwakeh,metrics-2018
+23829,Add support for search term negation,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,11 oct. 2017 21:10:26,18 ene. 2018 16:59:59,,,,,,cypherpunks,
+23913,Allow parameters and qualified search terms to be specified more than once,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,20 oct. 2017 00:33:30,15 sep. 2018 19:12:13,,,,,,nusenu,
+23941,Determine if a relay is eligible for a t-shirt and display on details page,Metrics/Relay Search,assigned,metrics-team,enhancement,Medium,,,Normal,,22 oct. 2017 00:15:31,9 abr. 2018 15:10:10,,,0.2,,,irl,
+23973,"Add ""Analysis"" as new first category next to ""News""",Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,24 oct. 2017 14:55:46,2 mar. 2018 14:50:57,,#25404,,,,karsten,
+23984,Extend Onionoo's nagios script to all known frontends,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,25 oct. 2017 11:58:01,25 oct. 2017 11:58:01,,,,,,karsten,
+24018,Automate measuring connection timeouts per exit,Metrics/Statistics,new,metrics-team,project,Medium,,,Normal,,26 oct. 2017 16:25:33,30 nov. 2017 21:59:42,,,,,,arthuredelstein,"tbb-performance, tbb-needs"
+24028,Provide a modernized API for metrics-lib,Metrics/Library,assigned,metrics-team,enhancement,Medium,,,Normal,,27 oct. 2017 16:35:27,25 ene. 2018 15:51:54,,,,,,iwakeh,metrics-2018
+24041,Unify Metrics' products operational configuration,Metrics,assigned,metrics-team,enhancement,Medium,,,Normal,,29 oct. 2017 08:46:53,4 abr. 2018 10:04:06,,,,,,karsten,
+24042,Test descriptor parsing with fuzzed descriptors,Metrics,new,metrics-team,enhancement,Medium,,,Normal,,29 oct. 2017 10:43:06,1 nov. 2017 13:31:43,,,,,,karsten,
+24045,Measure and map overloaded or over-weighted relays,Metrics/Relay Search,reopened,metrics-team,defect,Medium,,,Normal,,30 oct. 2017 01:53:31,9 abr. 2018 15:10:10,,,,,,teor,"bwauth-needs, tbb-performance, tbb-usability, performance, tbb-needs"
+24074,Refactor IRC connection and authentication into an IRCManager class,Metrics/Bot,assigned,metrics-team,enhancement,Medium,,,Normal,,30 oct. 2017 15:00:42,13 feb. 2018 19:02:23,,,1,,,irl,
+24076,Implement a MicroblogAccount interface that logs to the console,Metrics/Bot,assigned,metrics-team,enhancement,Medium,,,Normal,,30 oct. 2017 15:09:01,13 feb. 2018 19:06:40,,,1,,,irl,
+24077,Refactor microblog accounts setup and updates into a MicroblogManager,Metrics/Bot,assigned,metrics-team,enhancement,Medium,,,Normal,,30 oct. 2017 15:09:28,13 feb. 2018 19:02:23,,,1,,,irl,
+24079,metrics-bot should listen for private messages,Metrics/Bot,assigned,metrics-team,defect,Medium,,,Normal,,30 oct. 2017 15:26:53,13 feb. 2018 19:06:19,,,0.5,,,pastly,
+24101,Provide percentages not just absolute numbers for country and AS information,Metrics/Bot,needs_information,metrics-team,enhancement,Medium,,,Normal,,31 oct. 2017 20:06:50,17 feb. 2018 10:08:28,,,0.1,,,arma,
+24112,Update ExoneraTor's README file,Metrics/ExoneraTor,new,metrics-team,enhancement,Medium,,,Normal,,1 nov. 2017 11:08:41,1 nov. 2017 11:08:41,,,,,,iwakeh,
+24166,Make descriptor reading stoppable,Metrics/Library,new,metrics-team,enhancement,Medium,,,Normal,,7 nov. 2017 21:23:55,13 feb. 2018 16:37:35,,,,,,iwakeh,metrics-2018
+24222,Improve onionoo's war structure and startup,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,Onionoo 2.0.0,,Normal,,10 nov. 2017 10:10:22,15 mar. 2018 14:37:26,,,,,,iwakeh,metrics-2018
+24229,Provide BGP Data Collection on Tor Metrics,Metrics/Website,assigned,metrics-team,enhancement,Medium,,,Normal,,10 nov. 2017 14:22:56,9 may. 2018 19:05:39,,,,,,iwakeh,
+24293,Create new metrics-lib package with generally useful classes and functions,Metrics/Library,new,metrics-team,enhancement,Medium,,,Normal,,15 nov. 2017 08:49:17,15 nov. 2017 08:49:17,,,,,,karsten,
+24328,"Make db credentials and url as well as paths (webstats, legacy, onionperf etc.)  configurable",Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,17 nov. 2017 12:08:31,17 nov. 2017 12:08:31,,#24041,,,,iwakeh,metrics-2018
+24329,"Name R, sql, and python scripts consistently",Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,17 nov. 2017 12:10:19,17 nov. 2017 12:10:19,,,,,,iwakeh,metrics-2018
+24334,Make Onionoo's results more maintainable,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,17 nov. 2017 14:58:38,17 nov. 2017 14:59:55,,,,,,iwakeh,metrics-2018
+24344,"Add an ""UnreachableIPv6"" flag to relays in consensus health",Metrics/Consensus Health,new,tom,enhancement,Medium,,,Normal,,17 nov. 2017 21:59:37,2 abr. 2018 08:48:49,,,,,,teor,IPv6
+24365,Make ExoneraTor testable,Metrics/ExoneraTor,new,metrics-team,enhancement,Medium,,,Normal,,21 nov. 2017 09:35:04,21 nov. 2017 09:35:04,,,,,,iwakeh,
+24370,Define guidelines for variable naming,Metrics,new,metrics-team,enhancement,Medium,,,Normal,,21 nov. 2017 14:02:54,21 nov. 2017 14:02:54,,,,,,iwakeh,
+24384,Decode percent-encoded characters in qualified search terms,Metrics/Onionoo,needs_revision,metrics-team,defect,Medium,Onionoo 2.0.0,,Normal,,22 nov. 2017 09:51:26,15 mar. 2018 14:37:26,,,,,,karsten,
+24412,Search parameter limit always returns 400 error,Metrics/Onionoo,reopened,metrics-team,defect,Medium,,,Normal,,26 nov. 2017 16:52:56,27 nov. 2017 10:00:33,,,,,,irl,
+24422,Look at Information Architecture for Tor Metrics,Metrics/Website,new,metrics-team,task,Medium,,,Normal,,27 nov. 2017 13:13:58,11 feb. 2019 12:14:43,,#25404,21,,,irl,metrics-roadmap-2019-q2
+24429,Provide fallback mirror data in Metrics,Metrics,new,metrics-team,enhancement,Medium,,,Normal,,27 nov. 2017 17:27:46,28 nov. 2017 00:32:35,,,,,,iwakeh,
+24431,Provide fallback mirror lists,Metrics/CollecTor,new,metrics-team,enhancement,Medium,,,Normal,,27 nov. 2017 17:31:08,27 nov. 2017 17:31:08,,#24429,,,,iwakeh,
+24434,Provide fallback list parser,Metrics/Library,new,metrics-team,enhancement,Medium,,,Normal,,27 nov. 2017 17:36:34,25 abr. 2018 14:16:08,,#24429,,,,iwakeh,
+24436,Provide fallback mirror information,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,27 nov. 2017 17:40:27,27 nov. 2017 17:40:27,,#24429,,,,iwakeh,
+24458,Specify Onionoo's query and search syntax,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,28 nov. 2017 14:08:03,12 ene. 2018 08:47:37,,,,,,iwakeh,
+24532,Make metrics-web runs independent of server locale,Metrics/Website,new,metrics-team,defect,Medium,,,Normal,,5 dic. 2017 19:16:25,5 dic. 2017 19:39:45,,,,,,iwakeh,
+24542,Improve logging for Exonerator,Metrics/ExoneraTor,new,metrics-team,enhancement,Medium,,,Normal,,6 dic. 2017 12:58:06,6 dic. 2017 13:22:56,,,,,,iwakeh,
+24562,Define SQL coding guidelines for Metrics' products,Metrics,new,metrics-team,enhancement,Medium,,,Normal,,8 dic. 2017 11:55:34,8 dic. 2017 12:26:47,,,,,,iwakeh,
+24635,Use date and timestamp classes for calculations etc.,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,15 dic. 2017 16:24:08,15 dic. 2017 16:24:08,,,,,,iwakeh,
+24707,Define R coding guidelines for Metrics' products,Metrics,new,metrics-team,enhancement,Medium,,,Normal,,22 dic. 2017 10:38:55,12 mar. 2018 19:30:21,,,,,,iwakeh,
+24811,Add Hibernating Pseudo-Flag,Metrics/Consensus Health,new,tom,enhancement,Medium,,,Normal,,6 ene. 2018 05:34:10,2 abr. 2018 08:48:49,,,,,,tom,
+24830,Mashup GoodBadISPs with Onionoo to give indications of which providers are oversubscribed,Metrics/Ideas,new,metrics-team,project,Medium,,,Normal,,8 ene. 2018 17:50:19,8 ene. 2018 17:50:19,,,,,,irl,
+24834,Map consensus weight vs bandwidth for each bandwidth authority's votes,Metrics/Relay Search,new,metrics-team,enhancement,Medium,,,Normal,,8 ene. 2018 23:15:41,7 jul. 2018 01:18:51,,#24674,,,,teor,tor-bwauth-needs
+24837,Allow Relay Searches for Additional Flags,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,9 ene. 2018 01:07:56,9 ene. 2018 18:06:03,,,,,,teor,
+24870,Use java 8 date-time functionality in Onionoo,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,11 ene. 2018 11:10:27,16 ago. 2018 19:34:29,,#23752,,,,iwakeh,metrics-2018
+25002,Make data and results from Onionoo deterministic,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,24 ene. 2018 15:41:12,30 ene. 2018 18:31:10,,,,,,iwakeh,
+25091,Make 'out/update' deterministic across instances,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,30 ene. 2018 18:30:14,30 ene. 2018 18:30:14,,#25002,,,,iwakeh,
+25210,Measure how often tor clients fetch the consensus,Metrics/Ideas,new,metrics-team,project,Medium,,,Normal,,11 feb. 2018 16:24:01,11 feb. 2018 16:24:01,,,,,,irl,
+25219,Reduce size of relay flags and align center in badges,Metrics/Bot,assigned,metrics-team,enhancement,Medium,,,Normal,,12 feb. 2018 12:22:18,13 feb. 2018 18:55:52,,,0.1,,,irl,
+25221,Add heap space recommendation to tutorial,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,12 feb. 2018 17:21:22,12 feb. 2018 17:21:22,,,,,,iwakeh,
+25240,Add an interface to the Metrics CSV files,Metrics/Bot,new,metrics-team,enhancement,Medium,,,Normal,,13 feb. 2018 19:09:00,19 jul. 2018 18:54:40,,#23936,2,,,irl,
+25283,Decide when we can turn off atlas.torproject.org,Metrics/Relay Search,new,metrics-team,task,Medium,,,Normal,,16 feb. 2018 18:03:14,9 abr. 2018 15:10:10,,,,,,irl,metrics-2018
+25307,Use `persist` package for writing  bridge descriptors in sanitization module,Metrics/CollecTor,assigned,metrics-team,enhancement,Medium,,,Normal,,20 feb. 2018 16:53:43,23 may. 2018 07:21:03,,,,,,iwakeh,
+25309,Use java8 datetime classes in bridgedesc module,Metrics/CollecTor,new,metrics-team,enhancement,Medium,,,Normal,,20 feb. 2018 18:45:25,20 feb. 2018 18:45:25,,#23752,,,,iwakeh,metrics-2018
+25358,"Add a tutorial for new LogDescriptor, i.e., WebServerAccessLog  reading",Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,26 feb. 2018 14:25:34,23 may. 2018 07:23:03,,,,,,iwakeh,
+25403,Create jsp with bgp documentation,Metrics/Website,needs_revision,metrics-team,enhancement,Medium,,,Normal,,2 mar. 2018 14:41:59,26 may. 2018 10:31:46,,#24229,,,,iwakeh,
+25404,Update design to use new styleguide (bootstrap 4),Metrics/Website,new,metrics-team,project,Medium,,,Normal,,2 mar. 2018 14:49:02,2 mar. 2018 14:49:02,,,,,,irl,ux-team
+25442,Use java8 datetime classes throughout o.tp.metrics.stats,Metrics/Statistics,new,metrics-team,enhancement,Medium,,,Normal,,7 mar. 2018 15:23:57,7 mar. 2018 15:23:57,,#23752,,,,iwakeh,metrics-2018
+25537,Integrate Tor BSD Diversity Project's statistics into Tor Metrics,Metrics/Ideas,new,metrics-team,project,Medium,,,Normal,,18 mar. 2018 14:22:08,16 oct. 2018 12:52:41,,,,,,irl,
+25570,Allow autodiscovery of the news atom feed,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,21 mar. 2018 16:03:36,21 mar. 2018 16:03:36,,#25404,,,,irl,ux-team
+25625,Make CollecTor's file structure description part of Metrics-Web's CollecTor docs,Metrics/Website,needs_information,karsten,enhancement,Medium,,,Normal,,26 mar. 2018 11:00:10,23 nov. 2018 09:46:51,,,,,,iwakeh,
+25673,allow users to set the show ___ entries value directly in the url,Metrics/Relay Search,assigned,metrics-team,enhancement,Medium,,,Normal,,29 mar. 2018 09:08:22,9 jul. 2018 12:59:40,,,,,,cypherpunks,
+25689,Provide a backport to stretch for checkstyle in Debian,Metrics,assigned,metrics-team,task,Medium,,,Normal,,2 abr. 2018 08:35:07,10 jul. 2018 11:34:33,,#25217,,,,irl,"debian,packaging"
+25742,"add more metadata about relays: #1 DNSSEC validation, #2 DNS server",Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,9 abr. 2018 13:25:41,10 abr. 2018 10:40:36,,,,,,cypherpunks,
+25744,Resolve RS license issues,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,9 abr. 2018 14:57:39,2 jul. 2018 08:04:57,,,,,,iwakeh,
+25748,Reduce js library number used,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,9 abr. 2018 15:05:15,2 jul. 2018 08:03:38,,,,,,iwakeh,
+25749,Move open RS tickets to Metrics/Web component.,Metrics/Website,new,metrics-team,task,Medium,,,Normal,,9 abr. 2018 15:06:28,2 jul. 2018 08:03:38,,,,,,iwakeh,
+25759,Create Ant task for fallback JSON,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,10 abr. 2018 08:56:00,2 jul. 2018 09:46:07,,,,,,iwakeh,
+25775,Use OnionPerf to measure network partitioning,Metrics/Ideas,new,metrics-team,project,Medium,,,Normal,,11 abr. 2018 06:32:55,11 abr. 2018 06:32:55,,,,,,irl,
+25777,Create a new service to help relay operators debug their relay,Metrics/Ideas,new,metrics-team,project,Medium,,,Normal,,11 abr. 2018 07:13:39,11 abr. 2018 07:55:00,,,,,,irl,
+25799,Utilize all Onionoo instances,Metrics,new,metrics-team,enhancement,Medium,,,Normal,,14 abr. 2018 08:52:06,3 ago. 2018 09:12:24,,,,,,iwakeh,
+25815,Speed up hourly updater performance,Metrics/Onionoo,assigned,metrics-team,enhancement,Medium,,,Normal,,16 abr. 2018 15:07:22,18 may. 2018 10:04:43,,,,,,karsten,
+25924,Improve execution time of onion service statistics module,Metrics/Statistics,new,metrics-team,enhancement,Medium,,,Normal,,26 abr. 2018 09:40:16,1 feb. 2019 10:21:04,,,,,,karsten,
+26030,"Delete ""Tor Messenger downloads and updates"" section",Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,6 may. 2018 09:26:00,14 may. 2018 18:29:13,,,,,,cypherpunks,
+26047,Create a static summary of the Tor Messenger statistics,Metrics/Analysis,new,metrics-team,task,Medium,,,Normal,,8 may. 2018 09:46:05,8 may. 2018 09:46:05,,#26030,,,,irl,
+26051,please make it clear that exonerator has false-negatives,Metrics/ExoneraTor,assigned,metrics-team,defect,Medium,,,Normal,,8 may. 2018 16:44:09,16 may. 2018 18:39:13,,,,,,cypherpunks,
+26068,better describe bridges vs. relays in the glosary,Metrics/Website,new,metrics-team,defect,Medium,,,Normal,,10 may. 2018 10:49:37,11 may. 2018 15:52:43,,,,,,cypherpunks,
+26089,collect and archive DNS resolver data of tor exits,Metrics/CollecTor,new,metrics-team,enhancement,Medium,,,Normal,,12 may. 2018 23:35:47,13 may. 2018 18:01:57,,#26091,,,,cypherpunks,
+26090,show tor exit DNS resolver data on RS,Metrics/Relay Search,new,metrics-team,enhancement,Medium,,,Normal,,12 may. 2018 23:36:51,12 jul. 2018 09:41:24,,,,,,cypherpunks,
+26091,add tor exit DNS resolver data to onionoo,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,12 may. 2018 23:38:09,12 jul. 2018 09:41:05,,#26090,,,,cypherpunks,
+26124,Bring​ back Tor​ Weather,Metrics,new,metrics-team,enhancement,Medium,,,Normal,,17 may. 2018 19:41:18,20 jul. 2018 20:17:54,,,,,,nusenu,
+26132,Fix the Expires header on relay search,Metrics/Onionoo,assigned,metrics-team,defect,Medium,,,Normal,,18 may. 2018 21:56:35,26 may. 2018 22:35:51,,,,,,teor,
+26171,Explain which cells are counted for onion service traffic graphs,Metrics/Statistics,assigned,metrics-team,defect,Medium,,,Normal,,22 may. 2018 21:04:58,29 may. 2018 09:01:29,,,,,,teor,
+26585,improve AS number and name coverage (switch maxmind to RIPE Stat),Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,30 jun. 2018 16:46:38,21 ago. 2018 07:58:19,,,,,,nusenu,
+26597,Investigate and document additional overhead for first hop when not using guards,Metrics/Onionperf,needs_review,metrics-team,defect,Medium,,,Normal,,2 jul. 2018 11:13:17,16 may. 2019 11:07:53,,,,acute,,irl,acute-2019-q1-planned
+26673,Record download times of smaller file sizes from partial completion times,Metrics/Onionperf,assigned,metrics-team,enhancement,Medium,,,Normal,,6 jul. 2018 18:06:19,16 may. 2019 11:38:33,,,,,Sponsor19,karsten,"user-experience, acute-2019-q1-planned"
+26699,Use temporary files for storing descriptor files fetched from remote CollecTor server,Metrics/Library,new,metrics-team,enhancement,Medium,,,Normal,,9 jul. 2018 12:54:39,9 jul. 2018 12:54:39,,,,,,karsten,
+26767,add consensus weight line/graph,Metrics/Relay Search,new,metrics-team,enhancement,Medium,,,Normal,,12 jul. 2018 10:29:49,12 sep. 2018 09:02:39,,,,,,nusenu,
+26863,display onionoo and RS version on RS pages,Metrics/Relay Search,reopened,metrics-team,enhancement,Medium,,,Normal,,18 jul. 2018 21:09:51,14 ago. 2018 17:18:44,,#27064,,,,nusenu,
+26898,add parameters for verified_host_names and unverified_host_names,Metrics/Onionoo,needs_information,metrics-team,enhancement,Medium,,,Normal,,22 jul. 2018 09:10:08,29 jul. 2018 20:42:22,,,,,,nusenu,
+27055,Find out why syncing descriptors from collector2.tp.o did not time out,Metrics/CollecTor,new,metrics-team,defect,Medium,,,Normal,,6 ago. 2018 19:49:10,6 ago. 2018 19:49:10,,,,,,karsten,
+27064,Batch merge for Relay Search patches,Metrics/Website,reopened,metrics-team,task,Medium,,,Normal,,7 ago. 2018 16:49:08,8 ago. 2018 09:02:51,,,,,,irl,
+27138,display timestamp and version information on page with no results,Metrics/Relay Search,assigned,metrics-team,enhancement,Medium,,,Normal,,14 ago. 2018 12:41:07,16 may. 2019 11:20:13,,,,,,nusenu,
+27153,add ipv6_as and ipv6_as_name,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,15 ago. 2018 20:13:56,15 ago. 2018 20:13:56,,,,,,nusenu,
+27154,"Do not display ""AS0"" in results or details pages",Metrics/Relay Search,assigned,metrics-team,enhancement,Medium,,,Normal,,15 ago. 2018 20:27:32,16 may. 2019 11:20:13,,,,,,nusenu,
+27155,Include BGP prefix information in details documents,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,15 ago. 2018 21:01:51,21 ago. 2018 07:57:58,,#26585,,,,nusenu,
+27181,Avoid unnecessary disk writes,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,17 ago. 2018 09:06:25,17 ago. 2018 09:06:25,,,,,,irl,
+27187,Possible for inconsistency between summary and details with AS number,Metrics/Onionoo,new,metrics-team,defect,Medium,,,Normal,,17 ago. 2018 13:45:42,27 ago. 2018 14:36:47,,,,,,irl,
+27235,add route_origin_rpki_validity field,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,21 ago. 2018 07:56:09,21 ago. 2018 08:06:51,,,,,,nusenu,
+27572,metrics.tpo glossary bandwidth terms,Metrics/Statistics,new,metrics-team,defect,Medium,,,Normal,,8 sep. 2018 12:27:17,11 sep. 2018 12:43:02,,,,,,juga,
+27714,support more recent lookups,Metrics/ExoneraTor,new,metrics-team,enhancement,Medium,,,Normal,,14 sep. 2018 18:34:30,15 sep. 2018 17:09:24,,,,,,exonerator,
+27715,support relative time in timestamp parameter,Metrics/ExoneraTor,new,metrics-team,enhancement,Medium,,,Normal,,14 sep. 2018 18:41:03,15 sep. 2018 17:16:09,,,,,,exonerator,
+27716,Out of memory when loading in multiple years of relay descriptors,Metrics/CollecTor,new,metrics-team,defect,Medium,,,Normal,,14 sep. 2018 19:53:45,15 sep. 2018 16:52:02,,,,,,irl,
+27840,Update translations,Metrics/ExoneraTor,needs_information,metrics-team,enhancement,Medium,,,Normal,,24 sep. 2018 14:54:38,1 nov. 2018 14:33:44,,,,,,irl,
+27925,Permanent link on /exonerator.html? is http,Metrics/ExoneraTor,new,metrics-team,defect,Medium,,,Normal,,1 oct. 2018 17:25:47,15 oct. 2018 19:37:16,,,,,,modik,
+27980,Missing server descriptors in recent/ but not in out/,Metrics/CollecTor,needs_information,karsten,defect,Medium,,,Normal,,8 oct. 2018 14:07:51,1 feb. 2019 10:21:47,,,,,,karsten,
+27981,"3 days young relay is not shown in 1-month graph, but in 6-month graph",Metrics/Relay Search,new,metrics-team,defect,Medium,,,Normal,,8 oct. 2018 20:37:45,10 oct. 2018 20:43:20,,,,,,toralf,
+28003,Consider refactoring various code that makes descriptors persistent,Metrics/CollecTor,new,metrics-team,enhancement,Medium,,,Normal,,11 oct. 2018 12:30:04,11 oct. 2018 12:30:04,,,,,,karsten,
+28048,Metrics: Allow to search for relays per continent,Metrics/Relay Search,new,metrics-team,enhancement,Medium,,,Normal,,15 oct. 2018 15:51:55,19 oct. 2018 21:30:05,,,,,,traumschule,
+28114,Improve getter names for boolean fields in metrics-lib,Metrics/Library,new,metrics-team,enhancement,Medium,,,Normal,,18 oct. 2018 23:54:44,30 oct. 2018 23:19:20,,,,,,efgyirfe784,
+28271,Check OnionPerf instances from Nagios,Metrics/Onionperf,accepted,irl,task,Medium,,,Normal,,31 oct. 2018 21:11:01,16 may. 2019 11:23:59,,#28322,,,,irl,
+28276,towards an Exception Reports framework,Metrics/Ideas,new,metrics-team,enhancement,Medium,,,Normal,,1 nov. 2018 13:50:58,1 nov. 2018 13:50:58,,,,,,gman999,
+28304,Please deliver png when svg is filtered,Metrics/Relay Search,new,metrics-team,enhancement,Medium,,,Normal,,3 nov. 2018 19:58:04,23 nov. 2018 17:48:01,,,,,,traumschule,
+28314,Alleged Family Members never disappear,Metrics/Onionoo,new,metrics-team,defect,Medium,,,Normal,,4 nov. 2018 18:10:58,12 nov. 2018 07:20:31,,,,,,Quake,
+28321,Add bandwidth scanner data to Onionoo,Metrics/Onionoo,new,metrics-team,task,Medium,,,Normal,,5 nov. 2018 10:24:11,5 nov. 2018 10:24:11,,,,,,karsten,
+28324,"Extend CollecTor to fetch recent, non-current consensuses and votes",Metrics/CollecTor,new,metrics-team,task,Medium,,,Normal,,5 nov. 2018 11:42:46,10 nov. 2018 14:24:56,,,,,,karsten,
+28328,"Include ""total consensus"" split by relay type in vote totals graph",Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,5 nov. 2018 13:37:25,11 nov. 2018 08:01:10,,,,,,starlight,
+28342,Share more code between modules,Metrics/Statistics,new,metrics-team,project,Medium,,,Normal,,5 nov. 2018 21:21:36,23 nov. 2018 18:03:41,,,,,,karsten,
+28352,"Add ""total consensus weight in consensus"" to ""Total consensus weight across bandwidth authorities""",Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,7 nov. 2018 04:56:05,10 nov. 2018 02:36:34,,#28328,,,,teor,
+28403,Link to bandwidth files from Consensus Health,Metrics/Consensus Health,new,tom,enhancement,Medium,,,Normal,,12 nov. 2018 03:20:32,15 abr. 2019 22:39:37,,#25925,,,,teor,
+28404,Link to descriptors from consensus health,Metrics/Consensus Health,new,tom,enhancement,Medium,,,Normal,,12 nov. 2018 03:30:22,13 nov. 2018 00:17:06,,,,,,teor,
+28407,Host Name text area contains verified and unverified names on the same line,Metrics/Relay Search,new,metrics-team,defect,Medium,,,Normal,,12 nov. 2018 07:23:04,14 nov. 2018 00:59:46,,,,,,karsten,
+28529,Confirm that the strange onionoo flood is resolved,Metrics/Analysis,new,metrics-team,task,Medium,,,Normal,,20 nov. 2018 00:24:54,11 mar. 2019 06:26:25,,,,,Sponsor19,arma,network-health
+28555,Assess methodology for modern privcount Tor user counts,Metrics/Analysis,new,metrics-team,task,Medium,,,Normal,,21 nov. 2018 07:30:57,20 dic. 2018 21:36:11,,,,,Sponsor19,arma,censorship
+28681,reflected XSS metrics.torproject.org,Metrics/Relay Search,new,metrics-team,defect,Medium,,,Major,,2 dic. 2018 07:41:05,3 dic. 2018 19:07:50,,,,,,0x539h,"xss, cross-site scripting"
+28906,host_name search failing,Metrics/Relay Search,new,metrics-team,defect,Medium,,,Normal,,19 dic. 2018 23:42:53,19 dic. 2018 23:42:53,,,,,,phoul,
+28963,Please add option to search for relays with fingerprint and nickname.,Metrics/Onionoo,new,metrics-team,enhancement,Medium,,,Normal,,30 dic. 2018 17:26:57,9 ene. 2019 08:01:18,,,,,,traumschule,
+29330,Do something with advertised bandwidth distribution graphs,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,4 feb. 2019 19:20:16,7 mar. 2019 13:05:43,,,,,,karsten,
+29340,Make the bandwidth graph more configurable,Metrics/Website,new,metrics-team,task,Medium,,,Normal,,5 feb. 2019 14:50:31,4 mar. 2019 08:40:16,,,,,,irl,
+29342,Create additional information lookup service using remote APIs and local databases,Metrics/Ideas,new,metrics-team,task,Medium,,,Normal,,5 feb. 2019 15:18:41,5 feb. 2019 15:18:41,,,,,,karsten,
+29343,"Run arthur's DNS timeout scanner, archive it in CollecTor, and add it to Onionoo",Metrics/Ideas,new,metrics-team,task,Medium,,,Normal,,5 feb. 2019 15:20:15,5 feb. 2019 15:20:15,,,,,,karsten,
+29346,Document why our CSV files are in tidy/long format and how to process them,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,5 feb. 2019 20:38:48,11 feb. 2019 10:30:04,,,,,,karsten,
+29365,Add digests and sizes to index.xml,Metrics/Onionperf,assigned,metrics-team,enhancement,Medium,,,Normal,,7 feb. 2019 08:50:23,7 feb. 2019 09:00:48,,,,,Sponsor13,irl,
+29367,Port OnionPerf to Python 3,Metrics/Onionperf,assigned,metrics-team,project,Medium,,,Normal,,7 feb. 2019 08:52:49,7 feb. 2019 09:00:48,,,,,,irl,
+29368,Add single onion service mode,Metrics/Onionperf,assigned,metrics-team,enhancement,Medium,,,Normal,,7 feb. 2019 08:54:02,7 feb. 2019 09:00:48,,,,,,irl,
+29369,Fix message logging and filtering,Metrics/Onionperf,assigned,metrics-team,defect,Medium,,,Normal,,7 feb. 2019 08:54:58,7 feb. 2019 09:00:48,,,,,,irl,
+29371,Relay blocklist,Metrics/Onionperf,assigned,metrics-team,enhancement,Medium,,,Normal,,7 feb. 2019 08:56:56,7 feb. 2019 09:00:48,,,,,,irl,
+29375,Improve code documentation coverage for OnionPerf,Metrics/Onionperf,assigned,acute,enhancement,Medium,,,Normal,,7 feb. 2019 09:07:34,5 mar. 2019 19:07:06,,,,,,irl,acute-2019-q1-planned
+29377,Improve unit test coverage,Metrics/Onionperf,assigned,acute,defect,Medium,,,Normal,,7 feb. 2019 09:09:02,23 abr. 2019 11:54:02,,,,,,irl,acute-2019-q1-planned
+29425,Write integration tests for data-processing modules,Metrics/Statistics,needs_revision,karsten,enhancement,Medium,,,Normal,,7 feb. 2019 16:31:36,15 abr. 2019 14:18:49,,,8,irl,,karsten,metrics-roadmap-2019-q2
+29457,Expose log_archive via the web server,Metrics/Onionperf,new,metrics-team,enhancement,Medium,,,Normal,,11 feb. 2019 09:14:15,11 feb. 2019 09:29:02,,,,,,karsten,
+29461,Add a Snowflake module,Metrics/CollecTor,new,metrics-team,enhancement,Medium,,,Normal,,11 feb. 2019 12:28:02,11 feb. 2019 12:28:02,,,8,,,irl,metrics-roadmap-2019-q2
+29463,"Prepare slides for PEARG meeting (IETF 104, March 2019)",Metrics/Analysis,new,metrics-team,task,Medium,,,Normal,,11 feb. 2019 12:46:07,11 feb. 2019 12:46:07,,,1,,,irl,metrics-outreach
+29464,Make a how-to video for using Relay Search,Metrics/Relay Search,new,metrics-team,enhancement,Medium,,,Normal,,11 feb. 2019 13:18:59,11 feb. 2019 13:18:59,,,1,,,irl,
+29466,Perform one-off page load time metrics using Tor Browser,Metrics/Analysis,new,metrics-team,task,Medium,,,Normal,,11 feb. 2019 13:48:21,11 feb. 2019 13:48:21,,,8,,,irl,
+29486,"Replace ""brackets"" with ""parentheses""",Metrics/Relay Search,new,metrics-team,enhancement,Medium,,,Trivial,,12 feb. 2019 21:15:07,19 feb. 2019 04:41:10,,,,,,toralf,
+29507,Evaluate existing OnionPerf data regarding worst-case performance,Metrics/Analysis,assigned,karsten,task,Medium,,,Normal,,14 feb. 2019 16:55:39,21 feb. 2019 16:04:31,,,3,,,karsten,"onionperf,metrics-roadmap-2019-q2"
+29624,New version of exit list format,Metrics/Exit Scanner,needs_revision,irl,task,Medium,,,Normal,,1 mar. 2019 12:18:26,22 abr. 2019 15:26:16,,#29650,,irl,,irl,metrics-roadmap-2019-q2
+29650,Rewrite exit scanner to produce exit lists according to new format,Metrics/Exit Scanner,new,metrics-team,project,Medium,,,Normal,,4 mar. 2019 13:52:38,4 mar. 2019 13:52:49,,,,,,irl,metrics-roadmap-2019-q2
+29651,Design the new exit scanner architecture,Metrics/Exit Scanner,new,metrics-team,task,Medium,,,Normal,,4 mar. 2019 13:54:12,4 mar. 2019 13:54:12,,#29650,2,,,irl,metrics-roadmap-2019-q2
+29653,Evaluate the reusability of existing TorDNSEL application,Metrics/Exit Scanner,new,metrics-team,task,Medium,,,Normal,,4 mar. 2019 13:56:20,4 mar. 2019 13:56:20,,#29650,,,,irl,metrics-roadmap-2019-q2
+29654,Initial MVP for new exit scanner,Metrics/Exit Scanner,new,metrics-team,project,Medium,,,Normal,,4 mar. 2019 13:57:15,4 mar. 2019 19:02:11,,#29650,6,,,irl,metrics-roadmap-2019-q2
+29772,Plot nearly worst-case bandwidth when downloading from [public|onion] server,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,13 mar. 2019 14:32:13,25 abr. 2019 14:59:35,,,,,,karsten,scalability
+29773,Plot nearly worst-case circuit round-trip latencies to [public|onion] server,Metrics/Website,needs_revision,metrics-team,enhancement,Medium,,,Normal,,13 mar. 2019 15:33:06,15 abr. 2019 14:35:11,,,,,,karsten,scalability
+29787,Enumerate possible failure cases and include failure information in .tpf output,Metrics/Onionperf,new,metrics-team,enhancement,Medium,,,Normal,,14 mar. 2019 19:38:15,23 may. 2019 10:06:36,,,,,,karsten,
+29835,Include Android as a Tor Browser platform,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,20 mar. 2019 15:11:57,4 abr. 2019 10:41:50,,,,,,sysrqb,tbb-mobile
+29837,Include Tor Browser data from Google Play,Metrics/Website,new,metrics-team,enhancement,Medium,,,Normal,,20 mar. 2019 15:23:39,9 may. 2019 09:03:14,,,,,,sysrqb,"tbb-mobile, TorBrowserTeam201905"
+29946,Display bandwidth-file-headers on consensus health,Metrics/Consensus Health,new,tom,enhancement,Medium,,,Normal,,29 mar. 2019 08:48:18,30 mar. 2019 00:51:07,,,,,,teor,
+29947,Display bandwidth-file-digest on consensus health,Metrics/Consensus Health,new,tom,enhancement,Medium,,,Normal,,29 mar. 2019 08:51:07,30 mar. 2019 04:24:16,,,,,,teor,
+30219,Add Tom's bandwidth file archive to CollecTor,Metrics/CollecTor,new,metrics-team,enhancement,Medium,,,Normal,,17 abr. 2019 13:12:40,21 may. 2019 03:46:44,,#21378,,,,irl,"tor-bwauth,tor-dirauth,metrics-roadmap-2019-q2"
+30238,OnionPerf json analysis file is different than the one recreated from logs,Metrics/Onionperf,new,metrics-team,defect,Medium,,,Normal,,18 abr. 2019 11:42:34,18 abr. 2019 11:42:34,,,,,,acute,
+30303,"Add ""archived"" badge to graphs that are not updated anymore",Metrics/Website,needs_information,karsten,enhancement,Medium,,,Normal,,26 abr. 2019 08:36:35,26 abr. 2019 13:58:17,,,,irl,,karsten,
+30362,OnionPerf TGen parser needs reworking,Metrics/Onionperf,new,metrics-team,enhancement,Medium,,,Normal,,2 may. 2019 15:07:03,2 may. 2019 15:07:03,,,,,,acute,
+30525,relaydescs sync module does not work for bandwidth files,Metrics/CollecTor,merge_ready,karsten,defect,Medium,,,Normal,,16 may. 2019 10:33:25,21 may. 2019 06:42:12,,,1,irl,,irl,
+30544,Using try-with-resources or close resource,Metrics/Library,new,metrics-team,defect,Medium,,,Major,,21 may. 2019 03:27:38,21 may. 2019 07:08:20,,,,,,fava,
+30586,requirements are not included in setup.py,Metrics/Onionperf,new,metrics-team,defect,Medium,,,Normal,,23 may. 2019 11:22:48,23 may. 2019 11:22:48,,,,,,irl,
+30588,Move tgen servers to port 443,Metrics/Onionperf,new,metrics-team,defect,Medium,,,Normal,,23 may. 2019 15:20:12,23 may. 2019 15:20:12,,,,,,irl,
+2966,Include bridge country codes in sanitized bridge descriptors,Metrics/CollecTor,assigned,metrics-team,enhancement,Low,,,Normal,,21 abr. 2011 06:27:48,1 jul. 2018 14:49:05,,,,,,karsten,metrics-geoip
+6856,Add graph on bandwidth by major Tor version and bandwidth by recommended flag,Metrics/Website,assigned,metrics-team,enhancement,Low,,,Normal,,15 sep. 2012 22:37:58,20 sep. 2017 18:31:02,,,,,,cypherpunkx,
+8127,Bring back the relays-by-country graph,Metrics/Website,assigned,metrics-team,enhancement,Low,,,Normal,,1 feb. 2013 07:21:58,14 ene. 2019 10:29:05,,,,,,karsten,
+8667,Distinguish between permanent and temporary Onionoo errors,Metrics/Relay Search,assigned,metrics-team,enhancement,Low,,,Normal,,9 abr. 2013 07:48:37,9 abr. 2018 15:10:10,,,0.2,,,karsten,metrics-2018
+11573,Store pre-generated response parts in a database rather than in plain files,Metrics/Onionoo,assigned,metrics-team,enhancement,Low,,,Normal,,20 abr. 2014 10:39:15,28 sep. 2017 13:57:28,,,,,,karsten,
+13137,Provide more historical data to facilitate debugging network problems,Metrics/Onionoo,assigned,metrics-team,enhancement,Low,,,Normal,,11 sep. 2014 14:58:52,28 sep. 2017 13:57:28,,,,,,Sebastian,
+14940,Make compatible with GNU LibreJS,Metrics/Website,assigned,metrics-team,enhancement,Low,,,Minor,,18 feb. 2015 08:51:57,21 nov. 2017 17:19:40,,,,,,cypherpunks,
+16590,Attempt to parse dates in non-ISO 8601 formats,Metrics/ExoneraTor,assigned,metrics-team,enhancement,Low,,,Normal,,15 jul. 2015 12:12:28,6 dic. 2017 04:50:54,,,,,,karsten,metrics-2018
+17861,Consider adding a new interface RelayNetworkStatusMicrodescConsensus,Metrics/Library,assigned,metrics-team,enhancement,Low,,,Normal,,15 dic. 2015 12:54:09,25 ene. 2018 15:51:54,,,,,,karsten,metrics-2018
+17939,Optimize the construction of details documents with field constraints,Metrics/Onionoo,assigned,metrics-team,enhancement,Low,,,Minor,,26 dic. 2015 02:52:40,28 sep. 2017 13:57:28,,,,,,fmap,
+18797,Create a DescriptorGenerator for testing and maybe other purposes,Metrics/Library,assigned,metrics-team,enhancement,Low,,,Normal,,12 abr. 2016 08:04:54,20 sep. 2017 18:07:57,,,,,,iwakeh,
+19828,Extend descriptorCutOff in CollecTor's RelayDescriptorDownloader by 6 hours,Metrics/CollecTor,assigned,metrics-team,defect,Low,,,Normal,,4 ago. 2016 13:08:37,25 ene. 2018 15:51:54,,,,,,karsten,
+19834,Rethink how we handle issues while sanitizing bridge descriptors,Metrics/CollecTor,assigned,metrics-team,enhancement,Low,,,Normal,,4 ago. 2016 20:13:52,28 sep. 2017 13:57:28,,#20548,,,,karsten,metrics-2018
+19836,Prepare relay descriptor downloader for consensuses published at :30 of the hour,Metrics/CollecTor,assigned,metrics-team,defect,Low,,,Normal,,4 ago. 2016 20:27:25,28 sep. 2017 13:57:28,,,,,,karsten,
+20236,Make changes to bridgedescs module for bulk-processing tarballs,Metrics/CollecTor,assigned,metrics-team,enhancement,Low,,,Normal,,24 sep. 2016 08:50:36,28 sep. 2017 13:57:28,,,,,,karsten,metrics-2018
+20325,Perform available space check using the partition recent is located on,Metrics/CollecTor,assigned,metrics-team,enhancement,Low,,,Normal,,9 oct. 2016 11:02:00,25 ene. 2018 15:51:54,,,,,,iwakeh,"metrics-help, metrics-2018"
+21993,Consensus Health: are an authority's measurements higher or lower than others?,Metrics/Consensus Health,reopened,tom,enhancement,Low,,,Normal,,19 abr. 2017 06:58:05,2 abr. 2018 08:48:49,,,,,,teor,
+23934,Add tweet templates for platform diversity,Metrics/Bot,assigned,metrics-team,enhancement,Low,,,Minor,,21 oct. 2017 17:40:28,15 feb. 2018 23:32:07,,,0.2,,,irl,
+23935,Add tweet templates for running versions,Metrics/Bot,assigned,metrics-team,enhancement,Low,,,Minor,,21 oct. 2017 17:42:11,13 feb. 2018 18:57:11,,,0.2,,,irl,
+23936,Add tweet templates about users of Tor,Metrics/Bot,assigned,metrics-team,enhancement,Low,,,Minor,,21 oct. 2017 17:46:05,8 feb. 2018 12:32:58,,,,,,irl,
+23937,Add tweet templates about events in the Tor network,Metrics/Bot,assigned,metrics-team,enhancement,Low,,,Minor,,21 oct. 2017 17:50:33,13 feb. 2018 18:57:50,,,0,,,irl,
+23983,Add middle-only line to Relays by relay flag graph,Metrics/Website,new,metrics-team,enhancement,Low,,,Normal,,25 oct. 2017 09:47:59,29 oct. 2017 11:22:52,,,,,,cypherpunks,
+24069,Maintain a copy of the previous details document,Metrics/Bot,assigned,metrics-team,enhancement,Low,,,Normal,,30 oct. 2017 14:44:29,15 feb. 2018 23:32:07,,#23937,1,,,irl,
+24070,Generate an event if more than X relays join,Metrics/Bot,assigned,metrics-team,enhancement,Low,,,Normal,,30 oct. 2017 14:47:33,13 feb. 2018 18:57:11,,#23937,0.2,,,irl,
+24071,Generate an event if the most used Tor version changed,Metrics/Bot,assigned,metrics-team,enhancement,Low,,,Normal,,30 oct. 2017 14:49:00,13 feb. 2018 18:57:11,,#23937,0.2,,,irl,
+24073,Generate an event if there is a major relay outage,Metrics/Bot,assigned,metrics-team,enhancement,Low,,,Normal,,30 oct. 2017 14:51:58,13 feb. 2018 18:57:11,,#23937,0.2,,,irl,
+24495,Add aggregated summary documents,Metrics/Onionoo,new,metrics-team,enhancement,Low,,,Normal,,2 dic. 2017 15:27:36,2 dic. 2017 15:28:15,,,,,,irl,
+24858,Further tweak metrics timeline events underneath graphs and on news page,Metrics/Website,new,metrics-team,enhancement,Low,,,Normal,,10 ene. 2018 15:48:56,10 ene. 2018 15:48:56,,,,,,karsten,
+24865,Use icons on Consensus Health,Metrics/Consensus Health,new,tom,enhancement,Low,,,Normal,,11 ene. 2018 01:48:19,2 abr. 2018 08:48:49,,,,,,tom,
+24932,Onionoo should stop parsing untrusted descriptors,Metrics/Onionoo,new,metrics-team,defect,Low,,,Minor,,18 ene. 2018 12:41:29,18 ene. 2018 13:35:39,,,,,,teor,
+24941,Add first and last months to CollecTor's Available Descriptors table,Metrics/Website,new,metrics-team,enhancement,Low,,,Normal,,19 ene. 2018 11:28:57,19 ene. 2018 11:28:57,,,,,,karsten,
+25176,Combine fixed-time history objects into a single object with an x axis for time,Metrics/Onionoo,new,metrics-team,enhancement,Low,,,Normal,,8 feb. 2018 10:31:22,8 feb. 2018 10:31:22,,,,,,karsten,
+25217,metrics-base: Update checkstyle to debian stable,Metrics,new,metrics-team,enhancement,Low,,,Minor,,12 feb. 2018 10:06:00,29 mar. 2018 08:27:19,,,,,,iwakeh,
+25274,Consolidate Onionoo's API,Metrics/Onionoo,new,metrics-team,enhancement,Low,,,Normal,,16 feb. 2018 10:04:38,16 feb. 2018 19:25:39,,,,,,karsten,
+25443,Prepare for java 9,Metrics,new,metrics-team,enhancement,Low,,,Normal,,7 mar. 2018 17:16:26,10 mar. 2018 06:58:42,,,,,,iwakeh,
+25542,Find an alternative to MaxMind's GeoLite2 City database,Metrics/Ideas,new,metrics-team,enhancement,Low,,,Normal,,19 mar. 2018 10:25:06,15 oct. 2018 10:01:58,,,,,,karsten,metrics-geoip
+25571,Add an iCalendar feed of metrics events,Metrics/Website,new,metrics-team,enhancement,Low,,,Normal,,21 mar. 2018 16:05:46,21 mar. 2018 16:05:46,,,,,,irl,
+25589,Add test to ensure that output of ATOM feed is valid XML,Metrics/Website,new,metrics-team,enhancement,Low,,,Normal,,22 mar. 2018 15:18:07,22 mar. 2018 15:18:07,,,,,,irl,
+26964,support custom column selection for search result overview,Metrics/Relay Search,new,metrics-team,enhancement,Low,,,Normal,,28 jul. 2018 10:22:56,30 jul. 2018 14:28:32,,,,,,nusenu,
+28317,Relay Search flags are vertical on Tor Browser 8.0.2 on macOS,Metrics/Relay Search,new,metrics-team,defect,Low,,,Normal,,5 nov. 2018 00:01:44,1 feb. 2019 10:20:56,,,,,,teor,
+28871,Relay with 6 weeks downtime only has 6_months and 5_years bandwidth graphs,Metrics/Library,new,metrics-team,defect,Low,,,Normal,,17 dic. 2018 07:59:59,17 dic. 2018 07:59:59,,,,,,karsten,
+28888,The Relay Search Results table doesn't show the IPv6 capability of a bridge,Metrics/Relay Search,reopened,metrics-team,defect,Low,,,Normal,,17 dic. 2018 22:14:06,1 feb. 2019 10:43:38,,#24264,,,,toralf,
+29370,Measure mode with arbitrary tgen traffic models,Metrics/Onionperf,assigned,metrics-team,enhancement,Low,,,Normal,,7 feb. 2019 08:55:53,7 feb. 2019 09:00:48,,,,,,irl,
+29636,Document how we estimate users by transport by country,Metrics/Website,new,metrics-team,defect,Low,,,Normal,,2 mar. 2019 05:39:35,4 mar. 2019 08:34:09,,#24422,,,,arma,
+30260,Default date picker to latest available date,Metrics/ExoneraTor,new,metrics-team,enhancement,Low,,,Normal,,22 abr. 2019 16:14:14,25 abr. 2019 08:40:35,,,,,,cypherpunks,
+21994,Consensus Health: what is the distribution of a bandwidth authority's measurements?,Metrics/Consensus Health,new,tom,enhancement,Very Low,,,Normal,,19 abr. 2017 06:58:08,6 ago. 2018 12:31:02,,,,,,teor,
+23939,Create an XMPP interface for querying relay/bridge details,Metrics/Bot,assigned,metrics-team,enhancement,Very Low,,,Minor,,21 oct. 2017 17:56:33,13 feb. 2018 19:05:26,,,3,,,irl,
+24463,Advanced search: Add a client auto-completion filter to AS field,Metrics/Relay Search,new,metrics-team,enhancement,Very Low,,,Normal,,28 nov. 2017 22:18:57,9 abr. 2018 15:10:10,,,,,,cypherpunks,
+30096,rougmnvswfsmd4dq.onion connects subressources from non .onion  onionoo.torproject.org,Metrics/Relay Search,new,metrics-team,defect,Very Low,,,Trivial,,9 abr. 2019 03:28:32,10 abr. 2019 07:34:56,,,,,,cypherpunks,
