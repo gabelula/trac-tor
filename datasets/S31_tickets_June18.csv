@@ -1,0 +1,116 @@
+﻿id,Summary,Sponsor,Status,Owner,Type,Priority,Milestone,Component,Severity,Resolution,Modified,Actual Points,Points,Reviewer,Reporter
+29792,practracker problems and CI broken on master,Sponsor31-can,closed,teor,defect,High,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,18 jun. 2019 23:51:59,0.3,0.3,,asn
+30011,Kill test-stem if takes more than 9.5 minutes,Sponsor31-can,closed,teor,defect,High,Tor: 0.3.5.x-final,Core Tor/Tor,Normal,fixed,30 may. 2019 10:01:18,0.3,0.3,nickm,teor
+30021,Do not cache cipher list classification if cipher list is not yet available.,Sponsor31-can,closed,nickm,defect,High,Tor: 0.2.9.x-final,Core Tor/Tor,Normal,fixed,30 may. 2019 10:01:18,.5,,ahf,nickm
+30051,Add practracker as a pre-commit and pre-push git hook for frequent coders,Sponsor31-can,closed,rl1987,enhancement,High,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,implemented,23 may. 2019 02:25:37,,1,asn,teor
+30629,We seem to be reading some freed events on exit,Sponsor31-can,closed,nickm,defect,High,Tor: 0.4.1.x-final,Core Tor/Tor,Major,fixed,30 may. 2019 17:00:53,.1,1,ahf,arma
+25493,Improve patterns for cleaning up static variables on exit/restart,Sponsor31-can,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,15 ene. 2019 18:36:07,,,,nickm
+25950,"Run ""accounting_run_housekeeping"" with a periodic event.",Sponsor31-can,assigned,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,17 jun. 2019 19:10:34,,,,nickm
+28170,"Test stem pull requests against all supported tor versions, and tor nightly builds",Sponsor31-can,needs_review,,enhancement,Medium,,Core Tor/Stem,Normal,,10 jun. 2019 09:55:55,0.3,0.3,,teor
+28226,Backend for an async publish-subcribe messaging system for cross-module communications,Sponsor31-must,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,27 mar. 2019 12:32:26,18,8,catalyst,nickm
+29108,Refactor crypto_digest.c to have fewer ifdefs,Sponsor31-can,closed,rl1987,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,implemented,5 abr. 2019 00:40:40,,1,catalyst,nickm
+29133,Refactor dirserv_read_measured_bandwidths,Sponsor31-can,assigned,teor,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,17 jun. 2019 13:19:13,,,,teor
+29209,Reduce visibility of more data type internals,Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,16 may. 2019 15:58:10,3.5,15,nickm,nickm
+29210,Distribute control.c functionality across various modules,Sponsor31-can,assigned,catalyst,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,14 jun. 2019 18:30:06,,10,,nickm
+29211,Distribute config.c functionality across more modules,Sponsor31-can,assigned,nickm,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,13 jun. 2019 15:52:52,,15,,nickm
+29212,Create more modularity inside src/core,Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,15 may. 2019 23:38:48,,15,,nickm
+29213,"Minimize the boundary between src/core and src/{feature,app}",Sponsor31-can,new,,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,9 abr. 2019 18:22:56,,15,,nickm
+29214,"Update 'tor-guts' archictecture documentation to describe current (actual, as-built) architecture.",Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,9 abr. 2019 18:22:56,,5,,nickm
+29215,"Document target, modular tor architecture",Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,16 may. 2019 15:58:10,,5,,nickm
+29216,Document how to make new files/modules in Tor,Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,9 abr. 2019 18:22:56,,1.5,,nickm
+29217,Script to add new tor files and modules in rust and/or C,Sponsor31-can,new,,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,6 may. 2019 21:09:00,,2,,nickm
+29218,"Revise ""handles"" to be opaque, safe.  Document standard usage",Sponsor31-can,assigned,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,10 jun. 2019 17:02:17,,3,,nickm
+29219,Write (more) guidelines for Tor coding best practices,Sponsor31-can,new,catalyst,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,14 jun. 2019 18:32:56,,3,,nickm
+29220,Update review guidelines to list best practices,Sponsor31-can,assigned,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,14 jun. 2019 18:44:54,,2,,nickm
+29221,Tooling to track code-style/best-practices violations,Sponsor31-can,closed,,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,implemented,14 mar. 2019 12:13:19,4,3,nickm,nickm
+29222,Fix biggest violations of coding best-practices,Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,9 abr. 2019 18:22:56,,10,,nickm
+29223,List canonical abbreviations to use in Tor functions and identifiers,Sponsor31-must,needs_review,nickm,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,16 may. 2019 15:59:35,0.9,1,catalyst,nickm
+29224,Abstractions and best practices for disabled modules,Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,9 abr. 2019 18:22:56,,5,,nickm
+29225,Improve efficiency and flexibility of threadpool/workqueue API,Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,9 abr. 2019 18:22:56,,15,,nickm
+29226,Automate application of C formatting to code,Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,9 abr. 2019 18:22:56,,5,,nickm
+29227,"Audit Tor roles (relay, bridge, etc) and remove needless dependencies where possible",Sponsor31-can,new,,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,9 abr. 2019 18:22:56,,15,,nickm
+29228,Unify some or all of Tor's various message/event/work queues.,Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,9 abr. 2019 18:22:56,,10,,nickm
+29437,test-stem times out intermittently,Sponsor31-can,assigned,,defect,Medium,Tor: 0.2.9.x-final,Core Tor/Stem,Normal,,14 jun. 2019 02:06:27,0.4,0.2,,rl1987
+29656,describe global initialization in our tinytest-based unit tests,Sponsor31-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,4 mar. 2019 18:34:33,,,,catalyst
+29746,Improve Tor best practices tracker,Sponsor31-can,new,,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,30 may. 2019 16:49:53,,,,asn
+29789,practracker.py codec exception in some locales,Sponsor31-can,closed,catalyst,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,26 mar. 2019 03:04:02,0.1,0.1,asn,catalyst
+29793,show-distdir-core and friends should fail more quietly,Sponsor31-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,15 mar. 2019 15:38:43,,0.5,,catalyst
+29879,Make git-push-all.sh push branches in a specific order,Sponsor31-can,new,,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,30 may. 2019 16:49:53,,0.1,,teor
+29880,Write a script to update practracker on multiple branches,Sponsor31-can,closed,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,wontfix,18 jun. 2019 23:48:01,,0.5,,teor
+29881,Create a GitHub bot that makes sure there is a pull request on master for every branch,Sponsor31-can,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,,19 jun. 2019 00:06:11,,2,,teor
+29883,Enforce lower practracker limits for every new release,Sponsor31-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,25 mar. 2019 05:25:28,,1,,teor
+29894,Initial split-up on control.c,Sponsor31-can,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,26 mar. 2019 14:46:45,1,,ahf,nickm
+29895,avoid storing ints in void* in mainloop event data,Sponsor31-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,25 mar. 2019 20:38:55,,,,catalyst
+29898,How can we automatically add #else and #endif comments?,Sponsor31-can,closed,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,implemented,17 jun. 2019 19:01:23,,0.1,,teor
+29922,util/time test failure on Jenkins,Sponsor31-can,closed,nickm,defect,Medium,Tor: 0.3.5.x-final,Core Tor/Tor,Normal,fixed,10 abr. 2019 08:31:44,0.5,1,teor,ahf
+29926,shellcheck: asciidoc-helper.sh issues,Sponsor31-can,closed,rl1987,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,9 abr. 2019 01:39:38,0.1,0.1,catalyst,rl1987
+29938,pubsub: coverity sees a null pointer deref in lint_message_consistency (CID 1444257),Sponsor31-can,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,3 abr. 2019 03:13:21,0.1,0.1,catalyst,nickm
+29960,Actually check for errors in digest256_to_base64() and callers,Sponsor31-can,closed,teor,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,12 abr. 2019 10:48:17,0.4,0.2,nickm,teor
+29984,Controller protocol parser can't find empty initial line,Sponsor31-can,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,30 abr. 2019 15:58:30,.1,,catalyst,nickm
+30007,refactor control.c output to be more abstract,Sponsor31-can,closed,catalyst,task,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,3 may. 2019 14:57:37,,3,nickm,catalyst
+30012,"When stem receives a signal, log useful information",Sponsor31-can,closed,teor,defect,Medium,,Core Tor/Stem,Normal,implemented,30 may. 2019 10:01:18,,,,teor
+30033,The pre-push hook should call the pre-commit hook on the final pushed commit,Sponsor31-can,closed,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,implemented,23 may. 2019 02:25:37,,,ahf,teor
+30050,"Disable practracker in CI, when a release becomes a release candidate",Sponsor31-can,new,,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,18 jun. 2019 23:46:26,,1,,teor
+30091,Unify parsing code for control.c,Sponsor31-can,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,30 abr. 2019 15:58:38,3,3,catalyst,nickm
+30117,Support stem's backtrace signals in Travis,Sponsor31-can,closed,teor,defect,Medium,Tor: 0.3.5.x-final,Core Tor/Tor,Normal,fixed,30 may. 2019 10:01:18,0.4,0.2,nickm,teor
+30122,Make stem's unit tests propagate the backtrace signals to child processes,Sponsor31-can,closed,teor,enhancement,Medium,,Core Tor/Stem,Normal,fixed,30 may. 2019 10:01:18,0.6,0.5,,teor
+30225,Run clang's scan-build in Tor's CI,Sponsor31-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,18 abr. 2019 01:21:49,,2,,teor
+30234,Get a stacktrace from tor processes launched by stem,Sponsor31-can,closed,teor,enhancement,Medium,Tor: 0.3.5.x-final,Core Tor/Tor,Normal,fixed,11 jun. 2019 04:57:31,0.2,0.5,ahf,teor
+30235,Stem hangs waiting for control port data,Sponsor31-can,needs_information,,defect,Medium,,Core Tor/Stem,Normal,,17 jun. 2019 03:06:16,0.5,1,,teor
+30236,Encapsulate details about crypt_path_t data structure,Sponsor31-can,closed,asn,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,8 may. 2019 12:21:57,,,nickm,asn
+30243,"Stem's tests use fixed ports for tor, which may already be in use",Sponsor31-can,new,atagar,defect,Medium,,Core Tor/Stem,Normal,,30 may. 2019 10:01:18,,,,teor
+30257,Propagate USR1 and ABRT signals from stem tests through to tor,Sponsor31-can,new,atagar,defect,Medium,Tor: 0.2.9.x-final,Core Tor/Stem,Normal,,10 jun. 2019 09:53:18,,,,teor
+30261,"Add ""How do I find bug or feature versions?"" to doc/HACKING",Sponsor31-can,closed,teor,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,implemented,29 abr. 2019 17:45:47,0.1,0.1,catalyst,teor
+30263,make shellcheck expects scripts in the build directory,Sponsor31-can,closed,,defect,Medium,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,fixed,29 abr. 2019 14:15:31,0.1,0.1,,teor
+30292,"Refactor periodic event system so each subsystem ""owns"" its own periodic events",Sponsor31-can,assigned,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,16 may. 2019 15:58:10,,,,nickm
+30293,Refactor periodic event system so mainloop doesn't necessarily own everything.,Sponsor31-can,closed,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,30 abr. 2019 16:19:51,.5,.5,dgoulet,nickm
+30294,Move dirauth periodic events into dirauth module.,Sponsor31-can,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,15 may. 2019 23:44:20,.1,0.1,dgoulet,nickm
+30309,Rename tor_mem_is_zero to fast_mem_is_zero; use it consistently,Sponsor31-can,closed,,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,15 may. 2019 23:44:20,.1,0.1,mikeperry,nickm
+30345,Move remaining dirauth files into dirauth module,Sponsor31-must,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,2 may. 2019 14:49:44,.2,,,nickm
+30349,Document member-hiding conventions for structs,Sponsor31-can,new,,task,Medium,Tor: unspecified,Core Tor/Tor,Normal,,6 may. 2019 17:39:46,,0.5,,catalyst
+30414,Move relay periodic events out of mainloop.c,Sponsor31-can,closed,nickm,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,15 may. 2019 20:23:52,,1,dgoulet,nickm
+30527,Fix coverity warnings in test_parsecommon.c,Sponsor31-can,assigned,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,16 may. 2019 19:40:41,,.5,,nickm
+30539,"Add an ""autostyle"" target to apply all of our automatic restyling things.",Sponsor31-can,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,29 may. 2019 18:25:56,.1,,dgoulet,nickm
+30580,Tor rejects all POSTDESCRIPTOR controller requests,Sponsor31-must,closed,nickm,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,27 may. 2019 11:22:41,0.1,0.5,dgoulet,teor
+30591,Make tor's Travis stem job log controller messages from stem and tor,Sponsor31-can,needs_revision,teor,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,,14 jun. 2019 11:05:29,0.8,0.1,catalyst,teor
+30592,How do I make stem log info-level to test/data/tor_log?,Sponsor31-can,closed,atagar,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Stem,Normal,implemented,30 may. 2019 10:03:13,0.1,0.1,,teor
+30593,Fix argument passing in docs/republish,Sponsor31-can,closed,teor,defect,Medium,,Core Tor/Stem,Normal,fixed,27 may. 2019 23:32:10,0.1,0.1,,teor
+30594,"stem unit tests fail on Tor 0.2.9, which is still supported until 1 January 2020",Sponsor31-can,closed,atagar,defect,Medium,,Core Tor/Stem,Normal,duplicate,30 may. 2019 09:45:14,0,0,,teor
+30630,Put CI URLs in ReleasingTor.md,Sponsor31-can,closed,,enhancement,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,implemented,10 jun. 2019 13:37:44,,0.1,teor,teor
+30650,Remove shellcheck from Stem's travis,Sponsor31-can,closed,teor,defect,Medium,,Core Tor/Stem,Normal,fixed,30 may. 2019 17:15:59,0.2,0.2,,teor
+30651,Make stem's Travis jobs log controller messages from stem and tor,Sponsor31-can,assigned,teor,enhancement,Medium,,Core Tor/Stem,Normal,,30 may. 2019 09:45:57,,,,teor
+30652,configure Stem's Travis CI to email atagar and the committer when there are failures,Sponsor31-can,closed,teor,task,Medium,,Core Tor/Stem,Normal,wontfix,30 may. 2019 09:46:16,0.1,0.1,,teor
+30653,Add stem CI for --target ONLINE,Sponsor31-can,closed,teor,enhancement,Medium,,Core Tor/Stem,Normal,fixed,30 may. 2019 17:18:03,0.2,0.2,,teor
+30675,Add an argument that makes stem TRACE output log to a file,Sponsor31-can,closed,atagar,enhancement,Medium,,Core Tor/Stem,Normal,implemented,5 jun. 2019 21:36:52,,,,teor
+30694,Restrict the tor CI stem job to tests that actually use tor,Sponsor31-can,closed,,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,5 jun. 2019 07:36:12,0.1,0.1,,teor
+30695,"Consider running tor's stem CI job in --target ONLINE mode, maybe with chutney",Sponsor31-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,10 jun. 2019 09:53:46,,2,,teor
+30702,Add arbitrary torrc lines to stem's tor configuration,Sponsor31-can,closed,atagar,enhancement,Medium,,Core Tor/Stem,Normal,implemented,7 jun. 2019 23:24:18,,,,teor
+30713,Disable or allow_fail test_rebind.py in macOS Travis,Sponsor31-can,closed,teor,defect,Medium,Tor: 0.3.5.x-final,Core Tor/Tor,Normal,fixed,11 jun. 2019 04:57:35,0.2,0.2,catalyst,catalyst
+30721,tor_addr_port_lookup() is overly permissive,Sponsor31-can,needs_review,teor,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,14 jun. 2019 01:20:13,1.5,0.5,catalyst,teor
+30744,Allow failures in the Travis test-stem job,Sponsor31-can,closed,teor,defect,Medium,Tor: 0.3.5.x-final,Core Tor/Tor,Normal,fixed,11 jun. 2019 04:57:40,0.2,0.1,catalyst,teor
+30745,Document disabled CI,Sponsor31-can,assigned,teor,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,,17 jun. 2019 11:40:02,,0.2,,teor
+30752,Practracker: usability improvements from May retrospective,Sponsor31-can,new,,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,4 jun. 2019 12:48:54,,,,nickm
+30806,Make a subsystem for evloop,Sponsor31-can,closed,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,14 jun. 2019 10:28:54,.1,,dgoulet,nickm
+30816,Remove ping ::1 from tor's test-network-all and simplify the logic,Sponsor31-can,new,,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,11 jun. 2019 04:42:20,,1,,teor
+30817,"Write a proposal for tor bootstrapping that works on slow links, but avoids slow relays",Sponsor31-can,assigned,teor,task,Medium,Tor: unspecified,Core Tor/Tor,Normal,,17 jun. 2019 12:41:33,,,,teor
+30826,"Chutney travis: remove 0.3.4, add 0.4.1",Sponsor31-can,new,,task,Medium,Tor: 0.4.1.x-final,Core Tor/Chutney,Normal,,14 jun. 2019 10:35:03,,,,nickm
+30827,Stem CI: remove 0.3.4 builds; add 0.4.1,Sponsor31-can,assigned,,task,Medium,,Core Tor/Stem,Normal,,14 jun. 2019 10:34:22,,,,nickm
+30831,Separate front-end and back-end of handle implementation.,Sponsor31-can,assigned,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,10 jun. 2019 18:52:09,,0.5,,nickm
+30836,"Build debs for tor's 0.4.1 branch, and stop building tor's 0.3.4 and 0.3.3 branches",Sponsor31-can,new,weasel,defect,Medium,Tor: 0.4.1.x-final,Internal Services/Service - deb.tpo,Normal,,12 jun. 2019 00:54:43,,,,teor
+30837,"Stem travis: remove 0.3.4, add 0.4.1",Sponsor31-can,closed,teor,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Stem,Normal,duplicate,11 jun. 2019 01:09:31,,,,teor
+30839,Update EndOfLifeTor.md with our latest end of life process,Sponsor31-can,needs_information,teor,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,,17 jun. 2019 11:40:41,,,,teor
+30864,Move variable manipulation code out of confparse.c,Sponsor31-can,needs_review,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,18 jun. 2019 23:55:31,2.5,1,catalyst,nickm
+30865,"Move option-listing, setting, validation code out of confparse.c",Sponsor31-can,assigned,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,12 jun. 2019 13:38:55,,2,,nickm
+30866,Teach config.c to work with options configured in other modules,Sponsor31-can,assigned,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,12 jun. 2019 13:27:21,,2,,nickm
+30876,"Remove 0.3.4 and experimental-0.4.0 from chutney's CI, and note that stable is now 0.4.0",Sponsor31-can,merge_ready,teor,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Chutney,Normal,,17 jun. 2019 15:49:07,0.1,0.1,nickm,teor
+30877,"Remove 0.3.4 and experimental-0.4.0 from stem's CI, and note that stable is now 0.4.0",Sponsor31-can,closed,teor,defect,Medium,Tor: 0.4.1.x-final,Core Tor/Stem,Normal,fixed,13 jun. 2019 21:17:04,0.1,0.1,,teor
+30889,Eliminate use of lower-level control protocol output functions,Sponsor31-can,assigned,catalyst,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,14 jun. 2019 18:39:07,,3,,catalyst
+30890,Make a useful .gitlab-ci.yml mirroring job,Sponsor31-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,Normal,,14 jun. 2019 19:01:50,,,,catalyst
+30893,Refactor and improve test coverage in confparse.c,Sponsor31-can,merge_ready,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,18 jun. 2019 23:37:25,1,1,catalyst,nickm
+30894,Memory leak on invalid CSV_INTERVAL value,Sponsor31-can,merge_ready,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,17 jun. 2019 14:40:32,0.1,0.1,dgoulet,nickm
+30901,Add control port trace logging to tor,Sponsor31-can,new,,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,17 jun. 2019 11:55:27,,1,,teor
+30914,Move struct manipulation code out of confparse.c,Sponsor31-can,assigned,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,18 jun. 2019 14:13:50,,1,,nickm
+28806,checkIncludes.py does not like code in src/ext/timeouts,Sponsor31-can,closed,nickm,defect,Low,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,9 abr. 2019 01:39:32,0.1,0.1,cohosh,rl1987
+29642,Free Windows library handles when we free_all in a module,Sponsor31-can,new,,enhancement,Low,Tor: unspecified,Core Tor/Tor,Minor,,4 mar. 2019 00:53:50,,2,,teor
+29756,Check for correct header macro guards.,Sponsor31-can,closed,nickm,defect,Low,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,15 may. 2019 23:44:20,.1,0.1,cohosh,nickm
+29821,Make circuit/channel padding correctly respect dormant mode,Sponsor31-can,new,,defect,Low,Tor: unspecified,Core Tor/Tor,Normal,,29 may. 2019 03:21:12,,,,asn
