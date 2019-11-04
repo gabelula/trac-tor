@@ -1,0 +1,7 @@
+﻿id,Summary,Keywords,Status,Owner,Type,Priority,Resolution,Actual Points,Points,Sponsor
+27385,https://snowflake.torproject.org/embed is confusing,"snowflake, ux-team, anti-censorship-roadmap-july",closed,arlolra,defect,High,fixed,,,Sponsor28-must
+30999,Spruce up the product pages,"snowflake-webextension, anti-censorship-roadmap-july",closed,cohosh,defect,High,fixed,,,
+5304,Obfsproxy should respect OutboundBindAddress in torrc,"needs-spec-change needs-tor-change, anti-censorship-roadmap-july",merge_ready,,defect,Medium,,1.25,1,Sponsor28-must
+28849,Handle dormant mode in process library and for PT's,"042-proposed, anti-censorship-roadmap-july",needs_information,,enhancement,High,,2.5,3,Sponsor28-must
+31009,Tor lets transports advertise private IP addresses in descriptor,"tor-pt, tor-bridge, 029-backport, 035-backport, 040-backport, 041-backport, anti-censorship-roadmap-july",needs_revision,,defect,Medium,,,0.5,Sponsor28-can
+30830,Modify snowflake broker logs to make them easier to process for measurements,"logs, stats anti-censorship-roadmap-july",new,,task,Medium,,,,Sponsor28

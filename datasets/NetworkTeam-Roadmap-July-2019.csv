@@ -1,0 +1,13 @@
+﻿id,Summary,Status,Owner,Type,Priority,Milestone,Component,Severity,Resolution,Actual Points,Points,Reviewer,Sponsor
+29034,circuit: Cleanup an HS circuit when it is being re-purposed,closed,mikeperry,defect,High,Tor: 0.3.5.x-final,Core Tor/Tor,Normal,fixed,3,3,asn,Sponsor27-must
+31311,practracker: do not include unwanted files in distribution,closed,nickm,defect,High,Tor: 0.4.1.x-final,Core Tor/Tor,Normal,fixed,,,teor,Sponsor31-must
+15516,Consider rate-limiting INTRODUCE2 cells when under load,closed,dgoulet,enhancement,Medium,Tor: unspecified,Core Tor/Tor,Normal,implemented,,10,asn,Sponsor27-must
+24964,dos: Block single hop client at the HSDir,closed,dgoulet,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,0.4,0.1,teor,Sponsor27-must
+29746,Improve Tor best practices tracker,assigned,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,.1,3,"teor, ahf",Sponsor31-can
+30752,Practracker: usability improvements from May retrospective,closed,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,.2,1.5,teor,Sponsor31-can
+31263,More tests for practracker,closed,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,implemented,.1,1,,Sponsor31-can
+31304,Run practracker_tests.py as part of make check,closed,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,.1,,dgoulet,
+31309,Add envvar to pass options to practracker,closed,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,0,.1,asn,Sponsor31-can
+31338,Practracker --list-overbroad produces confusing output when there is an exception,assigned,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,,0.1,,Sponsor31-can
+31476,Practracker: document new features,closed,nickm,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,.1,.2,catalyst,Sponsor31-must
+31477,Practracker integration tests for headers and includes,closed,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,,,catalyst,Sponsor31-must

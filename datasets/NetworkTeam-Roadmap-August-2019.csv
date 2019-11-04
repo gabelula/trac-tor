@@ -1,0 +1,32 @@
+﻿id,Summary,Status,Owner,Type,Priority,Milestone,Component,Severity,Resolution,Actual Points,Points,Reviewer,Sponsor
+27471,HS intermittently fails: Non-fatal assertion failed in send_introduce1,closed,dgoulet,defect,Very High,Tor: 0.4.2.x-final,Core Tor/Tor,Minor,fixed,,3,asn,Sponsor27-must
+28804,Add circuit padding to padding-spec.txt and write a doc for researchers,assigned,mikeperry,defect,High,Tor: unspecified,Core Tor/Tor,Normal,,,2,asn,Sponsor2
+28970,tor_bug_occurred_(): Bug: ../src/or/hs_client.c:624: setup_intro_circ_auth_key: Non-fatal assertion,reopened,dgoulet,defect,High,Tor: 0.4.2.x-final,Core Tor/Tor,Critical,,,5,,Sponsor27-must
+23493,IPv6 v3 Onion Services support,closed,,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,0.7,7,,Sponsor27-can
+23507,Handle unreachable addresses on v3 single onion services by using a 3 hop path,closed,teor,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,0.2,1,,Sponsor27-must
+23818,Make v2 and v3 single onion services retry all failed intro and rend connections with a 3-hop path,merge_ready,teor,defect,Medium,Tor: 0.4.0.x-final,Core Tor/Tor,Normal,,0.2,1,asn,Sponsor27-must
+24962,Single hop onion service denial of service issues,closed,dgoulet,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,,3,,Sponsor27-must
+26294,attacker can force intro point rotation by ddos,merge_ready,asn,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,6,7,dgoulet,Sponsor27-must
+29211,Distribute config.c functionality across more modules,assigned,nickm,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,Normal,,,23,,Sponsor31-can
+30901,Add control port trace logging to tor,needs_revision,teor,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,1.8,1,,Sponsor31-can
+30924,hs-v3: Implement proposal 305 -  ESTABLISH_INTRO Cell DoS Defense Extension,closed,dgoulet,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,implemented,,7,asn,Sponsor27-must
+31175,Teach practracker to apply separate rules for C headers,closed,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,.1,1,asn,Sponsor31-can
+31176,Teach practracker about .may_include files,closed,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,1,1.5,"teor, asn",Sponsor31-can
+31240,Make confparse able to handle multiple config_format_t objects at once,closed,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,3,3,teor,Sponsor31-can
+31241,Refactor config validation,needs_revision,nickm,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,Normal,,,1.5,,Sponsor31-can
+31319,Document logs that are excluded from the control port log event,closed,teor,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,implemented,0.1,0.1,nickm,Sponsor31-can
+31334,Use SEVERITY_MASK_IDX() to find the LOG_ERR index in the unit tests,closed,teor,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,0.1,0.1,,Sponsor31-can
+31359,"Split a control_event module out of control, and make it use control safe logging",closed,teor,enhancement,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,Normal,wontfix,,2,,Sponsor31-can
+31492,Update hsv3 spec for unreachable/failed single onion retries using 3 hops,closed,teor,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,0.1,0.1,asn,Sponsor27-must
+31494,config refactoring: follow-ups from merged commits,closed,nickm,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,0,,,Sponsor31-must
+31508,config refactor: create simple summaries for each refactor step,assigned,nickm,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,,,,Sponsor31-can
+31509,config refactor: make test-stem should pass,assigned,,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,,,,Sponsor31-must
+31511,config refactor: split mass change commits into automated and manual steps,assigned,nickm,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,,,,Sponsor31-must
+31516,config refactor: every function table entry should be documented and unit tested,assigned,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,,,,Sponsor31-must
+31529,config refactoring: fix redundant reset logic,closed,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,0,0,,Sponsor31-can
+31532,"Use ptrdiff_t for struct_member_t.offset, etc",closed,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Trivial,fixed,,,,Sponsor31-can
+31544,sr: Check why some sr_disk_state fields need to be cleared,assigned,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,,,,
+31625,config refactoring: fix hierarchy of configuration variable flags,closed,nickm,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,.9,.5,teor,Sponsor31-must
+31629,Remove non-_ex typedvar.c function,closed,nickm,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,,0,,
+31637,"Make sure we have test coverage for Option, +Option and /Option across defaults, torrc, command line",closed,nickm,enhancement,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,fixed,1.5,,teor,
+31638,config: Always check for valid function arguments at the start of each function,assigned,nickm,task,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,Normal,,,,,

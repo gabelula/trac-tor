@@ -1,0 +1,17 @@
+﻿id,Summary,Keywords,Status,Owner,Type,Priority,Milestone,Component,Severity,Resolution,Actual Points,Points,Reviewer,Sponsor
+19001,Tor Browser with Snowflake,anti-censorship-roadmap-august,new,,project,Very High,,Circumvention/Snowflake,Critical,,,,,Sponsor28-must
+31100,Firefox addon not reporting any users,snowflake-webextension anti-censorship-roadmap-august,closed,cohosh,defect,Very High,,Circumvention/Snowflake,Major,fixed,,2,dcf,Sponsor28
+20813,Start producing snowflakes,anti-censorship-roadmap-august,closed,,defect,High,,Circumvention/Snowflake,Normal,fixed,,3,,Sponsor28-must
+25483,Windows reproducible build of snowflake,"TorBrowserTeam201805, anti-censorship-roadmap-august",needs_review,cohosh,project,High,,Circumvention/Snowflake,Normal,,,,,Sponsor28-must
+29285,Improve the PT spec and how PTs interface with Tor,anti-censorship-roadmap-august,assigned,phw,project,High,,Circumvention/Pluggable transport,Normal,,,15,,Sponsor28-must
+30716,Improve the obfs4 obfuscation protocol,"sponsor28, anti-censorship-roadmap-august",assigned,phw,task,High,,Circumvention/Obfs4,Normal,,,20,,Sponsor28-must
+14453,Implement statistics gathering for number of Bridges-per-Transport in BridgeDB,"tor-bridge, bridgedb, anti-censorship-roadmap-august",closed,,task,Medium,,Circumvention/BridgeDB,Normal,duplicate,,5,,Sponsor30-must
+17626,"BridgeDB's email distributor doesn't work if the ""get help"" text is quoted","bridgedb-email, ux, bridgedb-ux, anti-censorship-roadmap-august",closed,phw,defect,Medium,,Circumvention/BridgeDB,Normal,fixed,0.5,3,cohosh,Sponsor30-must
+28672,Android reproducible build of Snowflake,"tbb-mobile, tbb-rbm, GeorgKoppen201904, ex-sponsor-19, TorBrowserTeam201907, anti-censorship-roadmap-august",needs_revision,,project,Medium,,Circumvention/Snowflake,Normal,,,,,Sponsor28-must
+28942,Evaluate pion WebRTC,anti-censorship-roadmap-august,needs_review,cohosh,enhancement,Medium,,Circumvention/Snowflake,Normal,,,5,,Sponsor28-must
+29205,Look into using Firefox for the WebRTC implementation,anti-censorship-roadmap-august,new,,task,Medium,,Circumvention/Snowflake,Normal,,,,,Sponsor28-can
+29258,What is the IPv6 story with Snowflake,anti-censorship-roadmap-august,needs_information,dcf,task,Medium,,Circumvention/Snowflake,Normal,,,,,Sponsor28-must
+30310,Snowflake localization,"l10n, snowflake-webextension, anti-censorship-roadmap-august",closed,arlolra,task,Medium,,Circumvention/Snowflake,Normal,fixed,,,cohosh,Sponsor28-can
+30368,Run some tests to check reachability of snowflake proxies,anti-censorship-roadmap-august,accepted,cohosh,task,Medium,,Circumvention/Snowflake,Normal,,,,,Sponsor28-can
+30986,"Understand the ""long tail"" of unclassifiable network traffic",anti-censorship-roadmap-august,assigned,phw,project,Medium,,Circumvention,Normal,,,5,,Sponsor28-must
+31153,"Create a ""tor-bridge"" Debian meta package",anti-censorship-roadmap-august,accepted,irl,project,Medium,,Circumvention/Obfs4,Normal,,,5,,Sponsor30-can
