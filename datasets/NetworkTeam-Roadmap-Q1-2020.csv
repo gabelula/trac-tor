@@ -1,0 +1,60 @@
+﻿id,Summary,Status,Owner,Type,Priority,Milestone,Component,Actual Points,Parent ID,Points,Sponsor
+24554,sched: Have per-scheduler type data in a channel_t,assigned,,enhancement,Very High,Tor: unspecified,Core Tor/Tor,,#23993,,
+23744,sched: Notification events have different meaning for each scheduler,assigned,,defect,High,Tor: unspecified,Core Tor/Tor,,#23993,,
+23764,hs-v3: No live consensus on client with a bridge,new,,defect,High,Tor: unspecified,Core Tor/Tor,,,10,Sponsor27-can
+29494,Optimize interaction between circuitmux and circuitpadding,needs_revision,mikeperry,enhancement,High,Tor: unspecified,Core Tor/Tor,,,5,
+32783,Investigate clusterfuzz build failures,assigned,nickm,defect,High,Tor: 0.4.3.x-final,Core Tor/Tor,,,3,
+5304,Obfsproxy should respect OutboundBindAddress in torrc,needs_revision,ahf,defect,Medium,Tor: 0.4.3.x-final,Circumvention/Obfs4,1.25,#30471,1,Sponsor28-must
+14389,little-t-tor: Provide support for better TBB UI of hidden service client authorization,new,tbb-team,defect,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,#30000,24,Sponsor27-must
+20212,Tor can be forced to open too many circuits by embedding .onion resources,new,tbb-team,enhancement,Medium,Tor: unspecified,Core Tor/Tor,,,6,Sponsor27-can
+21952,Onion-location: increasing the use of onion services through automatic redirects and aliasing,needs_review,acat,project,Medium,,Applications/Tor Browser,9,#30024,6,Sponsor27-must
+24839,Add a torrc option and descriptor line to opt-in as a FallbackDir,assigned,,task,Medium,Tor: unspecified,Core Tor/Tor,,,3,
+24973,Tor should be more gentle when launching dozens of circuits at once,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,16,Sponsor27-can
+26294,attacker can force intro point rotation by ddos,needs_revision,asn,defect,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,6,,7,Sponsor27-can
+26768,Support onionbalance in HSv3,assigned,asn,defect,Medium,Tor: unspecified,Core Tor/Tor,,#29998,8,Sponsor27-must
+28005,Officially support onions in HTTPS-Everywhere,new,legind,defect,Medium,,HTTPS Everywhere/EFF-HTTPS Everywhere,,#30029,20,Sponsor27-must
+28930,consider reordering PT/proxy phases,needs_revision,ahf,enhancement,Medium,Tor: unspecified,Core Tor/Tor,8.5,,3,Sponsor28-can
+29112,PTs should pass user count events back to Tor,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,,,1,Sponsor28-can
+29128,Place complete obfs4 bridge line in accessible location,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,#30471,,Sponsor28-must
+29211,Distribute config.c functionality across more modules,assigned,nickm,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,,23,Sponsor31-can
+29215,"Document target, modular tor architecture",accepted,catalyst,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,,5,
+29226,Automate application of C formatting to code,new,,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,,5,
+29245,"Tor 0.4 eventually hits ""Delaying directory fetches: No running bridges"" after some period of inactivity with bridges",new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,,Sponsor28-must
+29267,CI for pluggable transports,new,,project,Medium,,Circumvention,,,13,Sponsor28-can
+29427,kist: Poor performance with a small amount of sockets,needs_revision,dgoulet,defect,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,0.1,,0.1,
+29690,"Add a comment to chutney's test-network.sh, reminding us to copy changes to tor's test-network.sh",assigned,,defect,Medium,,Core Tor/Chutney,,#29689,1,Sponsor28-can
+29698,Edge case that causes improper circuit prioritization for one scheduling run,needs_revision,dgoulet,defect,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,0.2,,0.2,
+29995,"Objective 1, Activity 1.1: Make v3 the default on Core Tor stable",new,,project,Medium,Tor: unspecified,Core Tor/Tor,,#30281,72,Sponsor27-must
+29998,"Objective 1, Activity 1.2:  Adopt OnionBalance features into onion services v3",new,,project,Medium,Tor: unspecified,Core Tor/Tor,,#30281,23,Sponsor27-must
+30029,"Objective 2, Activity 5: POC for Human-memorable addresses for .onion services",new,tbb-team,project,Medium,,Applications/Tor Browser,,#30281,50,Sponsor27-must
+30200,Potential circuit timeout issues on onion service circuits,assigned,dgoulet,defect,Medium,Tor: unspecified,Core Tor/Tor,,#29995,12,Sponsor27-must
+30237,Tor Browser: Improve TBB UI of hidden service client authorization,needs_review,mcs,defect,Medium,,Applications/Tor Browser,16.1,#30000,17,Sponsor27-must
+30477,Tor should self-test reachability of TCP listeners exposed by PT's,new,,task,Medium,Tor: unspecified,Core Tor/Tor,,#31280,,Sponsor30-must
+30884,Test pluggable transports in chutney's CI,new,,enhancement,Medium,Tor: unspecified,Core Tor/Chutney,,#29267,1,Sponsor28-can
+30885,Add pluggable transports to Tor's chutney CI job,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,,#29267,1,Sponsor28-can
+30886,Add pluggable transport support to chutney's tools/test-network.sh,new,,enhancement,Medium,Tor: unspecified,Core Tor/Chutney,,#29267,1,Sponsor28-can
+30901,Add control port trace logging to tor,assigned,teor,enhancement,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,1.8,#29437,1,
+31009,Tor lets transports advertise private IP addresses in descriptor,needs_revision,,defect,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,,0.5,Sponsor28-can
+31103,Support ORPort picking a random port that persists across restarts,new,,enhancement,Medium,,Core Tor/Tor,,#30471,1,Sponsor28-must
+31223,Research approaches for improving the availability of services under DoS,new,,defect,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,,15,Sponsor27-can
+31851,Allow Tor to be compiled without support for relay mode,assigned,,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,0.2,,5,Sponsor31-can
+32139,Disable all dirauth options when those modules are disabled,accepted,nickm,enhancement,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,#31851,2,Sponsor31-can
+32208,write description of control subsystem architecture,accepted,catalyst,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,#29215,,
+32542,hs-v3: Add the 2 missing SOCKS extended errors from prop304,needs_review,dgoulet,defect,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,0.4,#14389,1,Sponsor27-must
+32563,Merge HSv3 spec fixes we found during onionbalance creation,assigned,asn,defect,Medium,Tor: unspecified,Core Tor/Tor,,#26768,0.2,Sponsor27-must
+32695,Remove consensus methods 25-27,closed,nickm,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,.5,,0.5,
+32697,Require supported relay protocol versions based on 0.3.5.7,new,,task,Medium,Tor: unspecified,Core Tor/Tor,,,0.5,
+32698,Require client protocol versions based on 0.3.5.7,new,,task,Medium,Tor: unspecified,Core Tor/Tor,,,0.5,
+32705,test_practracker.sh python issues,closed,teor,defect,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,0.5,,0.1,
+32709,hsv3: Support onionbalance keys when handling INTRO2 cells,assigned,asn,enhancement,Medium,Tor: 0.4.4.x-final,Core Tor/Tor,,#26768,5,Sponsor27-must
+32772,Delete maint and release 0.2.9 from the git scripts,closed,,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,,1,
+32773,Remove Jenkins tor master jobs which don't have OpenSSL 1.1.1,new,,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,#31820,1,
+32775,Remove 0.2.9 from chutney's CI,new,,task,Medium,,Core Tor/Chutney,,#30067,0.1,
+32776,Remove 0.2.9 from the jenkins builders,new,,task,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,,0.1,
+32784,Find and remove upward dependencies in our codebase,new,,defect,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,,,,
+32943,factor out supporting shell scripts from CI configs,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,4,
+32944,where are we still excessively strict about clock skew? pluggable transports?,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,4,
+32955,Update dir-spec for removing consensus methods 25-27,closed,teor,defect,Medium,Tor: 0.4.3.x-final,Core Tor/Tor,0.1,#32695,0.1,
+33014,Refactor hs configuration parsing,assigned,nickm,defect,Medium,Tor: 0.4.4.x-final,Core Tor/Tor,,#32709,1,
+33019,Allow dynamically and statically linked PTs to be loaded into a Tor binary,assigned,ahf,enhancement,Medium,Tor: unspecified,Core Tor/Tor,,,8,Sponsor28
+29111,Optional heartbeat message from PT's,new,,enhancement,Low,Tor: unspecified,Circumvention/Pluggable transport,,,,Sponsor28-must

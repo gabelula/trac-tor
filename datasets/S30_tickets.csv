@@ -1,0 +1,124 @@
+﻿id,Summary,Sponsor,Status,Owner,Type,Priority,Milestone,Component,Actual Points,Parent ID,Points
+30941,Need better instructions for requesting bridges via email,Sponsor30,new,sysrqb,defect,Medium,,Circumvention/BridgeDB,,#31279,
+32105,bridges@torproject.org don't respond,Sponsor30,closed,phw,defect,Medium,,Circumvention/BridgeDB,0.3,,
+32111,Adding your own custom bridges generates a parsing error,Sponsor30,closed,tbb-team,defect,Medium,,Applications/Tor Browser,,,
+32204,Create either a query or event-based API to allow controllers (particularly Tor Browser) to reliably get circuit information,Sponsor30,new,,defect,Medium,,Core Tor/Tor,,#31279,
+32205,Implement tor-button changes needed to take advantage of improved bridge info query API in tor,Sponsor30,new,tbb-team,defect,Medium,,Applications/Tor Browser,,#31279,2
+5211,Discuss other ways for the bridge authority to run bridge reachability tests,Sponsor30-can,assigned,,task,High,Tor: unspecified,Core Tor/Tor,,,
+7144,Implement Bridge Guards and other anti-enumeration defenses,Sponsor30-can,new,,project,High,Tor: unspecified,Core Tor/Tor,,,10
+9332,"Implement whitelisting of (email_address, gpg_key_id) pairs for encrypted, automated email bridge distribution",Sponsor30-can,assigned,,task,Low,,Circumvention/BridgeDB,,,2
+10831,Captchas are not accessible for blind users,Sponsor30-can,assigned,,enhancement,Medium,,Circumvention/BridgeDB,,#31279,5
+10970,tor-bridge-relay Debian package,Sponsor30-can,new,infinity0,project,Medium,,Circumvention/Pluggable transport,,,
+11132,Tor Launcher should suggest the use of bridges if Tor is dangerous in user's area,Sponsor30-can,new,brade,enhancement,Medium,,Applications/Tor Launcher,,#31283,
+11222,Inform user if reachable bridges drop below a configurable fraction/number,Sponsor30-can,needs_information,brade,defect,High,,Applications/Tor Launcher,,#31283,
+11330,Create a Hash Ring For Each Allowed Domain in the Email Distributor,Sponsor30-can,assigned,,enhancement,High,,Circumvention/BridgeDB,,#31280,3
+12089,BridgedDB can be forced to email arbitrary email addresses,Sponsor30-can,assigned,,defect,High,,Circumvention/BridgeDB,,,
+12505,Refactor BridgeDB's hashrings,Sponsor30-can,assigned,,defect,High,,Circumvention/BridgeDB,,,5
+12537,Perhaps BridgeDB should supply decoys,Sponsor30-can,closed,,enhancement,Low,,Circumvention/BridgeDB,,,1
+14638,Make it easier to add a bridge in network settings,Sponsor30-can,new,tbb-team,enhancement,Medium,,Applications/Tor Browser,,#31283,
+14836,Can we compile in WebRTC to allow QRCode bridge entry?,Sponsor30-can,assigned,,task,Medium,,Applications/Tor Browser,,#31283,
+14837,Support QRCode bridge entry and sharing in Tor Launcher,Sponsor30-can,new,brade,enhancement,Medium,,Applications/Tor Launcher,,#31283,
+15967,Separate BridgeDB's CAPTCHA into another service,Sponsor30-can,assigned,,enhancement,Medium,,Circumvention/BridgeDB,2,,2
+16564,WIP: Reject bridge descriptors posted to non-bridge authorities,Sponsor30-can,needs_revision,teor,enhancement,High,Tor: unspecified,Core Tor/Tor,1,,1
+17449,Test bridges we ship in Tor Browser regularly,Sponsor30-can,new,boklm,defect,Medium,,Applications/Quality Assurance and Testing,,,
+17548,https://bridges.torproject.org/keys shows outdated keys,Sponsor30-can,assigned,,defect,Medium,,Circumvention/BridgeDB,,,1
+18113,Dynamically allocate clients to default Tor Browser bridges of a certain type,Sponsor30-can,needs_information,brade,enhancement,Medium,,Applications/Tor Launcher,,,
+19693,Portuguese (pt_PT) translation to GetTor,Sponsor30-can,assigned,emmapeel,task,Medium,,Applications/GetTor,,#28233,
+19997,BridgeDB's get-tor-exits script doesn't account for IPv6,Sponsor30-can,assigned,,defect,Medium,,Circumvention/BridgeDB,,,2
+22755,Use stem to create test descriptors,Sponsor30-can,closed,phw,enhancement,Low,,Circumvention/BridgeDB,1,,1
+23251,Parsing a networkstatus-bridges with flags only causes BridgeDB to hang,Sponsor30-can,assigned,,defect,Medium,,Circumvention/BridgeDB,,,3
+23838,Use OONI to inform Tor Launcher user workflow,Sponsor30-can,new,tbb-team,defect,Medium,,Applications/Tor Browser,,#31283,
+23971,implement multi-step progress bar for new Tor Launcher UI,Sponsor30-can,new,brade,defect,Medium,,Applications/Tor Launcher,,#31283,
+24527,Inform users in Tor Launcher of which settings are best for them based on their country,Sponsor30-can,new,brade,enhancement,Medium,,Applications/Tor Launcher,,#31283,
+25431,"""Tor is censored in my country"" does not cover some scenarios",Sponsor30-can,new,brade,defect,Medium,,Applications/Tor Launcher,,#31283,
+25528,"When ClientTransportPlugin is missing, tor connects directly to bridge addresses, even if they have a transport name",Sponsor30-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,
+28496,Consider dropping yahoo from the bridgedb email domains,Sponsor30-can,closed,phw,enhancement,Medium,,Circumvention/BridgeDB,0.5,#31280,1
+28533,bridgesdb: replace the message to mail support with a link to the documentation,Sponsor30-can,closed,phw,defect,High,,Circumvention/BridgeDB,0.2,,1
+28555,Assess methodology for modern privcount Tor user counts,Sponsor30-can,new,metrics-team,task,Medium,,Metrics/Analysis,,,
+28556,Detect other installed circumvention tools and offer them as transports,Sponsor30-can,new,tbb-team,project,Medium,,Applications/Tor Browser,,#31283,
+29096,Run Moat using ptadapter,Sponsor30-can,assigned,,project,Low,,Circumvention/BridgeDB,,,1
+29249,Assessment of moat for bridges,Sponsor30-can,needs_information,,task,High,,Circumvention/BridgeDB,,#31280,5
+29286,Maintain obfs4 proxy,Sponsor30-can,new,,task,Medium,,Circumvention/Obfs4,,,
+29484,Update the requirements.txt and freeze them on release,Sponsor30-can,closed,phw,task,Medium,,Circumvention/BridgeDB,2.1,#31280,2
+29590,Smarter bootstrapping for Tor Browser on Android taking censorship into account,Sponsor30-can,new,tbb-team,project,Medium,,Applications/Tor Browser,,#31283,
+29686,filenames conflict on case-insensitive filesystems,Sponsor30-can,new,sysrqb,defect,Medium,,Circumvention/BridgeDB,,,
+29695,The captcha displayed while authenticating connecting to a tor bridge is unreadable,Sponsor30-can,new,tbb-team,defect,Medium,,Applications/Tor Browser,,#31268,
+29856,tb manual: duplicated info around bridges,Sponsor30-can,closed,ggus,defect,Medium,,Community/Tor Browser Manual,,#31281,
+29863,Add disk space monitoring for snowflake infrastructure,Sponsor30-can,merge_ready,,task,Medium,,Circumvention/Snowflake,,#30152,
+30130,Provide custom bridges in a multiline form,Sponsor30-can,new,tbb-team,defect,Medium,,Applications/Tor Browser,,#31284,
+30131,Disabling/enabling bridge-switch is jumping/not correctly behaving,Sponsor30-can,new,tbb-team,defect,Medium,,Applications/Tor Browser,,#31284,
+30152,Monitor anti-censorship infrastructure,Sponsor30-can,new,,project,Medium,,Circumvention,,#31274,
+30350,"Hello, in China, currently, Tor Browser 8.5a11 version can't connect to Tor network through Snowflake bridge.",Sponsor30-can,needs_information,cohosh,defect,Medium,,Circumvention/Snowflake,,#31282,
+30456,TBA - Provide bridges with a magic link,Sponsor30-can,new,tbb-team,enhancement,Medium,,Applications/Tor Browser,,#31283,
+30501,BridgesList Preferences is an overloaded field,Sponsor30-can,needs_review,tbb-team,defect,Medium,,Applications/Tor Browser,,#31280,2
+30579,Add more STUN servers to the default snowflake configuration in Tor Browser,Sponsor30-can,new,,defect,Medium,,Circumvention/Snowflake,,#31281,1
+30767,Custom obfs4 bridge does not work on Tor Browser for Android,Sponsor30-can,needs_review,tbb-team,defect,High,,Applications/Tor Browser,,#31284,0.5
+30768,Add hashed fingerprints to torrc when configuring bridges,Sponsor30-can,new,tbb-team,enhancement,Medium,,Applications/Tor Browser,,,
+30780,Return a distinct was_router_added_t when formatting annotations fails,Sponsor30-can,closed,teor,defect,Medium,Tor: 0.4.2.x-final,Core Tor/Tor,0.3,,0.2
+30781,Stop crashing when encountering an unknown router annotation,Sponsor30-can,closed,teor,defect,Medium,Tor: 0.2.9.x-final,Core Tor/Tor,0.2,,0.1
+30833,Update BrideDB's requirements.txt,Sponsor30-can,closed,phw,defect,High,,Circumvention/BridgeDB,,,2
+30872,Test BridgeDB's distribution channels in controlled experiment,Sponsor30-can,new,dcf,project,Medium,,Circumvention/Censorship analysis,,,3
+30875,"If you start Tor with UseBridges 1, no ClientTransportPlugin, and only obfs4 bridges, it should fail",Sponsor30-can,closed,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,
+31060,Default obfs3 bridges are gone in Tor Browser,Sponsor30-can,closed,ggus,defect,Medium,,Community/Tor Browser Manual,,#31281,
+31153,"Create a ""tor-bridge"" Debian meta package",Sponsor30-can,new,,project,Medium,,Circumvention/Obfs4,,#30471,5
+31422,Make BridgeDB report internal metrics,Sponsor30-can,new,,enhancement,Medium,,Circumvention/BridgeDB,,#31274,2
+31539,FAQ page (esp connection troubleshoooting) should be available offline in TB,Sponsor30-can,new,tbb-team,enhancement,Medium,,Applications/Tor Browser,,,
+31780,Write a specification for BridgeDB's metrics,Sponsor30-can,closed,phw,task,Medium,,Circumvention/BridgeDB,0.7,,0.5
+31834,Make obfs4 Docker image more usable,Sponsor30-can,assigned,phw,defect,Medium,,Circumvention,,#31281,1
+31872,Write up process for distribution of private bridges,Sponsor30-can,new,,task,Medium,,Circumvention,,#31280,1
+31873,Create new bridge distribution mechanisms,Sponsor30-can,new,,project,High,,Circumvention/BridgeDB,,#31280,20
+32035,Only use translations that are >=80% complete,Sponsor30-can,new,,enhancement,Medium,,Circumvention/BridgeDB,,#31279,2
+32134,Request new translation and update i18n instructions,Sponsor30-can,closed,phw,task,Medium,,Circumvention/BridgeDB,0.2,#31279,0.2
+32276,Help BridgeDB see client IP addresses of moat requests,Sponsor30-can,new,,enhancement,Low,,Circumvention/BridgeDB,,#31274,3
+9316,BridgeDB should export statistics,Sponsor30-must,closed,phw,task,Medium,,Circumvention/BridgeDB,2.3,#31274,3
+10802,"Getting bridges only for port 80,443",Sponsor30-must,assigned,,enhancement,High,,Circumvention/BridgeDB,,#31280,2
+12802,BridgeDB needs Nagios checks for the Email Distributor,Sponsor30-must,assigned,,enhancement,High,,Circumvention/BridgeDB,,#30152,5
+12957,Translation instruction about accesskey should be improved.,Sponsor30-must,assigned,,enhancement,High,,Circumvention/BridgeDB,,,1
+13727,BridgeDB should not distribute Tor Browser's default bridges,Sponsor30-must,assigned,,defect,Medium,,Circumvention/BridgeDB,,#31280,2
+14453,Implement statistics gathering for number of Bridges-per-Transport in BridgeDB,Sponsor30-must,closed,,task,Medium,,Circumvention/BridgeDB,,#31274,5
+15404,BridgeDB's email localisation isn't working,Sponsor30-must,assigned,,defect,Low,,Circumvention/BridgeDB,,#31279,2
+17626,"BridgeDB's email distributor doesn't work if the ""get help"" text is quoted",Sponsor30-must,closed,phw,defect,Medium,,Circumvention/BridgeDB,0.5,#31279,3
+19332,Add a BridgeDB module,Sponsor30-must,needs_review,karsten,enhancement,Medium,,Metrics/CollecTor,,#31274,8
+19774,bridges.torproject.org could use a favicon,Sponsor30-must,assigned,antonela,enhancement,Very Low,,Circumvention/BridgeDB,,#31279,1
+19839,BridgeDB website: In firefox page shows titles in English and text in the language preferred by the user,Sponsor30-must,closed,traumschule,defect,Low,,Circumvention/BridgeDB,0.1,#31279,
+23839,Testing Framework for Censorship Circumvention,Sponsor30-must,new,tbb-team,defect,Medium,,Applications/Tor Browser,,,
+24607,CAPTCHAs on BridgeDB seem to be getting more difficult,Sponsor30-must,assigned,,defect,Medium,,Circumvention/BridgeDB,,#31279,5
+26542,Distribute IPv6 bridges through bridges.torproject.org,Sponsor30-must,closed,phw,defect,High,,Circumvention/BridgeDB,1,#24264,3
+26543,Provide a language switcher menu on BridgeDB,Sponsor30-must,closed,phw,enhancement,Medium,,Circumvention/BridgeDB,1.4,#31279,3
+28015,Brainstorm improved ux for orgs that want to give bridges to their people,Sponsor30-must,new,tbb-team,defect,Medium,,Applications/Tor Browser,,#31283,
+28526,"Document how NGOs can run private obfs4 bridges, and get some doing it",Sponsor30-must,assigned,ggus,project,Medium,,Community/Tor Support,,#31281,
+28531,Publish a snapshot of what PTs are needed for successful Tor use in each country,Sponsor30-must,assigned,phw,task,Medium,,Community/Outreach,,#31279,
+29184,Avoid giving out bridges that suffer from #28912,Sponsor30-must,new,sysrqb,enhancement,Medium,,Circumvention/BridgeDB,,,
+29275,Get default bridges checked for reachability by OONI,Sponsor30-must,new,,task,Medium,,Circumvention/Pluggable transport,,,
+29277,Look into getting default Tor bridges scanned by external reachability tests,Sponsor30-must,assigned,phw,task,Medium,,Circumvention/Pluggable transport,,#31274,
+29288,Look into Salmon,Sponsor30-must,new,,task,Medium,,Circumvention/Pluggable transport,,,
+29296,Look into alternatives for distributing bridge info to clients,Sponsor30-must,new,,project,Medium,,Circumvention/Pluggable transport,,#31280,
+30317,Update howto on https://bridges.torproject.org/ to take mobile Tor Browser into account,Sponsor30-must,new,sysrqb,defect,Medium,,Circumvention/BridgeDB,,#31279,
+30477,Tor should self-test reachability of TCP listeners exposed by PT's,Sponsor30-must,new,,task,Medium,Tor: unspecified,Core Tor/Tor,,#30471,
+30777,"Run a ""set up new bridges"" campaign",Sponsor30-must,closed,,project,High,,Community/Outreach,2.9,#31281,3
+31265,Sponsor 30 master ticket,Sponsor30-must,new,,project,Medium,,Circumvention,,,
+31266,Objective 1: Support censorship circumvention through the improvement of network measurement methodologies aimed at detecting the blocking of circumvention tools.,Sponsor30-must,new,,project,Medium,,Circumvention,,#31265,
+31267,O1.1 - Add support in OONI Probe for testing circumvention tools.,Sponsor30-must,new,,defect,Medium,,Circumvention,,#31266,
+31268,Objective O2:  Ensure users in target countries have access to the best Tor bridge options for circumventing censorship.,Sponsor30-must,new,,project,Medium,,Circumvention/BridgeDB,,#31265,
+31269,Objective O3: Improve Tor Browser experience for human rights defenders under censorship.,Sponsor30-must,assigned,antonela,project,Medium,,UX,,#31265,
+31270,O1.2 - Analyze collected censorship circumvention tool test results and integrate them into OONI Explorer and the OONI API.,Sponsor30-must,new,,project,Medium,,Circumvention,,#31266,
+31271,O1.3 - Improve censorship circumvention tool methodology to include metrics that are also related to the performance of the tool.,Sponsor30-must,new,,project,Medium,,Circumvention,,#31266,
+31272,O1.4 - Make OONI Probe’s reporting logic more resilient to censorship.,Sponsor30-must,new,,project,Medium,,Circumvention,,#31266,
+31273,O1.5 - Develop OONI Probe orchestration logic that is specific to circumvention tool testing.,Sponsor30-must,new,,project,Medium,,Circumvention,,#31266,
+31274,O2.1 - Create an evaluation framework and collect data to better monitor and evaluate current bridge selection and distribution processes.,Sponsor30-must,new,,project,Medium,,Circumvention/BridgeDB,,#31268,
+31279,O2.2 - Improve user experience and user interface of bridges.torproject.org.,Sponsor30-must,new,,project,Medium,,UX,,#31268,
+31280,O2.3 - Develop new and/or improve existing bridge selection and distribution strategies.,Sponsor30-must,new,,project,Medium,,Circumvention/BridgeDB,,#31268,
+31281,O2.4 - Boost security by increasing the number of bridges run by volunteers and collective entities through improvements to onboarding and better communications.,Sponsor30-must,new,,project,Medium,,Circumvention/BridgeDB,,#31268,
+31282,O3.1 - Research different scenarios of how human rights defenders experience censorship.,Sponsor30-must,new,antonela,project,Medium,,UX,,#31269,
+31283,O3.2 - Design the flow of how our users can bypass the scenarios of O3.1.,Sponsor30-must,new,antonela,project,Medium,,UX,,#31269,
+31284,O3.3 - Implement final design of user flows created on O3.2.,Sponsor30-must,new,tbb-team,project,Medium,,Applications/Tor Browser,,#31269,
+31870,"Do an informal usability study on the ""get bridges"" process",Sponsor30-must,new,,task,Medium,,Circumvention,,#31279,2
+31871,Identify what bridge selection and distribution methods are most used​ in targeted regions,Sponsor30-must,new,,project,Medium,,Circumvention/BridgeDB,,#31274,3
+31874,Automatically test the PTs of bridges,Sponsor30-must,needs_review,,defect,Medium,,Circumvention,,#31280,10
+31875,BridgeDB should consider a user's location,Sponsor30-must,new,,task,Medium,,Circumvention/BridgeDB,,#31280,10
+31876,Overhaul BridgeDB's documentation and specification,Sponsor30-must,new,,task,Medium,,Circumvention/BridgeDB,,#31281,3
+31877,Promote workshops on how to set up a bridge at relay operator meetups,Sponsor30-must,new,,task,Medium,,Circumvention,,#31281,3
+31878,Look into making BridgeDB more resilient,Sponsor30-must,new,,task,Medium,,Circumvention/BridgeDB,,#31281,10
+31903,Update translations and push translation requests to Transifex,Sponsor30-must,closed,phw,task,Medium,,Circumvention/BridgeDB,0.25,#31279,0.5
+31936,Write usage metrics to disk before terminating,Sponsor30-must,new,,defect,Medium,,Circumvention/BridgeDB,,#31274,1
+32203,BridgeDB doesn't create metrics for vanilla bridges,Sponsor30-must,closed,phw,defect,Medium,,Circumvention/BridgeDB,0.3,#31274,0.25

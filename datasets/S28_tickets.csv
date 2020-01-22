@@ -1,0 +1,76 @@
+﻿id,Summary,Sponsor,Status,Owner,Type,Priority,Milestone,Component,Actual Points,Parent ID,Points
+29461,Add a Snowflake module,Sponsor28,closed,metrics-team,enhancement,Medium,,Metrics/CollecTor,,,8
+30830,Clean up snowflake broker logs,Sponsor28,closed,cohosh,task,Medium,,Circumvention/Snowflake,.3,,
+30867,Write proxy-go tests to cover existing implementation,Sponsor28,needs_review,cohosh,defect,Medium,,Circumvention/Snowflake,2,#29259,2
+30868,Modify client rendezvous library to remove hard-coded responses,Sponsor28,closed,,defect,Medium,Tor: unspecified,Circumvention/Snowflake,,#29259,
+30878,Set up snowbox to simulate censorship,Sponsor28,assigned,cohosh,task,Medium,,Circumvention/Snowflake,,#29259,2
+30978,Get snowflake metrics published,Sponsor28,closed,,task,Medium,,Circumvention/Snowflake,,,
+31100,Firefox addon not reporting any users,Sponsor28,closed,cohosh,defect,Very High,,Circumvention/Snowflake,,,2
+31101,Update websocket version in snowflake proxy,Sponsor28,closed,cohosh,defect,Medium,,Circumvention/Snowflake,,,.3
+31109,Better gamify the UX for snowflake extension,Sponsor28,new,,enhancement,Medium,,Circumvention/Snowflake,,,2
+31151,Make pre-compiled binaries for proxy-go,Sponsor28,new,,task,Medium,,Circumvention/Snowflake,,,1
+31157,Collect metrics about what type of proxies are running,Sponsor28,new,,enhancement,Medium,,Circumvention/Snowflake,,,3
+31200,Hand out proxy-go snowflakes more frequently than webextension snowflakes,Sponsor28,closed,cohosh,defect,Medium,,Circumvention/Snowflake,,#25681,
+31201,Allow webextension users to specify how many resources it uses,Sponsor28,new,,defect,Medium,,Circumvention/Snowflake,,,
+31310,Refactor/remove proxy-pair state machine in webextension,Sponsor28,closed,cohosh,defect,Medium,,Circumvention/Snowflake,,,2
+31376,Make a /metrics handle at the snowflake broker for the stats collector,Sponsor28,closed,cohosh,enhancement,Medium,,Circumvention/Snowflake,,,1
+31384,localize snowflake website,Sponsor28,closed,cohosh,enhancement,Medium,,Circumvention/Snowflake,2.5,,
+31493,Add a version to the metrics output,Sponsor28,closed,cohosh,defect,Medium,,Circumvention/Snowflake,,,
+31804,Authentication for proxy--bridge connections,Sponsor28,new,,defect,Medium,,Circumvention/Snowflake,,,
+31971,Snowflake is *consistently* extremely slow when using the Windows build,Sponsor28,needs_information,cohosh,defect,Medium,,Circumvention/Snowflake,.5,,3
+31982,Problems with Gettor,Sponsor28,assigned,hiro,defect,Medium,,Applications/GetTor,,,
+7349,"Obfsbridges should be able to ""disable"" their ORPort",Sponsor28-can,new,,project,Very High,Tor: unspecified,Core Tor/Tor,,,10
+21315,publish some realtime stats from the broker?,Sponsor28-can,closed,cohosh,enhancement,Medium,,Circumvention/Snowflake,,#29461,
+25593,Broker needs better resilience against DoS,Sponsor28-can,new,,defect,Medium,,Circumvention/Snowflake,,,
+25595,Test suite for Snowflake on various NAT topologies,Sponsor28-can,new,,defect,Medium,,Circumvention/Snowflake,,,
+25601,Multiplex - one snowflake proxy should be able to support multiple clients,Sponsor28-can,needs_review,,defect,Medium,,Circumvention/Snowflake,,,2
+25681,Defend against flooding of the broker by low bandwidth snowflakes,Sponsor28-can,new,,defect,Medium,,Circumvention/Snowflake,,,2
+26920,Deploy Marionette as a Pluggable Transport,Sponsor28-can,closed,tbb-team,enhancement,Medium,,Applications/Tor Browser,,,
+26923,Intent to create Pluggable Transport: HTTPS proxy,Sponsor28-can,new,,project,Medium,,Circumvention/Pluggable transport,,,30
+28803,Integrate building pluggable transports for Android into tor-browser-build,Sponsor28-can,needs_revision,tbb-team,task,High,,Applications/Tor Browser,,,
+28930,consider reordering PT/proxy phases,Sponsor28-can,needs_revision,ahf,enhancement,Medium,Tor: unspecified,Core Tor/Tor,8.5,,3
+29112,PTs should pass user count events back to Tor,Sponsor28-can,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,,,1
+29205,Look into using Firefox for the WebRTC implementation,Sponsor28-can,closed,,task,Medium,,Circumvention/Snowflake,,,
+29260,Should Snowflake proxies have a way to identify themselves to the broker,Sponsor28-can,new,,task,Medium,,Circumvention/Snowflake,6,#29207,1
+29267,CI for pluggable transports,Sponsor28-can,new,,project,Medium,,Circumvention,,,13
+29287,Have backup PT in pipeline,Sponsor28-can,new,,project,Low,,Circumvention/Pluggable transport,,,
+29690,"Add a comment to chutney's test-network.sh, reminding us to copy changes to tor's test-network.sh",Sponsor28-can,assigned,,defect,Medium,,Core Tor/Chutney,,#29689,1
+30310,Snowflake localization,Sponsor28-can,closed,arlolra,task,Medium,,Circumvention/Snowflake,,,
+30368,Run some tests to check reachability of snowflake proxies,Sponsor28-can,accepted,cohosh,task,Medium,,Circumvention/Snowflake,,,
+30884,Test pluggable transports in chutney's CI,Sponsor28-can,new,,enhancement,Medium,Tor: unspecified,Core Tor/Chutney,,#29267,1
+30885,Add pluggable transports to Tor's chutney CI job,Sponsor28-can,new,,enhancement,Medium,Tor: unspecified,Core Tor/Tor,,#29267,1
+30886,Add pluggable transport support to chutney's tools/test-network.sh,Sponsor28-can,new,,enhancement,Medium,Tor: unspecified,Core Tor/Chutney,,#29267,1
+31009,Tor lets transports advertise private IP addresses in descriptor,Sponsor28-can,needs_revision,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,0.5
+31011,Make the bridge authority reject private PT addresses when DirAllowPrivateAddresses is 0,Sponsor28-can,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,#31009,1
+31245,Coverity: multiple defects in btrack tests,Sponsor28-can,closed,catalyst,defect,Low,Tor: unspecified,Core Tor/Tor,,,
+32095,"Analyse the ""Carbon Reductor DPI X"" DPI system",Sponsor28-can,new,,task,Medium,,Circumvention/Censorship analysis,,,5
+5304,Obfsproxy should respect OutboundBindAddress in torrc,Sponsor28-must,merge_ready,,defect,Medium,,Circumvention/Obfs4,1.25,#30471,1
+19001,Tor Browser with Snowflake,Sponsor28-must,new,,project,Very High,,Circumvention/Snowflake,,,
+20813,Start producing snowflakes,Sponsor28-must,closed,,defect,High,,Circumvention/Snowflake,,,3
+23888,Creating a Snowflake WebExtension addon,Sponsor28-must,closed,arlolra,enhancement,Medium,,Circumvention/Snowflake,,#30931,
+25429,Need something better than client's `checkForStaleness`,Sponsor28-must,assigned,cohosh,defect,Medium,,Circumvention/Snowflake,,,
+25483,Windows reproducible build of snowflake,Sponsor28-must,closed,cohosh,project,High,,Circumvention/Snowflake,,#19001,
+27385,https://snowflake.torproject.org/embed is confusing,Sponsor28-must,closed,arlolra,defect,High,,Circumvention/Snowflake,,,
+28672,Android reproducible build of Snowflake,Sponsor28-must,needs_revision,,project,Medium,,Circumvention/Snowflake,,#30318,
+28849,Handle dormant mode in process library and for PT's,Sponsor28-must,needs_information,,enhancement,High,Tor: unspecified,Core Tor/Tor,2.5,,3
+28942,Evaluate pion WebRTC,Sponsor28-must,closed,cohosh,enhancement,Medium,,Circumvention/Snowflake,,,5
+29111,Optional heartbeat message from PT's,Sponsor28-must,new,,enhancement,Low,Tor: unspecified,Circumvention/Pluggable transport,,,
+29128,Place complete obfs4 bridge line in accessible location,Sponsor28-must,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,#30471,
+29206,New design for client -- server protocol for Snowflake,Sponsor28-must,needs_review,cohosh,task,Medium,,Circumvention/Snowflake,,,6
+29207,New design for broker -- proxy protocol for snowflakes,Sponsor28-must,merge_ready,cohosh,enhancement,High,,Circumvention/Snowflake,2,,5
+29245,"Tor 0.4 eventually hits ""Delaying directory fetches: No running bridges"" after some period of inactivity with bridges",Sponsor28-must,new,,defect,Medium,Tor: unspecified,Core Tor/Tor,,,
+29258,Provide an IPv6 address for the Snowflake broker,Sponsor28-must,merge_ready,dcf,task,Medium,,Circumvention/Snowflake,,,
+29259,Ensure high test coverage for Snowflake,Sponsor28-must,assigned,cohosh,task,Medium,,Circumvention/Snowflake,,,
+29262,Look into the network layer of WebRTC,Sponsor28-must,closed,,task,Medium,Tor: unspecified,Circumvention/Snowflake,,,
+29272,Assess Marionette for interation with Tor,Sponsor28-must,closed,,project,Low,,Circumvention/Pluggable transport,,,5
+29279,Test obfs4 reachability,Sponsor28-must,closed,cohosh,task,Very High,,Circumvention/Obfs4,,,
+29283,Make PTs go dormant,Sponsor28-must,closed,,task,Medium,,Circumvention/Pluggable transport,,,
+29285,Improve the PT spec and how PTs interface with Tor,Sponsor28-must,assigned,phw,project,High,,Circumvention/Pluggable transport,,,15
+29293,New Design for client -- broker protocol for Snowflake,Sponsor28-must,new,,task,High,,Circumvention/Snowflake,,,
+29734,Broker should receive country stats information from Proxy and Client,Sponsor28-must,closed,cohosh,enhancement,Medium,,Circumvention/Snowflake,2,#29207,1
+30471,Improve UX for obfs4 bridge operation,Sponsor28-must,new,,project,Medium,,Circumvention/Obfs4,,,
+30707,Revise our pluggable transport specification,Sponsor28-must,closed,phw,enhancement,High,,Circumvention/Pluggable transport,,,10
+30708,Create a docker image for obfs4proxy,Sponsor28-must,closed,phw,task,Medium,,Circumvention/Obfs4,,#30777,3
+30716,Improve the obfs4 obfuscation protocol,Sponsor28-must,assigned,phw,task,High,,Circumvention/Obfs4,,,20
+30986,"Understand the ""long tail"" of unclassifiable network traffic",Sponsor28-must,assigned,phw,project,Medium,,Circumvention,,#30716,5
+31103,Support ORPort picking a random port that persists across restarts,Sponsor28-must,new,,enhancement,Medium,,Core Tor/Tor,,#30471,1
